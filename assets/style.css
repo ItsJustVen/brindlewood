@@ -158,3 +158,8 @@ details p { color: var(--muted); margin: .6rem 0 0; }
 
 .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px); background: var(--teal); color: #08202a; font-weight: 800; padding: .7rem 1.2rem; border-radius: 10px; opacity: 0; transition: .25s; pointer-events: none; z-index: 100; }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* Rules with emoji icons instead of numbers */
+.rules.icons li { padding-left: 4.2rem; }
+.rules.icons li::before { content: none; }
+.rules.icons .ico { position: absolute; left: 1rem; top: 1rem; width: 2.4rem; height: 2.4rem; border-radius: 10px; background: var(--panel-2); display: grid; place-items: center; font-size: 1.4rem; }

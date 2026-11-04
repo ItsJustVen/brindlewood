@@ -1,0 +1,44 @@
+{
+  "intro": "Joining BrindleWood takes about a minute. Java and Bedrock players are both welcome.",
+  "java": {
+    "title": "Java Edition (PC)",
+    "steps": [
+      "Open Minecraft Java and click **Multiplayer**.",
+      "Click **Add Server**.",
+      "Enter the address **{javaIp}** and click Done.",
+      "Select BrindleWood and click **Join Server**."
+    ]
+  },
+  "bedrock": {
+    "title": "Bedrock Edition (console, mobile, Windows)",
+    "steps": [
+      "Open Minecraft and go to **Play → Servers**, then scroll down and click **Add Server**.",
+      "Server address: **{bedrockIp}**",
+      "Port: **{bedrockPort}**",
+      "Save, then select BrindleWood to join."
+    ],
+    "note": "Console players (Xbox, PlayStation, Switch) can't add servers directly. Ask in our Discord if you need help joining from console."
+  },
+  "gettingStartedHeading": "Getting Started",
+  "gettingStarted": [
+    {
+      "title": "1. Pick a Kingdom",
+      "body": "Read about the four kingdoms and choose the one that fits your style.",
+      "to": "/kingdoms",
+      "linkText": "Meet the kingdoms"
+    },
+    {
+      "title": "2. Read the Rules",
+      "body": "Our rules keep things fun and fair for everybody.",
+      "to": "/rules",
+      "linkText": "Read the rules"
+    },
+    {
+      "title": "3. Say Hi on Discord",
+      "body": "Join our Discord to meet players, ask questions, and hear about events.",
+      "to": "discord",
+      "linkText": "Join the Discord"
+    }
+  ],
+  "faqHeading": "FAQ"
+}

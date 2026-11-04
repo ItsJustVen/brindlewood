@@ -1,0 +1,40 @@
+{
+  "intro": "Support the server while unlocking quality-of-life perks and exclusive cosmetics. Every purchase helps pay for hosting, development, new content, and events.",
+  "featuredHeading": "Start Here",
+  "featured": [
+    {
+      "icon": "🌟",
+      "title": "Starter Bundle",
+      "body": "The perfect first purchase for new players: a Wings Key and 1,000 coins. One per player."
+    },
+    {
+      "icon": "🎁",
+      "title": "Cosmetic Crates",
+      "body": "Hats, wings, tails, furniture, and more. Drop rates are shown in-game."
+    },
+    {
+      "icon": "👑",
+      "title": "Monthly Supporter",
+      "body": "A monthly subscription that gives you coins, a Superior key, and the Veteran role every month."
+    }
+  ],
+  "categoriesHeading": "Shop by What You Want",
+  "categories": [
+    { "title": "Ranks", "body": "Quality-of-life perks and more." },
+    { "title": "Races", "body": "Premium races add extra variety and identity for your character, plus a custom race option." },
+    { "title": "Crates & Cosmetics", "body": "Keys and crates for hats, wings, tails, furniture, and more." },
+    { "title": "Custom Armors", "body": "Stand out with unique armor looks." },
+    { "title": "Bundles", "body": "Great-value packs to get you going." },
+    { "title": "Coins", "body": "Top up your in-game coins." },
+    { "title": "Extras", "body": "Special add-ons, including extra spawner permissions." }
+  ],
+  "support": {
+    "title": "Support Without Buying the Win",
+    "paragraphs": [
+      "Nearly everything in the store can also be earned by playing, including ranks, claims, fly, crates, and cosmetics. Buying is simply a shortcut that helps keep BrindleWood running.",
+      "The two exceptions are Spawner Core (extra spawner permissions, limited because too many spawners cause lag) and premium races.",
+      "Buying is never required. Inviting a friend, voting, sharing feedback, or just playing all help BrindleWood grow."
+    ]
+  },
+  "footnote": "Browse current items and prices in the official store. Purchases are handled securely by Tebex. All sales are final; see the store's Terms & Refunds."
+}

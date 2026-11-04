@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night: #141b2b;
+  --color-deep: #0e1420;
+  --color-panel: #1f2a42;
+  --color-panel2: #2a3550;
+  --color-ink: #e6e8ee;
+  --color-muted: #a8b2c7;
+  --color-teal: #2fd6d0;
+  --color-tealdark: #1a9d98;
+  --color-steel: #5b86b5;
+  --color-wood: #8a5a3b;
+  --color-woodlight: #b57a52;
+  --color-discord: #5865f2;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-body: "Nunito", system-ui, sans-serif;
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background:
+      radial-gradient(1200px 600px at 50% -200px, rgba(47, 214, 208, 0.12), transparent 70%),
+      var(--color-night);
+    line-height: 1.65;
+  }
+  h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; letter-spacing: 0.02em; }
+  a { color: var(--color-teal); }
+  a:hover { color: #7ff0eb; }
+  :focus-visible { outline: 3px solid var(--color-teal); outline-offset: 3px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation: none !important; transition: none !important; }
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-block; cursor: pointer; text-decoration: none;
+    font-weight: 800; padding: 0.8rem 1.4rem; border-radius: 10px;
+    transition: transform 0.12s, background 0.12s;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary { background: var(--color-teal); color: #08202a; box-shadow: 0 4px 0 var(--color-tealdark); }
+  .btn-primary:hover { background: #7ff0eb; color: #08202a; }
+  .btn-wood { background: var(--color-wood); color: #fff; box-shadow: 0 4px 0 #5e3b25; }
+  .btn-wood:hover { background: var(--color-woodlight); color: #fff; }
+  .btn-discord { background: var(--color-discord); color: #fff; box-shadow: 0 4px 0 #3c46b5; }
+  .btn-discord:hover { background: #7a86ff; color: #fff; }
+
+  .card {
+    background: linear-gradient(180deg, var(--color-panel), #1a2338);
+    border: 1px solid var(--color-panel2);
+    border-top: 3px solid var(--color-wood);
+    border-radius: 14px;
+    padding: 1.4rem;
+  }
+  .card p { color: var(--color-muted); margin-top: 0.3rem; }
+  .card-teal { border-top-color: var(--color-teal); }
+  .card p.note { color: var(--color-ink); }
+
+  .note {
+    background: rgba(138, 90, 59, 0.18);
+    border: 1px dashed var(--color-woodlight);
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+  }
+}

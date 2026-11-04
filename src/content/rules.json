@@ -1,0 +1,56 @@
+{
+  "intro": "Welcome to **BrindleWood!** 🌿 Our goal is to create a friendly, welcoming community where everyone can relax, build, explore, and have fun. By participating in our Discord or Minecraft servers, you agree to follow these rules.",
+  "items": [
+    {
+      "icon": "🌿",
+      "title": "Be Respectful",
+      "body": "Treat everyone with kindness and respect. Harassment, bullying, discrimination, hate speech, threats, and targeted behavior are not allowed. Respect boundaries and keep disagreements civil."
+    },
+    {
+      "icon": "💬",
+      "title": "Keep Chat Comfortable",
+      "body": "Keep conversations appropriate and use channels correctly. No spam, excessive profanity, NSFW/graphic content, or intentional disruption.",
+      "note": "🌎 **English is required in public BrindleWood communication**, including server chat and public Discord channels. This allows staff to properly understand conversations, assist players, and perform moderation duties. Other languages may be used in private conversations."
+    },
+    {
+      "icon": "🌎",
+      "title": "No Real-World Debates",
+      "body": "BrindleWood is a place to enjoy Minecraft. Avoid arguments or debates about politics, religion, LGBTQ+ issues, or other divisive real-world topics. Sharing personal experiences is fine; turning them into debates is not."
+    },
+    {
+      "icon": "⛏️",
+      "title": "Play Fair",
+      "body": "No cheating, hacked clients, exploits, unauthorized automation, or scams. Follow each server's gameplay rules."
+    },
+    {
+      "icon": "🏡",
+      "title": "Respect the World",
+      "body": "No griefing, stealing, or damaging another player's builds without permission. Respect claims, towns, kingdoms, and community projects."
+    },
+    {
+      "icon": "📢",
+      "title": "No Unauthorized Advertising",
+      "body": "Do not advertise other servers, communities, services, or websites without staff approval."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Respect Staff",
+      "body": "Follow reasonable staff instructions. If you disagree with a decision, contact staff privately rather than arguing publicly or harassing staff."
+    },
+    {
+      "icon": "🔒",
+      "title": "Privacy & Safety",
+      "body": "Do not share personal information, threaten others, scam members, or attempt to access another person's account or private information."
+    },
+    {
+      "icon": "🧠",
+      "title": "Common Sense",
+      "body": "Not every situation can be listed. Staff may act against behavior that harms the community, disrupts others, or attempts to bypass these rules."
+    }
+  ],
+  "enforcement": {
+    "title": "⚖️ Enforcement",
+    "body": "Breaking the rules may result in warnings, mutes, kicks, or temporary/permanent bans depending on the severity and circumstances."
+  },
+  "closing": "❤️ **Thank you for helping make BrindleWood a place everyone can enjoy!**"
+}

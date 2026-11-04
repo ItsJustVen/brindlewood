@@ -1,0 +1,30 @@
+[
+  {
+    "id": "peacefield",
+    "name": "Peacefield",
+    "corner": "Northwest",
+    "summary": "A calm, cooperative kingdom that will do anything to protect its peace.",
+    "description": "Peace is the heart of Peacefield. This is a kingdom for players who value calm, cooperation, and a quiet corner of the world to call home, and its people will do everything in their power to protect that peace."
+  },
+  {
+    "id": "rosewood",
+    "name": "Rosewood",
+    "corner": "Northeast",
+    "summary": "A kingdom with a story still being written.",
+    "description": "The story of Rosewood is still being written. Check back soon, or ask about it in our Discord."
+  },
+  {
+    "id": "solyra",
+    "name": "Solyra",
+    "corner": "Southwest",
+    "summary": "Ruled by the Goddess of Death, with Greek, Italian, and desert builds and a fully shared community.",
+    "description": "Ruled by the Goddess of Death herself, Solyra is a kingdom of Greek, Italian, and desert-inspired architecture. Its people are proud to work as one community, with shared storage, shared resources, and shared villagers. In Solyra, everyone builds together and everyone benefits."
+  },
+  {
+    "id": "subterra",
+    "name": "Subterra",
+    "corner": "Southeast",
+    "summary": "A civilization beneath the surface: part trading hub, part stronghold.",
+    "description": "What lies beneath the world belongs to those willing to dig for it. Subterra is a civilization below the surface: a growing community, a trading center, and a defensive stronghold, all carved from the depths."
+  }
+]

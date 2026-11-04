@@ -1,0 +1,27 @@
+{
+  "kingdomsHeading": "Choose Your Kingdom",
+  "kingdomsIntro": "The world is divided into four kingdoms, one in each corner. Each has its own culture, its own allies, and its own story to tell.",
+  "featuresHeading": "Why BrindleWood?",
+  "features": [
+    {
+      "icon": "⚔️",
+      "title": "Kingdoms RPG",
+      "body": "Pick a side, grow your kingdom, and shape the story of the world alongside other players."
+    },
+    {
+      "icon": "🧝",
+      "title": "Races & Dungeons",
+      "body": "Choose a race, explore an evolving world, and take on dungeons."
+    },
+    {
+      "icon": "🏡",
+      "title": "Friendly Community",
+      "body": "An active Discord and a welcoming staff team. New players are always encouraged to jump in."
+    },
+    {
+      "icon": "🎮",
+      "title": "Java & Bedrock",
+      "body": "Play on PC, console, or mobile. Everyone is welcome, whatever they play on."
+    }
+  ]
+}

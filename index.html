@@ -1,65 +1,25 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BrindleWood | Kingdoms RPG Minecraft Server</title>
-  <meta name="description" content="BrindleWood is a Kingdoms RPG Minecraft server for Java and Bedrock. Choose a kingdom, build your story, and join our friendly community.">
-  <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <div id="site-header"></div>
-  <main>
-    <section class="hero">
-      <div class="wrap">
-        <img class="hero-logo" src="assets/logo.png" alt="BrindleWood castle logo">
-        <h1>BrindleWood</h1>
-        <p class="tagline" data-bw="tagline"></p>
-
-        <div id="server-status" class="status-pill"><span class="dot"></span><span class="status-text">Checking server...</span></div>
-        <br>
-        <div class="ip-box">
-          <code data-bw="javaIp"></code>
-          <button data-copy="javaIp">Copy IP</button>
-        </div>
-        <p style="color:var(--muted);margin:.6rem 0 0;font-size:.95rem">Java &amp; Bedrock supported. <a href="play.html">See how to join</a></p>
-
-        <div class="btn-row">
-          <a class="btn btn-discord" data-bw-href="discord" target="_blank" rel="noopener">Join our Discord</a>
-          <a class="btn btn-wood" data-bw-href="store" target="_blank" rel="noopener">Visit the Store</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="wrap">
-        <h2 style="text-align:center">Choose Your Kingdom</h2>
-        <p style="text-align:center;color:var(--muted);max-width:640px;margin:0 auto 1.6rem">
-          The world is divided into four kingdoms, one in each corner. Each has its own culture, its own allies, and its own story to tell.
-        </p>
-        <div class="grid grid-4">
-          <div class="card kingdom"><span class="corner">Northwest</span><h3>Peacefield</h3><p>A calm, cooperative kingdom that will do anything to protect its peace.</p></div>
-          <div class="card kingdom"><span class="corner">Northeast</span><h3>Rosewood</h3><p>A kingdom with a story still being written.</p></div>
-          <div class="card kingdom"><span class="corner">Southwest</span><h3>Solyra</h3><p>Ruled by the Goddess of Death, with Greek, Italian, and desert builds and a fully shared community.</p></div>
-          <div class="card kingdom"><span class="corner">Southeast</span><h3>Subterra</h3><p>A civilization beneath the surface: part trading hub, part stronghold.</p></div>
-        </div>
-        <div class="btn-row"><a class="btn btn-primary" href="kingdoms.html">Explore the Kingdoms</a></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="wrap">
-        <h2 style="text-align:center">Why BrindleWood?</h2>
-        <div class="grid grid-3">
-          <div class="card"><div class="icon">&#9876;</div><h3>Kingdoms RPG</h3><p>Pick a side, grow your kingdom, and shape the story of the world alongside other players.</p></div>
-          <div class="card"><div class="icon">&#127968;</div><h3>Friendly Community</h3><p>An active Discord and a welcoming staff team. New players are always encouraged to jump in.</p></div>
-          <div class="card"><div class="icon">&#127918;</div><h3>Java &amp; Bedrock</h3><p>Play on PC, console, or mobile. Everyone is welcome, whatever they play on.</p></div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <div id="site-footer"></div>
-  <script src="assets/site.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141b2b" />
+    <meta
+      name="description"
+      content="BrindleWood is a Kingdoms RPG Minecraft server for Java and Bedrock. Choose a kingdom, build your story, and join a friendly community."
+    />
+    <meta property="og:title" content="BrindleWood | Kingdoms RPG Minecraft Server" />
+    <meta
+      property="og:description"
+      content="A Kingdoms RPG survival adventure. Four kingdoms. One world. Your story."
+    />
+    <meta property="og:image" content="%BASE_URL%logo.png" />
+    <link rel="icon" type="image/png" href="%BASE_URL%favicon.png" />
+    <title>BrindleWood | Kingdoms RPG Minecraft Server</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>BrindleWood's website needs JavaScript. Server IP: rpg.brindlewood.net</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

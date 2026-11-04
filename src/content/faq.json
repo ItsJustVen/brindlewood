@@ -1,0 +1,22 @@
+[
+  {
+    "q": "What version of Minecraft do I need?",
+    "a": "BrindleWood supports Minecraft version {minecraftVersion}."
+  },
+  {
+    "q": "Is the server free to play?",
+    "a": "Yes. The store sells optional perks and cosmetics that help support the server, and nearly everything can also be earned by playing."
+  },
+  {
+    "q": "Can I switch kingdoms later?",
+    "a": "Yes, but you can only bring what fits in your inventory and ender chest. Builds and other structures must be left as they are, and you need to unclaim your land in the kingdom you're leaving."
+  },
+  {
+    "q": "How do I report a problem or a player?",
+    "a": "Open a ticket in our Discord and a staff member will help you."
+  },
+  {
+    "q": "Do I need to be on Discord to play?",
+    "a": "It isn't required, but it's where announcements, events, and the community live, so we recommend it."
+  }
+]

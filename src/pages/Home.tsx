@@ -20,7 +20,7 @@ export default function Home() {
           height={320}
           className="mx-auto w-[min(320px,70vw)] motion-safe:animate-float drop-shadow-[0_0_30px_rgba(47,214,208,0.35)]"
         />
-        <h1 className="mb-2 text-5xl font-black sm:text-6xl">{site.name}</h1>
+        <h1 className="mb-2 text-4xl font-black sm:text-6xl">{site.name}</h1>
         <p className="mx-auto mb-6 max-w-xl text-lg text-muted">{site.tagline}</p>
 
         <ServerStatus />

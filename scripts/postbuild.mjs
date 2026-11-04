@@ -1,8 +1,14 @@
 // Runs after `vite build`. Makes the build work on GitHub Pages:
-//  - 404.html is a copy of index.html, so opening a page directly
-//    (e.g. /brindlewood/rules) loads the app instead of a GitHub 404 page.
+//  - Each page route gets its own copy of index.html (e.g. dist/rules/index.html),
+//    so opening /brindlewood/rules directly is a normal page load (HTTP 200).
+//  - 404.html is a copy of index.html, so any other unknown address still loads the
+//    app, which then shows its own "Lost in the Woods" page.
 //  - .nojekyll stops GitHub from running Jekyll over the files.
-import { copyFileSync, writeFileSync, existsSync } from "node:fs";
+//
+// When you add a new page to src/App.tsx, add its path to ROUTES below.
+import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
+
+const ROUTES = ["play", "kingdoms", "rules", "store"];
 
 const dist = new URL("../dist/", import.meta.url);
 
@@ -11,6 +17,12 @@ if (!existsSync(new URL("index.html", dist))) {
   process.exit(1);
 }
 
+for (const route of ROUTES) {
+  const dir = new URL(`${route}/`, dist);
+  mkdirSync(dir, { recursive: true });
+  copyFileSync(new URL("index.html", dist), new URL("index.html", dir));
+}
+
 copyFileSync(new URL("index.html", dist), new URL("404.html", dist));
 writeFileSync(new URL(".nojekyll", dist), "");
-console.log("postbuild: created dist/404.html and dist/.nojekyll");
+console.log(`postbuild: created ${ROUTES.length} route pages, dist/404.html and dist/.nojekyll`);

@@ -17,6 +17,11 @@ if (!index) fail("dist/index.html is missing");
 if (!notFound) fail("dist/404.html is missing (direct links to pages would 404)");
 if (index && notFound && index !== notFound) fail("dist/404.html differs from index.html");
 if (!existsSync(join(dist, ".nojekyll"))) fail("dist/.nojekyll is missing");
+for (const route of ["play", "kingdoms", "rules", "store"]) {
+  const page = read(`${route}/index.html`);
+  if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
+  else if (index && page !== index) fail(`dist/${route}/index.html differs from index.html`);
+}
 
 if (index) {
   // Every asset URL in the HTML must start with the base path and point at a real file.

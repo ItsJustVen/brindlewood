@@ -9,8 +9,9 @@ Put a price on another player's head, or claim a bounty someone else placed.
 
 ## Placing a bounty
 
-1. Type `/bounty <player> <amount>` (example: `/bounty Steve 5000`).
-2. Confirm when asked.
+1. Visit the **Tavern Keeper** NPC in Aldoria (spawn world) at **104, 90, 25**.
+2. Choose the player and enter the amount.
+3. Confirm when asked.
 
 The player doesn't need to be online. A **10% tax** is added to the amount, so budget for it.
 

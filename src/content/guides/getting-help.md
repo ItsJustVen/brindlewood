@@ -8,7 +8,7 @@ updated: "2026-11-05"
 Use the right channel in our Discord:
 
 - **#create-a-ticket** for account problems, purchases, rollbacks and anything private
-- **#bug-reports** to report bugs with `/bug`
+- **#bug-reports** to report bugs. For in-game help, find the **Server Guide** NPC in the spawn world at **-7, 99, 18**
 - **#suggestions** for ideas
 - **#applications** to apply for staff or roles
 - **#patch-notes** to see what changed

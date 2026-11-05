@@ -12,7 +12,7 @@ BrindleWood has two dungeons in Aldoria. Each one is a place with its own enemie
 | Sanctum of Skulls | I (Easy) |
 | Whispering Maze | II (Medium) |
 
-Use `/warp` to find them. A guard NPC stands outside each one and can tell you everything you need to know.
+Use `/warp` to find them. The dungeon NPCs are in the spawn world at **-471, 72, -165** and **-630, 69, 108**. A guard NPC stands outside each one and can tell you everything you need to know.
 
 ## How a run works
 
@@ -31,7 +31,7 @@ The guard's info menu shows the current state: awakening, in a conquest, or on c
 - Team up. More players means the mobs go down faster.
 - Don't leave right before the midnight EST restart.
 - Dungeon drops sell well at the [Auction House](/guides/auction-house).
-- Found a bug? Report it with `/bug`.
+- Found a bug? Post it in **#bug-reports** on our Discord.
 
 ## Sanctum of Skulls (Difficulty I, Easy)
 

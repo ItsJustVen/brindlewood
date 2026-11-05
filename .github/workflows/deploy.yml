@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  # Site is served from the custom domain root.
+  VITE_BASE: /
+
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: true

@@ -1,31 +1,33 @@
 import { useServerStatus } from "../hooks/useServerStatus";
 
-/** Small "Online: 12 players" pill. Renders nothing if the status API is unavailable. */
+/**
+ * Small status pill under the tagline. It only ever shows confirmed good news:
+ * "N adventuring now" when at least one player is online, "Server online" when
+ * the server is up with nobody on, and nothing at all while loading, offline or
+ * if the status API fails. The wrapper always reserves the pill's height so the
+ * page below does not jump.
+ */
 export default function ServerStatus() {
   const status = useServerStatus();
-  if (status.state === "unavailable") return null;
-
-  const dot =
-    status.state === "online"
-      ? "bg-green-400 shadow-[0_0_8px_#4ade80]"
-      : status.state === "offline"
-        ? "bg-red-400"
-        : "bg-muted";
 
   const text =
-    status.state === "loading"
-      ? "Checking server..."
-      : status.state === "offline"
-        ? "Server is currently offline"
-        : `Online: ${status.players} player${status.players === 1 ? "" : "s"} adventuring`;
+    status.state === "online"
+      ? status.players > 0
+        ? `${status.players} adventuring now`
+        : "Server online"
+      : null;
 
   return (
-    <div
-      role="status"
-      className="mb-4 inline-flex items-center gap-2 rounded-full border border-panel2 bg-panel px-4 py-1.5 text-sm font-bold"
-    >
-      <span aria-hidden="true" className={`h-2.5 w-2.5 rounded-full ${dot}`} />
-      {text}
+    <div className="mb-4 flex min-h-[2.125rem] justify-center">
+      {text && (
+        <div
+          role="status"
+          className="inline-flex items-center gap-2 rounded-full border border-panel2 bg-panel px-4 py-1.5 text-sm font-bold"
+        >
+          <span aria-hidden="true" className="h-2.5 w-2.5 rounded-full bg-green-400 shadow-[0_0_8px_#4ade80]" />
+          {text}
+        </div>
+      )}
     </div>
   );
 }

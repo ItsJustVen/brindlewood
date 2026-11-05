@@ -150,7 +150,7 @@ export default function Npcs() {
                   </text>
                 </g>
               ))}
-              <text x={W - 28} y="22" fill="#e6e8ee" fontSize="18" fontWeight="700">
+              <text x={W - 10} y="24" textAnchor="end" fill="#e6e8ee" fontSize="18" fontWeight="700">
                 N ↑
               </text>
               {shown.map((n) => {

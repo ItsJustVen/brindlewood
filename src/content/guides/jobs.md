@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or fight, and get paid for it.
 
-**Start here:** each job has its own NPC in the spawn world (`/spawn`). Walk up to the NPC to join. Money arrives as you do the job's actions.
+**Start here:** each job has its own NPC in the spawn world (`/spawn`). Find the NPC to join. Money arrives as you do the job's actions.
 
 ## Where to find each job NPC (x, y, z)
 
@@ -26,19 +26,9 @@ Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or
 | Lumberjack | -596, 86, 372 |
 | Miner | -95, 79, -102 |
 
-## Commands
+## Joining and leaving
 
-| Command | What it does |
-| --- | --- |
-| `/jobs` | Opens the jobs menu or help |
-| `/jobs browse` | Lists the jobs and what they do |
-| `/jobs join <job>` | Joins a job |
-| `/jobs leave <job>` | Leaves a job (your progress is kept for a while) |
-| `/jobs leaveall` | Leaves all your jobs |
-| `/jobs info <job>` | Shows what each action pays |
-| `/jobs stats` | Shows your job levels and XP |
-| `/jobs top <job>` | Shows the top 10 players in a job |
-| `/jobs gtop` | Shows the global ranking |
+Jobs are **not** joined with commands. Walk up to the job's NPC in the spawn world (`/spawn`) and use its menu to join, leave or check your progress.
 
 ## How jobs work
 

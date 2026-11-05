@@ -16,6 +16,7 @@ Set a spot you can teleport back to any time.
 | `/back` | Returns you to where you last teleported from or died |
 | `/spawn` | Teleports you to spawn |
 | `/rtp` | Opens the random teleport menu |
+| `/warp rw` | Goes to the weekly resource world (see [Warps](/guides/warps)) |
 
 Set a home before you go exploring so you can always get back.
 

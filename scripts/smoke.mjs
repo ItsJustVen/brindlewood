@@ -17,7 +17,11 @@ if (!index) fail("dist/index.html is missing");
 if (!notFound) fail("dist/404.html is missing (direct links to pages would 404)");
 if (index && notFound && index !== notFound) fail("dist/404.html differs from index.html");
 if (!existsSync(join(dist, ".nojekyll"))) fail("dist/.nojekyll is missing");
-for (const route of ["play", "kingdoms", "rules", "store"]) {
+const guideDir = new URL("../src/content/guides/", import.meta.url).pathname;
+const guideRoutes = existsSync(guideDir)
+  ? readdirSync(guideDir).filter((f) => f.endsWith(".md")).map((f) => `guides/${f.replace(/\.md$/, "")}`)
+  : [];
+for (const route of ["play", "kingdoms", "rules", "store", "guides", "privacy", "terms", ...guideRoutes]) {
   const page = read(`${route}/index.html`);
   if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
   else if (index && page !== index) fail(`dist/${route}/index.html differs from index.html`);

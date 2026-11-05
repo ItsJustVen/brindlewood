@@ -1,0 +1,45 @@
+# Settings for Pages CMS (https://pagescms.org), a free editor that lets you change
+# the website from a normal web page instead of editing code.
+media:
+  input: public/uploads
+  output: /uploads
+content:
+  - name: guides
+    label: Guides
+    type: collection
+    path: src/content/guides
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, category, order]
+      primary: title
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - name: category
+        label: Topic
+        type: select
+        required: true
+        options:
+          values:
+            - { value: getting-started, label: Getting Started }
+            - { value: characters, label: Characters & Progression }
+            - { value: world, label: The World }
+            - { value: economy, label: Money & Trading }
+            - { value: land, label: Land & Community }
+            - { value: extras, label: Extras & Companions }
+            - { value: store, label: Store & Support }
+      - { name: summary, label: One-line summary, type: string }
+      - { name: order, label: Order in the list (smaller comes first), type: number }
+      - { name: updated, label: Last updated, type: string }
+      - { name: body, label: Guide text, type: rich-text }
+  - name: pages
+    label: Privacy and Terms
+    type: collection
+    path: src/content/pages
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: summary, label: Summary, type: string }
+      - { name: updated, label: Last updated, type: string }
+      - { name: body, label: Text, type: rich-text }

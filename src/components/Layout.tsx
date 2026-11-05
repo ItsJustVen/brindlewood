@@ -7,6 +7,7 @@ const links = [
   { to: "/", label: "Home", end: true },
   { to: "/play", label: "How to Play" },
   { to: "/kingdoms", label: "Kingdoms" },
+  { to: "/guides", label: "Guides" },
   { to: "/rules", label: "Rules" },
   { to: "/store", label: "Store" },
 ];
@@ -91,6 +92,9 @@ function Footer() {
           <a href={site.mapUrl} target="_blank" rel="noopener noreferrer">Live Map</a>
           <Link to="/rules">Rules</Link>
           <Link to="/play">How to Play</Link>
+          <Link to="/guides">Guides</Link>
+          <Link to="/privacy">Privacy</Link>
+          <Link to="/terms">Terms</Link>
         </nav>
         <p>
           &copy; {new Date().getFullYear()} {site.name}. Not an official Minecraft product. Not

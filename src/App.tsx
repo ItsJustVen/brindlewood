@@ -1,7 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
+import Guide from "./pages/Guide";
+import Guides from "./pages/Guides";
 import Home from "./pages/Home";
 import Kingdoms from "./pages/Kingdoms";
+import Legal from "./pages/Legal";
 import NotFound from "./pages/NotFound";
 import Play from "./pages/Play";
 import Rules from "./pages/Rules";
@@ -14,7 +17,11 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="play" element={<Play />} />
         <Route path="kingdoms" element={<Kingdoms />} />
+        <Route path="guides" element={<Guides />} />
+        <Route path="guides/:slug" element={<Guide />} />
         <Route path="rules" element={<Rules />} />
+        <Route path="privacy" element={<Legal slug="privacy" />} />
+        <Route path="terms" element={<Legal slug="terms" />} />
         <Route path="store" element={<Store />} />
         <Route path="*" element={<NotFound />} />
       </Route>

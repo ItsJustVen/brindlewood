@@ -4,12 +4,48 @@
     "a": "BrindleWood supports Minecraft version {minecraftVersion}."
   },
   {
+    "q": "How do I join?",
+    "a": "Java players add **{javaIp}** as a server. Bedrock players join through our friend account, no address needed. The full steps are on the How to Play page. There is no whitelist and no application. Just join."
+  },
+  {
+    "q": "What should I do first?",
+    "a": "Join and accept the resource pack, then pick your race (the menu opens on its own). Type /races classgui to pick a class and /playstyles to pick a playstyle. Visit the AFK Pond in Aldoria for free money and coins, then head to playworld, find a spot and claim it before you build. Open /rewards for your free hourly, daily and weekly rewards."
+  },
+  {
+    "q": "Do I have to use the resource pack?",
+    "a": "Yes. It powers the custom furniture, cosmetics and every menu, and it installs automatically. The first download can take up to about 10 minutes. Don't cancel it, even if it looks stuck."
+  },
+  {
+    "q": "Can Bedrock players join?",
+    "a": "Yes. Bedrock players join through a friend invite to our friend account, and Bedrock has its own resource pack that installs by itself. On the server, Bedrock names start with BR_ (so Steve is BR_Steve). Use the full name in commands."
+  },
+  {
+    "q": "When does the server restart?",
+    "a": "Every day at midnight EST. Finish dungeon runs and trades before then, and if you get kicked, try again in a few minutes."
+  },
+  {
     "q": "Is the server free to play?",
     "a": "Yes. The store sells optional perks and cosmetics that help support the server, and nearly everything can also be earned by playing."
   },
   {
+    "q": "Is PvP on?",
+    "a": "Spawn (Aldoria) is a safe zone with PvP off. Everywhere else PvP is on, including playworld. Inside a claim, the claim owner decides. The difficulty is Hard, so bring food and spare gear."
+  },
+  {
+    "q": "How do I protect my builds?",
+    "a": "Claim your land in playworld with /claim before you build. Claiming is free, and new players start with 1 claim and 10 chunks. Unclaimed builds can't be protected or rolled back."
+  },
+  {
+    "q": "Where can I learn how everything works?",
+    "a": "The Guides section covers races, classes, skills, jobs, money, claims, guilds, minions, dungeons and more. You can search it for any word."
+  },
+  {
     "q": "Can I switch kingdoms later?",
     "a": "Yes, but you can only bring what fits in your inventory and ender chest. Builds and other structures must be left as they are, and you need to unclaim your land in the kingdom you're leaving."
+  },
+  {
+    "q": "Can I get a refund on a purchase?",
+    "a": "No. All purchases are final, and Tebex itself does not allow refunds. Coins have no cash value. If you have trouble with a purchase, open a ticket in our Discord with your username and what you bought."
   },
   {
     "q": "How do I report a problem or a player?",

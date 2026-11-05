@@ -6,9 +6,23 @@
 //  - .nojekyll stops GitHub from running Jekyll over the files.
 //
 // When you add a new page to src/App.tsx, add its path to ROUTES below.
-import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
 
-const ROUTES = ["play", "kingdoms", "rules", "store"];
+// Every guide in src/content/guides/ gets its own page automatically.
+const guideSlugs = readdirSync(new URL("../src/content/guides/", import.meta.url))
+  .filter((f) => f.endsWith(".md"))
+  .map((f) => f.replace(/\.md$/, ""));
+
+const ROUTES = [
+  "play",
+  "kingdoms",
+  "rules",
+  "store",
+  "guides",
+  "privacy",
+  "terms",
+  ...guideSlugs.map((slug) => `guides/${slug}`),
+];
 
 const dist = new URL("../dist/", import.meta.url);
 

@@ -94,6 +94,7 @@ function Footer() {
           <Link to="/play">How to Play</Link>
           <Link to="/guides">Guides</Link>
           <Link to="/npcs">Find an NPC</Link>
+          <Link to="/contact">Contact</Link>
           <Link to="/privacy">Privacy</Link>
           <Link to="/terms">Terms</Link>
         </nav>

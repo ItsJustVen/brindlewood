@@ -1,0 +1,6 @@
+name = "brindlewood-forms"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://brindlewood.net"

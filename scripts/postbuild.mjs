@@ -20,6 +20,7 @@ const ROUTES = [
   "store",
   "guides",
   "npcs",
+  "contact",
   "privacy",
   "terms",
   ...guideSlugs.map((slug) => `guides/${slug}`),

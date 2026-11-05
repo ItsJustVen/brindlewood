@@ -5,7 +5,9 @@ summary: "Which Discord channel to use, and what to include."
 order: 92
 updated: "2026-11-05"
 ---
-Use the right channel in our Discord:
+Prefer the website? Use the [Contact page](/contact) to send a support request, suggestion, bug report or ban appeal straight to staff.
+
+Or use the right channel in our Discord:
 
 - **#create-a-ticket** for account problems, purchases, rollbacks and anything private
 - **#bug-reports** to report bugs. For in-game help, find the **Server Guide** NPC in the spawn world at **-7, 99, 18**

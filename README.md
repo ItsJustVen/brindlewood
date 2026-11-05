@@ -19,6 +19,13 @@ All the words on the site live in `src/content/`. Edit a file on GitHub (pencil 
 | `home.json` | Home page headings and feature cards |
 | `announcements.json` | News on the home page. Add items like `{ "date": "2026-11-05", "title": "Hello", "body": "Text" }`. Empty means the section is hidden |
 
+### Guides, Privacy and Terms
+
+- Each guide is a Markdown file in `src/content/guides/`. The file name becomes the address (`claiming-land.md` is `/guides/claiming-land`). Add a file and it appears on the Guides page and in search automatically.
+- The topics shown on the Guides page are in `src/content/guideCategories.json` (and in `.pages.yml` for the editor).
+- Privacy and Terms are Markdown files in `src/content/pages/`.
+- Easy editing without code: sign in at https://app.pagescms.org with GitHub and open this repository. The settings are in `.pages.yml`.
+
 Tips:
 - Wrap text in `**double asterisks**` to make it bold.
 - In `faq.json` and `play.json` you can write `{javaIp}` or `{minecraftVersion}` and it fills in from `site.json`.

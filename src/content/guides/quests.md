@@ -7,6 +7,16 @@ updated: "2026-11-05"
 ---
 Quests are part of the Races system. You get a chat message when one starts, and you can read any quest's objectives and rewards with `/races questview <quest name>`.
 
+## Quest commands
+
+| Command | What it does |
+| --- | --- |
+| `/races questlist` | Lists the quests |
+| `/races questview <quest>` | Shows a quest's story and objectives |
+| `/races questprogress <quest>` | Shows how far along you are |
+
+Quest names have spaces, so write the whole name, like `/races questview Chef Challenge`.
+
 ## Quests for everyone
 
 - **Beginning:** break 10 grass blocks and 10 dirt blocks for a diamond

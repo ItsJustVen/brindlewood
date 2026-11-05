@@ -13,6 +13,15 @@ Use `/races classgui`. This menu doesn't open on its own, so run it yourself to 
 
 **Switching:** you can change class, but there's a **24-hour cooldown** between picks. Choose with care. Every class has levels up to 100, and you'll get a message in chat each time you level up.
 
+## Class commands
+
+| Command | What it does |
+| --- | --- |
+| `/races classgui` | Opens the class menu to pick or change your class |
+| `/races classtree` | Shows the class tree |
+| `/races info <class>` | Shows info about a class, like `/races info Warrior` |
+| `/races profile` | Shows your race and class progress |
+
 ## The six classes
 
 | Class | Style | Bonuses |

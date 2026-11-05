@@ -13,6 +13,18 @@ Your race defines how your character plays. Each one plays differently, with its
 - You can't play until you pick one.
 - Missed it or want another look? Use `/races gui`.
 
+## Race commands
+
+| Command | What it does |
+| --- | --- |
+| `/races gui` | Opens the list of races to choose from |
+| `/races info <race>` | Shows info about a race |
+| `/races tree` | Shows the race evolution tree |
+| `/races tree <race>` | Shows the tree for one race, like `/races tree Ignari` |
+| `/races profile` | Shows your race, level and progress |
+| `/races leaderboard` | Shows the race leaderboard |
+| `/races help` | Lists the race commands |
+
 ## Growing your race
 
 Your race levels up as you play, up to level 100. At level 100 you unlock your race's **Awakened form**, with a stronger passive, special drops and an ability. See [Awakened Races](/guides/awakened-races).

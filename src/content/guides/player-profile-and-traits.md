@@ -7,11 +7,25 @@ updated: "2026-11-05"
 ---
 ## Your player profile
 
-Open it with `/profile` (also `/pp` or `/menu`). It shows your rank, your character level and XP, your playstyle, and your balances: money, bank and coins.
+Open it with `/menu`. It shows your rank, your character level and XP, your playstyle, and your balances: money, bank and coins.
 
 From the profile you can reach your levels, achievements, settings and skill tree. Each also has its own command: `/levels`, `/achievements`, `/settings`. Custom crafting recipes you've unlocked are in `/recipes`.
 
 Check `/leaderboards` to see how you rank against everyone else: weekly, monthly and all time.
+
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/menu` | Opens your profile |
+| `/levels` | Your character levels and rewards |
+| `/traits` | Your traits |
+| `/skills` / `/skilltree` | Your skills and the skill tree |
+| `/achievements` | Your achievements |
+| `/settings` | Your settings |
+| `/recipes` | Unlocked custom recipes |
+| `/playstyles` | Pick your playstyle |
+| `/leaderboards` | Server leaderboards |
 
 ## Traits
 

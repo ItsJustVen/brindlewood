@@ -23,6 +23,15 @@ You level skills by doing them. Every skill goes up to **level 100**.
 
 Skills go up from normal play, so just do what you enjoy.
 
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/skills` | Opens your skills and levels |
+| `/skilltree` | Opens the skill tree to spend points |
+| `/levels` | Opens your character levels and rewards |
+| `/leaderboards` | Shows the top players |
+
 ## Skill points and the skill tree
 
 Every skill level-up gives you skill points, and the higher the level, the more you get:

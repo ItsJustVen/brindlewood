@@ -23,4 +23,4 @@ Coins are the premium currency.
 
 Coins have no cash value and can't be refunded. See [Coins](/guides/coins) and [The CoinShop](/guides/coinshop).
 
-Your profile (`/profile`) shows money, bank and coins together.
+Your profile (`/menu`) shows money, bank and coins together.

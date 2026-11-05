@@ -9,6 +9,10 @@ export interface SiteConfig {
   discordUrl: string;
   storeUrl: string;
   mapUrl: string;
+  /** Address of the forms Worker. Leave empty until it is set up. */
+  formsUrl: string;
+  /** Public Cloudflare Turnstile site key. Leave empty until it is set up. */
+  turnstileSiteKey: string;
   serverStatus: { enabled: boolean; apiUrl: string };
 }
 

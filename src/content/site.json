@@ -6,6 +6,8 @@
   "discordUrl": "https://discord.gg/aCjzjkNV7F",
   "storeUrl": "https://brindlewood.tebex.io",
   "mapUrl": "https://map.brindlewood.net",
+  "formsUrl": "",
+  "turnstileSiteKey": "",
   "serverStatus": {
     "enabled": true,
     "apiUrl": "https://api.mcstatus.io/v2/status/java/"

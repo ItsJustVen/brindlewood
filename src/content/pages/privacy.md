@@ -12,6 +12,10 @@ BrindleWood is a small, volunteer-run Minecraft community. We collect as little 
 - **Hosting.** The site is hosted by GitHub Pages and the domain is managed by Cloudflare. They may keep ordinary technical logs, under their own privacy policies.
 - **Links to other services.** Our Discord, our Tebex store and our live map are run by other services with their own privacy policies.
 
+## Contact forms
+
+If you send a message through the forms on our [Contact page](/contact), we receive what you type (your Minecraft username, platform, Discord name and message) in a private staff channel on Discord. We use it only to answer you and to fix problems. The forms use Cloudflare Turnstile to block spam, which checks your browser and may see your IP address. We do not keep a separate copy outside Discord.
+
 ## The Minecraft server
 
 When you play, the server and its plugins record:

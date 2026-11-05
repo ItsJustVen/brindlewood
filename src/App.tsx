@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Guide from "./pages/Guide";
 import Guides from "./pages/Guides";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Kingdoms from "./pages/Kingdoms";
 import Legal from "./pages/Legal";
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="guides" element={<Guides />} />
         <Route path="guides/:slug" element={<Guide />} />
         <Route path="npcs" element={<Npcs />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="rules" element={<Rules />} />
         <Route path="privacy" element={<Legal slug="privacy" />} />
         <Route path="terms" element={<Legal slug="terms" />} />

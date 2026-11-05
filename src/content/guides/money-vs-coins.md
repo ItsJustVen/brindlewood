@@ -9,6 +9,15 @@ updated: "2026-11-05"
 
 Money is the everyday currency.
 
+| Command | What it does |
+| --- | --- |
+| `/balance` or `/bal` | Shows your money |
+| `/baltop` | Shows the richest players |
+| `/pay <player> <amount>` | Sends money to a player |
+| `/menu` | Shows money, bank and coins together |
+
+Coins are separate. See `/coinshop` and `/rewards` below.
+
 - **Earn it:** jobs, the Courier, the AFK Pond, free rewards, selling to other players
 - **Spend it:** the Auction House, player shops, trades, chunk auctions, horses, bounties and bank loans
 - **Keep it safe:** the bank at the Banker. Check your balance with `/balance`

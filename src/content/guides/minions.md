@@ -7,11 +7,18 @@ updated: "2026-11-05"
 ---
 Minions work for you around the clock, even while you're offline. Buy one, place it, and collect what it gathers.
 
-- Buy minions with `/minionshop`.
-- There is no command to place them. Place the minion item in the world like a block.
+- There is no command to place them. Buy one, then place the minion item in the world like a block.
 - You do not need to feed your minions. Hunger is turned off.
 - Every minion has 5 levels (Farmer has 4).
 - Each upgrade costs money and makes the minion faster, stronger and able to store more.
+
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/minion shop` | Opens the minion shop to buy minions |
+| `/minion myminions` | Shows your minions |
+| `/minion` | Opens the minion menu |
 
 ## How many can I place?
 

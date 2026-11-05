@@ -15,6 +15,6 @@ Pets follow you around. Mounts can be ridden.
 
 ## Using them
 
-Once you buy one, you own it for good. Summon yours with `/pets`. Pets are cosmetic. They never change how strong you are.
+Once you buy one, you own it for good. Open `/pets` to summon yours. Pets are cosmetic. They never change how strong you are.
 
 For horses, see [Horses and Stables](/guides/horses-and-stables).

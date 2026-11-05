@@ -7,6 +7,12 @@ updated: "2026-11-05"
 ---
 Want to swap items or sell something to a friend right now? Use a direct trade.
 
+| Command | What it does |
+| --- | --- |
+| `/trade <player>` | Sends a trade request |
+| `/pay <player> <amount>` | Sends money without a trade window |
+| `/ah` | [Auction House](/guides/auction-house) for selling to anyone |
+
 1. Stand within 10 blocks of the player.
 2. Type `/trade <player>` (or Shift + Right-click them).
 3. They have 60 seconds to accept.

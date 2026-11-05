@@ -7,6 +7,12 @@ updated: "2026-11-05"
 ---
 BrindleWood has about **80 custom enchantments** on top of vanilla, powered by ExcellentEnchants.
 
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/excellentenchants list` | Lists every custom enchantment and what it does |
+
 ## Where to find them
 
 - Enchanting tables

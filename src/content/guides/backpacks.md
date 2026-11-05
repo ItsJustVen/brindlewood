@@ -5,7 +5,14 @@ summary: "Extra storage that follows you around. Six tiers, prices and crafting 
 order: 71
 updated: "2026-11-05"
 ---
-A backpack is extra storage that follows you around. Open yours with `/backpack`.
+A backpack is extra storage that follows you around.
+
+| Command | What it does |
+| --- | --- |
+| `/backpack` | Opens your backpack |
+| `/enderchest` | Opens your ender chest from anywhere (also `/echest` or `/ec`) |
+
+Your ender chest is separate from your backpack, so use both for extra room.
 
 Order tiers from a **Tailor NPC**. Each tier is owned permanently once it's made.
 

@@ -26,6 +26,20 @@ Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or
 | Lumberjack | -596, 86, 372 |
 | Miner | -95, 79, -102 |
 
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/jobs` | Opens the jobs menu or help |
+| `/jobs browse` | Lists the jobs and what they do |
+| `/jobs join <job>` | Joins a job |
+| `/jobs leave <job>` | Leaves a job (your progress is kept for a while) |
+| `/jobs leaveall` | Leaves all your jobs |
+| `/jobs info <job>` | Shows what each action pays |
+| `/jobs stats` | Shows your job levels and XP |
+| `/jobs top <job>` | Shows the top 10 players in a job |
+| `/jobs gtop` | Shows the global ranking |
+
 ## How jobs work
 
 - You start with **1 job slot**.

@@ -22,6 +22,7 @@ You can see the borders with `/claim see`, and a chat map of nearby claims with 
 | Limit | Default |
 | --- | --- |
 | Claims (separate plots) | 1 |
+| Chunks you can claim | 10 |
 | Members you can add per claim | 10 |
 | Claim radius with `/claim <radius>` | up to 2 |
 | Teleport delay to a claim | 3 seconds |
@@ -144,5 +145,5 @@ You can sell a claim to another player for money:
 - Claiming costs **no money**.
 - Adding a member takes effect right away. They don't have to accept an invite.
 - You get a message when you enter or leave a claim.
-- Some commands may need a rank or permission, so if one doesn't work for you, ask in a ticket.
+- `/claim`, `/claims`, `/claiming`, `/unclaim` and `/map` are open to every player. If a specific `/claim` option doesn't work for you, ask in a ticket.
 - Lost something to grief? See [Griefing and Rollbacks](/guides/griefing-and-rollbacks).

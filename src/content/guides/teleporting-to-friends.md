@@ -8,6 +8,8 @@ updated: "2026-11-05"
 - `/tpa <player>` asks to teleport to them
 - `/tpahere <player>` asks them to come to you
 - `/tpaccept` or `/tpdeny` to answer
+- `/tptoggle` turns teleport requests on or off
+- `/near` shows players close to you
 
 Requests expire after 2 minutes.
 

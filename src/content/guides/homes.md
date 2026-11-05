@@ -7,10 +7,15 @@ updated: "2026-11-05"
 ---
 Set a spot you can teleport back to any time.
 
-- `/sethome <name>` sets a home where you stand
-- `/home <name>` teleports you there
-- `/delhome <name>` removes one
-- `/homes` lists your homes
+| Command | What it does |
+| --- | --- |
+| `/sethome <name>` | Sets a home where you stand |
+| `/home <name>` | Teleports you there |
+| `/delhome <name>` | Removes a home |
+| `/homes` | Lists your homes |
+| `/back` | Returns you to where you last teleported from or died |
+| `/spawn` | Teleports you to spawn |
+| `/rtp` | Opens the random teleport menu |
 
 Set a home before you go exploring so you can always get back.
 

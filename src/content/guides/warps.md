@@ -9,12 +9,13 @@ updated: "2026-11-05"
 
 - `/warp` shows the server warps: towns, dungeons and key places
 - `/warp <name>` takes you there
+- `/spawn` takes you to spawn
 
 ## Player warps
 
 Let everyone teleport to a place you made.
 
-- `/pw` opens and manages player warps
+- `/pw` opens and manages player warps (also `/pwarp` or `/playerwarps`)
 - You start with 1 player warp slot
 
 ## More player warp slots

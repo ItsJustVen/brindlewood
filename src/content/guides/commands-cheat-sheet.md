@@ -117,7 +117,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 
 | Command | What it does |
 | --- | --- |
-| `/link` | Links your Minecraft and Discord accounts |
+| `/link` | Links your Minecraft and Discord accounts (free diamond, see [Link Your Discord Account](/guides/link-your-account)) |
 | `/discord` | Discord invite |
 | `/website` | Our website |
 | `/rules` | Server rules |

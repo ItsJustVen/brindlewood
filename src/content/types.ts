@@ -10,6 +10,7 @@ export interface SiteConfig {
   bedrockPort: string;
   discordUrl: string;
   storeUrl: string;
+  mapUrl: string;
   serverStatus: { enabled: boolean; apiUrl: string };
 }
 

@@ -59,6 +59,14 @@ function Header() {
             </NavLink>
           ))}
           <a
+            href={site.mapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg px-3 py-2 font-semibold text-ink no-underline hover:bg-panel2 hover:text-teal"
+          >
+            Live Map
+          </a>
+          <a
             href={site.discordUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -80,6 +88,7 @@ function Footer() {
         <nav aria-label="Footer" className="mb-3 flex flex-wrap justify-center gap-x-5 gap-y-1">
           <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">Discord</a>
           <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Store</a>
+          <a href={site.mapUrl} target="_blank" rel="noopener noreferrer">Live Map</a>
           <Link to="/rules">Rules</Link>
           <Link to="/play">How to Play</Link>
         </nav>

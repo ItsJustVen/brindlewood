@@ -79,6 +79,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | Command | What it does |
 | --- | --- |
 | `/claim` | Claim land (see [Claiming Land](/guides/claiming-land)) |
+| `/unclaim` | Gives up the claim you are standing in |
 | `/claims` | Lists claims |
 | `/guild` | Create or manage your guild (also `/guilds`) |
 

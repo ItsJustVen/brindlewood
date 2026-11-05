@@ -31,4 +31,3 @@ Let everyone teleport to a place you made.
 The resource world is for gathering. It **resets every Sunday** with a new seed, so new items and blocks from the latest Minecraft release show up. Don't build or leave anything there you want to keep.
 
 - `/warp rw` takes you there
-- `/rtp rw` sends you to a random spot in it

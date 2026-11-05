@@ -22,7 +22,7 @@ The most useful commands in one place. You can also type `/help` in-game to open
 
 - `/profile` (also `/pp` or `/menu`): your player profile
 - `/levels`, `/traits`, `/achievements`, `/settings`, `/recipes`
-- `/rewards`, `/kits`, `/jobs`, `/leaderboards`
+- `/rewards`, `/kits`, `/leaderboards`
 - `/playstyles`, `/races gui`, `/races classgui`
 - `/guilds` (guild menu) and `/guild` (create or manage yours)
 - `/coinshop`, `/cosmetics`, `/toolskins`, `/tags`, `/pets`

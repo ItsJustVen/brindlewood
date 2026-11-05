@@ -36,6 +36,10 @@ export default function Guides() {
       </PageHead>
 
       <Section>
+        <p className="mb-6 text-center">
+          Looking for someone in Aldoria? <Link to="/npcs">Find an NPC</Link>, with a map.
+        </p>
+
         <div className="mx-auto mb-6 max-w-xl">
           <label htmlFor="guide-search" className="sr-only">
             Search guides

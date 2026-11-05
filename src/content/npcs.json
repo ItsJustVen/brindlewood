@@ -1,0 +1,686 @@
+[
+ {
+  "id": "aldoria_artist_1",
+  "name": "Artist",
+  "category": "crafting",
+  "guide": "blacksmiths-tailors-artists",
+  "x": -21,
+  "y": 110,
+  "z": -184
+ },
+ {
+  "id": "aldoria_banker_1",
+  "name": "Banker 1",
+  "category": "banking",
+  "guide": "banks",
+  "x": 68,
+  "y": 92,
+  "z": 83
+ },
+ {
+  "id": "aldoria_banker_2",
+  "name": "Banker 2",
+  "category": "banking",
+  "guide": "banks",
+  "x": -95,
+  "y": 80,
+  "z": 419
+ },
+ {
+  "id": "aldoria_blacksmith_1",
+  "name": "Blacksmith 1",
+  "category": "crafting",
+  "guide": "blacksmiths-tailors-artists",
+  "x": 20,
+  "y": 83,
+  "z": 94
+ },
+ {
+  "id": "aldoria_blacksmith_2",
+  "name": "Blacksmith 2",
+  "category": "crafting",
+  "guide": "blacksmiths-tailors-artists",
+  "x": -445,
+  "y": 76,
+  "z": -200
+ },
+ {
+  "id": "aldoria_blacksmith_3",
+  "name": "Blacksmith 3",
+  "category": "crafting",
+  "guide": "blacksmiths-tailors-artists",
+  "x": -609,
+  "y": 71,
+  "z": 182
+ },
+ {
+  "id": "aldoria_blacksmith_4",
+  "name": "Blacksmith 4",
+  "category": "crafting",
+  "guide": "blacksmiths-tailors-artists",
+  "x": -114,
+  "y": 80,
+  "z": 384
+ },
+ {
+  "id": "aldoria_courier_1",
+  "name": "Courier 1",
+  "category": "delivery",
+  "guide": "courier",
+  "x": 35,
+  "y": 90,
+  "z": 88
+ },
+ {
+  "id": "aldoria_courier_2",
+  "name": "Courier 2",
+  "category": "delivery",
+  "guide": "courier",
+  "x": -95,
+  "y": 68,
+  "z": 365
+ },
+ {
+  "id": "aldoria_guard_1",
+  "name": "Guard 1",
+  "category": "guards",
+  "guide": "npcs",
+  "x": 9,
+  "y": 100,
+  "z": -5
+ },
+ {
+  "id": "aldoria_guard_2",
+  "name": "Guard 2",
+  "category": "guards",
+  "guide": "npcs",
+  "x": -8,
+  "y": 100,
+  "z": -5
+ },
+ {
+  "id": "aldoria_guard_3",
+  "name": "Guard 3",
+  "category": "guards",
+  "guide": "npcs",
+  "x": -7,
+  "y": 111,
+  "z": -27
+ },
+ {
+  "id": "aldoria_guard_4",
+  "name": "Guard 4",
+  "category": "guards",
+  "guide": "npcs",
+  "x": 18,
+  "y": 101,
+  "z": -31
+ },
+ {
+  "id": "aldoria_guard_5",
+  "name": "Guard 5",
+  "category": "guards",
+  "guide": "npcs",
+  "x": 25,
+  "y": 89,
+  "z": 75
+ },
+ {
+  "id": "aldoria_guard_6",
+  "name": "Guard 6",
+  "category": "guards",
+  "guide": "npcs",
+  "x": 70,
+  "y": 109,
+  "z": 72
+ },
+ {
+  "id": "aldoria_guard_7",
+  "name": "Guard 7",
+  "category": "guards",
+  "guide": "npcs",
+  "x": -19,
+  "y": 100,
+  "z": 119
+ },
+ {
+  "id": "aldoria_jobalchemist",
+  "name": "Alchemist (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": 127,
+  "y": 121,
+  "z": 504
+ },
+ {
+  "id": "aldoria_jobbuilder",
+  "name": "Builder (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -410,
+  "y": 62,
+  "z": -159
+ },
+ {
+  "id": "aldoria_jobenchanter",
+  "name": "Enchanter (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -534,
+  "y": 87,
+  "z": -64
+ },
+ {
+  "id": "aldoria_jobengineer",
+  "name": "Engineer (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -9,
+  "y": 84,
+  "z": 164
+ },
+ {
+  "id": "aldoria_jobexplorer",
+  "name": "Explorer (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -502,
+  "y": 110,
+  "z": 602
+ },
+ {
+  "id": "aldoria_jobfarmer",
+  "name": "Farmer (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -391,
+  "y": 78,
+  "z": 66
+ },
+ {
+  "id": "aldoria_jobfighter",
+  "name": "Fighter (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -136,
+  "y": 85,
+  "z": 103
+ },
+ {
+  "id": "aldoria_jobfisher",
+  "name": "Fisher (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -21,
+  "y": 78,
+  "z": 443
+ },
+ {
+  "id": "aldoria_jobguard",
+  "name": "Guard (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": 32,
+  "y": 98,
+  "z": 35
+ },
+ {
+  "id": "aldoria_jobhunter",
+  "name": "Hunter (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -349,
+  "y": 86,
+  "z": 393
+ },
+ {
+  "id": "aldoria_joblumberjack",
+  "name": "Lumberjack (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -596,
+  "y": 86,
+  "z": 372
+ },
+ {
+  "id": "aldoria_jobminer",
+  "name": "Miner (job)",
+  "category": "jobs",
+  "guide": "jobs",
+  "x": -95,
+  "y": 79,
+  "z": -102
+ },
+ {
+  "id": "aldoria_landlord_1",
+  "name": "Landlord",
+  "category": "land",
+  "guide": "chunk-auctions",
+  "x": -28,
+  "y": 98,
+  "z": 38
+ },
+ {
+  "id": "aldoria_merchant_1",
+  "name": "Merchant 1",
+  "category": "shops",
+  "guide": "merchants",
+  "x": 108,
+  "y": 90,
+  "z": 76
+ },
+ {
+  "id": "aldoria_merchant_2",
+  "name": "Merchant 2",
+  "category": "shops",
+  "guide": "merchants",
+  "x": -562,
+  "y": 72,
+  "z": 189
+ },
+ {
+  "id": "aldoria_merchant_3",
+  "name": "Merchant 3",
+  "category": "shops",
+  "guide": "merchants",
+  "x": -120,
+  "y": 81,
+  "z": 431
+ },
+ {
+  "id": "aldoria_navigator_1",
+  "name": "Navigator 1",
+  "category": "travel",
+  "guide": "sailors-and-navigators",
+  "x": 33,
+  "y": 91,
+  "z": 107
+ },
+ {
+  "id": "aldoria_navigator_2",
+  "name": "Navigator 2",
+  "category": "travel",
+  "guide": "sailors-and-navigators",
+  "x": 3,
+  "y": 81,
+  "z": 395
+ },
+ {
+  "id": "aldoria_sailor_1",
+  "name": "Sailor 1",
+  "category": "travel",
+  "guide": "sailors-and-navigators",
+  "x": -14,
+  "y": 68,
+  "z": 221
+ },
+ {
+  "id": "aldoria_sailor_2",
+  "name": "Sailor 2",
+  "category": "travel",
+  "guide": "sailors-and-navigators",
+  "x": -37,
+  "y": 68,
+  "z": 330
+ },
+ {
+  "id": "aldoria_sailor_3",
+  "name": "Sailor 3",
+  "category": "travel",
+  "guide": "sailors-and-navigators",
+  "x": -591,
+  "y": 68,
+  "z": 145
+ },
+ {
+  "id": "aldoria_stablemaster_1",
+  "name": "Horse Stables 1",
+  "category": "stables",
+  "guide": "horses-and-stables",
+  "x": -20,
+  "y": 83,
+  "z": 101
+ },
+ {
+  "id": "aldoria_stablemaster_2",
+  "name": "Horse Stables 2",
+  "category": "stables",
+  "guide": "horses-and-stables",
+  "x": -320,
+  "y": 81,
+  "z": 135
+ },
+ {
+  "id": "aldoria_stablemaster_3",
+  "name": "Horse Stables 3",
+  "category": "stables",
+  "guide": "horses-and-stables",
+  "x": -164,
+  "y": 84,
+  "z": -175
+ },
+ {
+  "id": "aldoria_stablemaster_4",
+  "name": "Horse Stables 4",
+  "category": "stables",
+  "guide": "horses-and-stables",
+  "x": -641,
+  "y": 79,
+  "z": -210
+ },
+ {
+  "id": "aldoria_stablemaster_5",
+  "name": "Horse Stables 5",
+  "category": "stables",
+  "guide": "horses-and-stables",
+  "x": -35,
+  "y": 78,
+  "z": 387
+ },
+ {
+  "id": "aldoria_tailor_1",
+  "name": "Tailor",
+  "category": "crafting",
+  "guide": "backpacks",
+  "x": 82,
+  "y": 91,
+  "z": 120
+ },
+ {
+  "id": "aldoria_tavernkeeper_1",
+  "name": "Tavern Keeper (Bounties)",
+  "category": "bounties",
+  "guide": "bounties",
+  "x": 104,
+  "y": 90,
+  "z": 25
+ },
+ {
+  "id": "aldoria_vendor_1",
+  "name": "Vendor 1",
+  "category": "shops",
+  "guide": "npcs",
+  "x": 26,
+  "y": 98,
+  "z": 21
+ },
+ {
+  "id": "aldoria_vendor_10",
+  "name": "Vendor 10",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -18,
+  "y": 104,
+  "z": -145
+ },
+ {
+  "id": "aldoria_vendor_11",
+  "name": "Vendor 11",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -603,
+  "y": 85,
+  "z": 406
+ },
+ {
+  "id": "aldoria_vendor_12",
+  "name": "Vendor 12",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -579,
+  "y": 78,
+  "z": -141
+ },
+ {
+  "id": "aldoria_vendor_13",
+  "name": "Vendor 13",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -549,
+  "y": 88,
+  "z": 592
+ },
+ {
+  "id": "aldoria_vendor_14",
+  "name": "Vendor 14",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -585,
+  "y": 71,
+  "z": 202
+ },
+ {
+  "id": "aldoria_vendor_15",
+  "name": "Vendor 15",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -591,
+  "y": 71,
+  "z": 208
+ },
+ {
+  "id": "aldoria_vendor_2",
+  "name": "Vendor 2",
+  "category": "shops",
+  "guide": "npcs",
+  "x": 33,
+  "y": 98,
+  "z": 4
+ },
+ {
+  "id": "aldoria_vendor_3",
+  "name": "Vendor 3",
+  "category": "shops",
+  "guide": "npcs",
+  "x": 33,
+  "y": 98,
+  "z": 14
+ },
+ {
+  "id": "aldoria_vendor_4",
+  "name": "Vendor 4",
+  "category": "shops",
+  "guide": "npcs",
+  "x": 53,
+  "y": 99,
+  "z": 4
+ },
+ {
+  "id": "aldoria_vendor_5",
+  "name": "Vendor 5",
+  "category": "shops",
+  "guide": "npcs",
+  "x": 9,
+  "y": 83,
+  "z": 117
+ },
+ {
+  "id": "aldoria_vendor_6",
+  "name": "Vendor 6",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -50,
+  "y": 78,
+  "z": 409
+ },
+ {
+  "id": "aldoria_vendor_7",
+  "name": "Vendor 7",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -46,
+  "y": 78,
+  "z": 419
+ },
+ {
+  "id": "aldoria_vendor_8",
+  "name": "Vendor 8",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -68,
+  "y": 78,
+  "z": 419
+ },
+ {
+  "id": "aldoria_vendor_9",
+  "name": "Vendor 9",
+  "category": "shops",
+  "guide": "npcs",
+  "x": -65,
+  "y": 78,
+  "z": 430
+ },
+ {
+  "id": "dungeons_1",
+  "name": "Dungeon NPC 1",
+  "category": "dungeons",
+  "guide": "dungeons",
+  "x": -471,
+  "y": 72,
+  "z": -165
+ },
+ {
+  "id": "dungeons_2",
+  "name": "Dungeon NPC 2",
+  "category": "dungeons",
+  "guide": "dungeons",
+  "x": -630,
+  "y": 69,
+  "z": 108
+ },
+ {
+  "id": "rank_duke",
+  "name": "Duke rank",
+  "category": "ranks",
+  "guide": "ranks",
+  "x": -9,
+  "y": 99,
+  "z": 46
+ },
+ {
+  "id": "rank_king",
+  "name": "King rank",
+  "category": "ranks",
+  "guide": "ranks",
+  "x": -13,
+  "y": 99,
+  "z": 45
+ },
+ {
+  "id": "rank_knight",
+  "name": "Knight rank",
+  "category": "ranks",
+  "guide": "ranks",
+  "x": 0,
+  "y": 99,
+  "z": 53
+ },
+ {
+  "id": "rank_lord",
+  "name": "Lord rank",
+  "category": "ranks",
+  "guide": "ranks",
+  "x": -3,
+  "y": 99,
+  "z": 52
+ },
+ {
+  "id": "rank_paladin",
+  "name": "Paladin rank",
+  "category": "ranks",
+  "guide": "ranks",
+  "x": -6,
+  "y": 99,
+  "z": 49
+ },
+ {
+  "id": "spawn_auction",
+  "name": "Auction House",
+  "category": "services",
+  "guide": "auction-house",
+  "x": 46,
+  "y": 100,
+  "z": 0
+ },
+ {
+  "id": "spawn_coinshop",
+  "name": "Coin Shop",
+  "category": "services",
+  "guide": "coinshop",
+  "x": -13,
+  "y": 99,
+  "z": 16
+ },
+ {
+  "id": "spawn_cosmetics",
+  "name": "Cosmetics",
+  "category": "services",
+  "guide": "cosmetics",
+  "x": 45,
+  "y": 99,
+  "z": 17
+ },
+ {
+  "id": "spawn_guilds",
+  "name": "Guilds",
+  "category": "services",
+  "guide": "guilds",
+  "x": -48,
+  "y": 99,
+  "z": 4
+ },
+ {
+  "id": "spawn_jobs",
+  "name": "Jobs Menu",
+  "category": "services",
+  "guide": "jobs",
+  "x": -53,
+  "y": 99,
+  "z": 19
+ },
+ {
+  "id": "spawn_leaderboards",
+  "name": "Leaderboards",
+  "category": "services",
+  "guide": "player-profile-and-traits",
+  "x": -64,
+  "y": 99,
+  "z": 3
+ },
+ {
+  "id": "spawn_playerwarps",
+  "name": "Player Warps",
+  "category": "services",
+  "guide": "warps",
+  "x": -59,
+  "y": 99,
+  "z": -11
+ },
+ {
+  "id": "spawn_playstyles",
+  "name": "Playstyles",
+  "category": "services",
+  "guide": "playstyles",
+  "x": 8,
+  "y": 99,
+  "z": 18
+ },
+ {
+  "id": "spawn_rewards",
+  "name": "Rewards",
+  "category": "services",
+  "guide": "free-rewards",
+  "x": 14,
+  "y": 99,
+  "z": 16
+ },
+ {
+  "id": "spawn_serverguide",
+  "name": "Server Guide",
+  "category": "services",
+  "guide": "getting-help",
+  "x": -7,
+  "y": 99,
+  "z": 18
+ }
+]

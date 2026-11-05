@@ -16,6 +16,8 @@ BrindleWood's towns are full of NPCs. Click one to open its menu. Each has a nam
 - **Couriers, Bankers and Landlords** handle delivery, money and housing.
 - **Horse Stables** sell horses. See [Horses and Stables](/guides/horses-and-stables).
 
+Want a map? Use the [NPC finder](/npcs).
+
 ## Spawn services
 
 All in the spawn world (Aldoria), as x, y, z:

@@ -21,7 +21,7 @@ const guideDir = new URL("../src/content/guides/", import.meta.url).pathname;
 const guideRoutes = existsSync(guideDir)
   ? readdirSync(guideDir).filter((f) => f.endsWith(".md")).map((f) => `guides/${f.replace(/\.md$/, "")}`)
   : [];
-for (const route of ["play", "kingdoms", "rules", "store", "guides", "privacy", "terms", ...guideRoutes]) {
+for (const route of ["play", "kingdoms", "rules", "store", "guides", "npcs", "privacy", "terms", ...guideRoutes]) {
   const page = read(`${route}/index.html`);
   if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
   else if (index && page !== index) fail(`dist/${route}/index.html differs from index.html`);

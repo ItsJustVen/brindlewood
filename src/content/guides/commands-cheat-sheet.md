@@ -20,7 +20,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | `/sethome <name>` | Sets a home where you stand |
 | `/delhome <name>` | Removes a home |
 | `/homes` | Lists your homes |
-| `/back` | Returns to where you died or last teleported from |
+| `/back` | Returns to where you died or last teleported from (unlockable) |
 | `/map` | Opens the world map menu |
 | `/near` | Shows players close to you |
 
@@ -88,9 +88,9 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | Command | What it does |
 | --- | --- |
 | `/backpack` | Opens your backpack |
-| `/enderchest` | Opens your ender chest (also `/echest` or `/ec`) |
-| `/craft` | Opens a crafting table |
-| `/disposal` | Opens a trash bin |
+| `/enderchest` | Opens your ender chest (also `/echest` or `/ec`) (unlockable) |
+| `/craft` | Opens a crafting table (unlockable) |
+| `/disposal` | Opens a trash bin (unlockable) |
 | `/recipe <item>` | Shows a recipe |
 | `/minion` | Minions (`/minion myminions`, `/minion shop`) |
 | `/pets` | Your pets |
@@ -99,7 +99,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | `/tags` | Chat tags |
 | `/hiddenarmor` | Hides your armor (`toggle`, `hide`, `show`) |
 | `/excellentenchants list` | Lists custom enchantments |
-| `/feed` | Fills your hunger bar, if you've unlocked it |
+| `/feed` | Fills your hunger bar (unlockable) |
 
 ## Chat and social
 
@@ -108,7 +108,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | `/msg <player> <message>` | Private message |
 | `/msgtoggle` | Turns private messages off |
 | `/ignore <player>` | Ignores a player |
-| `/nick <name>` | Sets a nickname |
+| `/nick <name>` | Sets a nickname (unlockable) |
 | `/list` | Who's online |
 | `/realname <nick>` | Shows a player's real name |
 | `/emojis` | Emoji list |
@@ -124,5 +124,7 @@ Every command players can use, in one place. Type `/help` in-game to open the se
 | `/referral <username>` | Credit the friend who invited you |
 | `/tutorial` or `/serverguide` | Opens the server guide |
 | `/credits` | Server credits |
+
+**Unlockable** commands (`/disposal`, `/nick`, `/back`, `/craft`, `/feed`, `/enderchest`) come from character levels, ranks or the CoinShop. See [Character Levels](/guides/character-levels).
 
 Bedrock player? Read [Bedrock Players](/guides/bedrock-players) for how to type names in commands.

@@ -12,7 +12,7 @@ A backpack is extra storage that follows you around.
 | `/backpack` | Opens your backpack |
 | `/enderchest` | Opens your ender chest from anywhere (also `/echest` or `/ec`) |
 
-Your ender chest is separate from your backpack, so use both for extra room.
+`/enderchest` is an unlockable command: reach character level 39, become King, or buy it in the [CoinShop](/guides/coinshop). Your ender chest is separate from your backpack, so use both for extra room.
 
 Order tiers from a **Tailor NPC**. Each tier is owned permanently once it's made.
 

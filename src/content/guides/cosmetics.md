@@ -16,6 +16,16 @@ All **100 coins each** in the [CoinShop](/guides/coinshop):
 - Chat tags (about 250)
 - Tool skins
 
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/cosmetics` | Opens the cosmetics menu (hats, particles, death and projectile effects) |
+| `/tags` | Opens your chat tags |
+| `/toolskins` | Opens your tool skins |
+| `/hiddenarmor toggle` | Hides or shows your armor on your character |
+| `/hiddenarmor hide` / `show` | Hides or shows it directly |
+
 ## What they do
 
 - **Hats:** wear one on your head

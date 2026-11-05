@@ -7,6 +7,14 @@ updated: "2026-11-05"
 ---
 Everyone gets free rewards just for playing. Open the menu with `/rewards` and click to claim.
 
+| Command | What it does |
+| --- | --- |
+| `/rewards` | Hourly, daily and weekly rewards |
+| `/kit` or `/kits` | Free kits |
+| `/referral <username>` | Credit the friend who invited you |
+| `/vote` | Shows the vote links |
+| `/coinshop` | Spend your coins |
+
 | Reward | You get |
 | --- | --- |
 | Hourly | $100 + 1 coin |

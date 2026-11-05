@@ -10,8 +10,6 @@ export function asset(path: string): string {
 export function fill(text: string): string {
   const values: Record<string, string> = {
     javaIp: site.javaIp,
-    bedrockIp: site.bedrockIp,
-    bedrockPort: site.bedrockPort,
     minecraftVersion: site.minecraftVersion,
     name: site.name,
   };

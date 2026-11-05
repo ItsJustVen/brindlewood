@@ -21,7 +21,7 @@ All the words on the site live in `src/content/`. Edit a file on GitHub (pencil 
 
 Tips:
 - Wrap text in `**double asterisks**` to make it bold.
-- In `faq.json` and `play.json` you can write `{javaIp}`, `{bedrockIp}`, `{bedrockPort}`, or `{minecraftVersion}` and it fills in from `site.json`.
+- In `faq.json` and `play.json` you can write `{javaIp}` or `{minecraftVersion}` and it fills in from `site.json`.
 - A typo in a JSON file makes the build fail, and the previous version of the site stays online until it's fixed. Check the **Actions** tab on GitHub to see the result.
 
 ## One-time GitHub setup

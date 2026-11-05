@@ -6,8 +6,6 @@ export interface SiteConfig {
   tagline: string;
   minecraftVersion: string;
   javaIp: string;
-  bedrockIp: string;
-  bedrockPort: string;
   discordUrl: string;
   storeUrl: string;
   mapUrl: string;

@@ -7,6 +7,13 @@ updated: "2026-11-05"
 ---
 Couriers at spawn hand out delivery requests. Bring them the items they ask for and get paid in money ($). Talk to a Courier NPC (like Talon Briskfell) to see the requests that are open.
 
+## Where to find them
+
+Couriers are in the spawn world (Aldoria):
+
+- Courier 1: **35, 90, 88**
+- Courier 2: **-95, 68, 365**
+
 ## How it works
 
 1. Open the Courier menu and pick a request.

@@ -12,6 +12,14 @@ Merchants buy and sell goods, and prices move with demand.
 - Stock refreshes about every 11 minutes, so check back.
 - Merchants never lower prices for sentiment, and you can never be completely sure what they'll do.
 
+## Where to find them
+
+In the spawn world (Aldoria):
+
+- Merchant 1: **108, 90, 76**
+- Merchant 2: **-562, 72, 189**
+- Merchant 3: **-120, 81, 431**
+
 ## Tips
 
 - Check the Demand rating before you buy or sell.

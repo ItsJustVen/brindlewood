@@ -7,6 +7,13 @@ updated: "2026-11-05"
 ---
 The Moonfall Town Bank is in Aldoria. The banker, Oswin Grudgeteller, counts every coin twice. No one likes him, but they all use his vault.
 
+## Where to find them
+
+Bankers are in the spawn world (Aldoria):
+
+- Banker 1: **68, 92, 83**
+- Banker 2: **-95, 80, 419**
+
 ## What you can do
 
 - Deposit money (always tax-free)

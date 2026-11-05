@@ -5,13 +5,14 @@ summary: "Your profile menu, leaderboards, and the 60+ traits that give passive 
 order: 17
 updated: "2026-11-05"
 ---
+
 ## Your player profile
 
 Open it with `/menu`. It shows your rank, your character level and XP, your playstyle, and your balances: money, bank and coins.
 
 From the profile you can reach your levels, achievements, settings and skill tree. Each also has its own command: `/levels`, `/achievements`, `/settings`. Custom crafting recipes you've unlocked are in `/recipes`.
 
-Check `/leaderboards` to see how you rank against everyone else: weekly, monthly and all time.
+The Leaderboards NPC is in the spawn world at **-64, 99, 3**. Or check `/leaderboards` to see how you rank against everyone else: weekly, monthly and all time.
 
 ## Commands
 

@@ -16,6 +16,8 @@ All **100 coins each** in the [CoinShop](/guides/coinshop):
 - Chat tags (about 250)
 - Tool skins
 
+The Cosmetics NPC is in the spawn world at **45, 99, 17**.
+
 ## Commands
 
 | Command | What it does |

@@ -7,6 +7,16 @@ updated: "2026-11-05"
 ---
 Buy a horse and keep it in your stable. The stable has **5 slots**. Horses are sold by the Horse Stables NPCs. Higher tiers are better horses.
 
+## Where to find the stables
+
+Horse Stables NPCs are in the spawn world (Aldoria):
+
+- Stables 1: **-20, 83, 101**
+- Stables 2: **-320, 81, 135**
+- Stables 3: **-164, 84, -175**
+- Stables 4: **-641, 79, -210**
+- Stables 5: **-35, 78, 387**
+
 ## Horse prices
 
 | Tier | Prices (each horse) |

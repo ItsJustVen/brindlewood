@@ -14,7 +14,7 @@ A backpack is extra storage that follows you around.
 
 `/enderchest` is an unlockable command: reach character level 39, become King, or buy it in the [CoinShop](/guides/coinshop). Your ender chest is separate from your backpack, so use both for extra room.
 
-Order tiers from a **Tailor NPC**. Each tier is owned permanently once it's made.
+Order tiers from the **Tailor NPC** in the spawn world at **82, 91, 120**. Each tier is owned permanently once it's made.
 
 ## Tiers
 

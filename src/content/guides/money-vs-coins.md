@@ -5,6 +5,7 @@ summary: "The two currencies and how to earn and spend each."
 order: 30
 updated: "2026-11-05"
 ---
+
 ## Money ($)
 
 Money is the everyday currency.

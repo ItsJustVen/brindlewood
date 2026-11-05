@@ -17,6 +17,16 @@ Five premium ranks, each with a prefix in chat and TAB, a kit, extra slots and c
 | Duke | +10 | +8 | +5 | +3 |
 | King | +12 | +10 | +6 | +3 |
 
+## Where to buy a rank
+
+The rank NPCs are in the spawn world:
+
+- Knight: **0, 99, 53**
+- Lord: **-3, 99, 52**
+- Paladin: **-6, 99, 49**
+- Duke: **-9, 99, 46**
+- King: **-13, 99, 45**
+
 ## Rank commands
 
 - **Knight:** `/disposal`, `/nick`

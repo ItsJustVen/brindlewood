@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 Sell items to other players, even while you're offline. Buy what other adventurers are selling. No shop needed.
 
-**Open it:** `/ah` (also `/auction` or `/auctionhouse`)
+**Open it:** `/ah` (also `/auction` or `/auctionhouse`), or visit the Auction NPC in the spawn world at **46, 100, 0**.
 
 ## Commands
 

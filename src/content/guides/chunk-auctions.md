@@ -9,7 +9,7 @@ Need more land? Bid on it. The Landlord NPC auctions off chunks, and the winner 
 
 ## How it works
 
-1. Talk to the Landlord in Aldoria.
+1. Talk to the Landlord in Aldoria, in the spawn world at **-28, 98, 38**.
 2. Browse the open lots. Each lot is 2 to 20 chunks.
 3. Place a bid with your money ($).
 4. When the timer ends, the highest bidder wins and the chunks are added to your total.

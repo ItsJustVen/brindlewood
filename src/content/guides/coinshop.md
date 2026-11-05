@@ -20,6 +20,8 @@ Spend your coins on ranks, keys, boosters, commands and cosmetics. To open it, t
 
 1 hour each, **200 coins** each: 2x Experience, 2x Level XP, and +20% Discounts. See [Boosters](/guides/boosters).
 
+The CoinShop NPC is in the spawn world at **-13, 99, 16**. You can also type `/coinshop`.
+
 ## Commands (permanent)
 
 | Command | Price |

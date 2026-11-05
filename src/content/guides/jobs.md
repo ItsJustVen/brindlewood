@@ -26,6 +26,8 @@ Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or
 | Lumberjack | -596, 86, 372 |
 | Miner | -95, 79, -102 |
 
+The **Jobs NPC** at **-53, 99, 19** in the spawn world has the jobs menu. Each job also has its own NPC (below).
+
 ## Joining and leaving
 
 Jobs are **not** joined with commands. Walk up to the job's NPC in the spawn world (`/spawn`) and use its menu to join, leave or check your progress.

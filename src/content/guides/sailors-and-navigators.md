@@ -5,6 +5,7 @@ summary: "Fast travel by sea and into the Nether."
 order: 23
 updated: "2026-11-05"
 ---
+
 ## Sailors
 
 Sailors like Finn Wavecrest at Moonfall Harbor will sail you to other destinations. Open the menu, pick a travel route, and set sail.
@@ -12,6 +13,16 @@ Sailors like Finn Wavecrest at Moonfall Harbor will sail you to other destinatio
 ## Navigators
 
 Navigators like Corin Seabound know the Nether. They teleport you to dangerous places there.
+
+## Where to find them
+
+In the spawn world (Aldoria):
+
+- Sailor 1: **-14, 68, 221**
+- Sailor 2: **-37, 68, 330**
+- Sailor 3: **-591, 68, 145**
+- Navigator 1: **33, 91, 107**
+- Navigator 2: **3, 81, 395**
 
 ## Before you go
 

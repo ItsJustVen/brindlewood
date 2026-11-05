@@ -15,6 +15,8 @@ Everyone gets free rewards just for playing. Open the menu with `/rewards` and c
 | `/vote` | Shows the vote links |
 | `/coinshop` | Spend your coins |
 
+The Rewards NPC is in the spawn world at **14, 99, 16**.
+
 | Reward | You get |
 | --- | --- |
 | Hourly | $100 + 1 coin |

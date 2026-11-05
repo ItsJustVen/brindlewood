@@ -5,12 +5,15 @@ summary: "Server warps and warps made by players."
 order: 56
 updated: "2026-11-05"
 ---
+
 ## Warps
 
 - `/warp` shows the server warps: towns, dungeons and key places
 - `/warp <name>` takes you there
 - `/spawn` takes you to spawn
 - `/warp rw` takes you to the **resource world**
+
+The Player Warps NPC is in the spawn world at **-59, 99, -11**.
 
 ## Player warps
 

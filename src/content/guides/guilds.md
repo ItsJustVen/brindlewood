@@ -9,6 +9,8 @@ Guilds are groups of players who play, build and level together. They run on **B
 
 **Open it:** `/guild` (also `/guilds` or `/team`)
 
+The Guilds NPC is in the spawn world at **-48, 99, 4**.
+
 ## Start a guild
 
 1. Type `/guild create <name>`. Names are 2 to 12 characters.

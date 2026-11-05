@@ -5,6 +5,7 @@ summary: "The four free races and the four premium races, with strengths and wea
 order: 15
 updated: "2026-11-05"
 ---
+
 ## The four free races
 
 These four are free for everyone, and each has an Awakened form at level 100.

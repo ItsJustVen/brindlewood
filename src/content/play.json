@@ -12,12 +12,12 @@
   "bedrock": {
     "title": "Bedrock Edition (console, mobile, Windows)",
     "steps": [
-      "Open Minecraft and go to **Play → Servers**, then scroll down and click **Add Server**.",
-      "Server address: **{bedrockIp}**",
-      "Port: **{bedrockPort}**",
-      "Save, then select BrindleWood to join."
+      "Open Minecraft and press **Play**.",
+      "Go to **Social**, at the top right.",
+      "Search for **EuphoriaHQ7845** and add them as a friend.",
+      "Join through their game."
     ],
-    "note": "Console players (Xbox, PlayStation, Switch) can't add servers directly. Ask in our Discord if you need help joining from console."
+    "note": "Bedrock players join through our friend account instead of typing in an address. Ask in our Discord if you need help joining."
   },
   "gettingStartedHeading": "Getting Started",
   "gettingStarted": [

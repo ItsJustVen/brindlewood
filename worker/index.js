@@ -5,8 +5,9 @@
 // Secrets (set in Cloudflare, never in this file):
 //   TURNSTILE_SECRET     the Turnstile secret key
 //   DISCORD_WEBHOOK_URL  the webhook URL of the staff channel
-// Setting (plain text):
+// Settings (plain text):
 //   ALLOWED_ORIGINS      comma separated, for example https://brindlewood.net
+//   DISCORD_THREAD_ID    optional, the forum post (thread) to post into
 
 const FORMS = {
   support: {
@@ -118,6 +119,13 @@ export function buildMessage(type, form, values, ref) {
   };
 }
 
+// The webhook belongs to a forum channel, so posts go into one thread (DISCORD_THREAD_ID).
+export function webhookUrl(env) {
+  const url = new URL(env.DISCORD_WEBHOOK_URL);
+  if (env.DISCORD_THREAD_ID) url.searchParams.set("thread_id", env.DISCORD_THREAD_ID);
+  return url.toString();
+}
+
 async function humanCheck(env, token, ip) {
   if (!token || typeof token !== "string") return false;
   const body = new FormData();
@@ -186,7 +194,7 @@ export default {
     const ref = reference();
     let res;
     try {
-      res = await fetch(env.DISCORD_WEBHOOK_URL, {
+      res = await fetch(webhookUrl(env), {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(buildMessage(input.type, form, values, ref)),

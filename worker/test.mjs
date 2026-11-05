@@ -1,6 +1,6 @@
 // Run with: node worker/test.mjs
 import assert from "node:assert/strict";
-import worker, { validate } from "./index.js";
+import worker, { validate, webhookUrl } from "./index.js";
 
 const env = { TURNSTILE_SECRET: "s", DISCORD_WEBHOOK_URL: "https://discord.test/hook", ALLOWED_ORIGINS: "https://brindlewood.net" };
 let sent = [];
@@ -62,4 +62,6 @@ r = await call({ type: "bug", token: "t", fields: { username: "A", platform: "Be
 assert.equal(r.status, 200);
 assert.equal(validate("suggestion", { title: "x", message: "y" }).error, undefined);
 assert.ok(validate("appeal", { username: "A" }).error);
+assert.equal(webhookUrl({ DISCORD_WEBHOOK_URL: "https://discord.test/hook" }), "https://discord.test/hook");
+assert.equal(webhookUrl({ DISCORD_WEBHOOK_URL: "https://discord.test/hook", DISCORD_THREAD_ID: "123" }), "https://discord.test/hook?thread_id=123");
 console.log("worker tests passed");

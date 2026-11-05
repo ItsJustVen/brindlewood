@@ -14,6 +14,7 @@ private Discord staff channel. It stores nothing, so there is nothing to maintai
 4. In the Worker, *Settings > Variables and Secrets*:
    - Text: `ALLOWED_ORIGINS` = `https://brindlewood.net`
    - Secret: `TURNSTILE_SECRET` = the Turnstile secret key
+   - Text: `DISCORD_THREAD_ID` = the forum post's ID (only if the channel is a forum)
    - Secret: `DISCORD_WEBHOOK_URL` = the webhook URL
 5. Optional: *Settings > Domains and Routes* > add `forms.brindlewood.net`.
 6. In `src/content/site.json` set `formsUrl` to the Worker address and `turnstileSiteKey` to the site key.

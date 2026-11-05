@@ -31,7 +31,7 @@ You can see the borders with `/claim see`, and a chat map of nearby claims with 
 
 More claims come from [ranks](/guides/ranks) (Knight +2, Lord +4, Paladin +6, Duke +8, King +10), and more chunks from [Chunk Auctions](/guides/chunk-auctions) and the store.
 
-> **Use it or lose it:** claims are removed after **30 days** without you logging in.
+> **Use it or lose it:** claims are removed after **2 weeks** without you logging in.
 
 ## Basic commands
 

@@ -14,7 +14,7 @@ BrindleWood is a small, volunteer-run Minecraft community. We collect as little 
 
 ## Contact forms
 
-If you send a message through the forms on our [Contact page](/contact), we receive what you type (your Minecraft username, platform, Discord name and message) in a private staff channel on Discord. We use it only to answer you and to fix problems. The forms use Cloudflare Turnstile to block spam, which checks your browser and may see your IP address. We do not keep a separate copy outside Discord.
+If you send a message through the forms on our [Contact page](/contact), we receive what you type (your Minecraft username, platform, Discord name and message) in a private staff channel on Discord. We use it only to answer you and to fix problems. The forms use Cloudflare Turnstile to block spam, which checks your browser and may see your IP address. The message passes through a small Cloudflare service that forwards it to Discord. It does not store it, and we do not keep a separate copy outside Discord.
 
 ## The Minecraft server
 
@@ -24,13 +24,13 @@ When you play, the server and its plugins record:
 - Your **IP address**, used for security, to enforce bans and to stop ban evasion.
 - **Gameplay data**: things like your playtime, ranks, money and coins, claims, homes, guild membership, quests, skills and levels, and your builds.
 - **Activity logs** of block changes, container use and commands. Staff use these to investigate griefing, theft and cheating, and to roll back damage.
-- **Chat messages**, which are visible to other players and may be logged and shown on Discord.
+- **Chat messages and commands**, which are visible to other players and are posted to our Discord, along with the server console log, which staff use for moderation.
 - **Moderation records** such as warnings, mutes and bans, with the reason.
 
 ## Discord and linking your account
 
 - If you join our Discord, Discord shows us your username, ID and the messages you post there.
-- If you link your Minecraft account with the `/link` command, our bot stores the connection between your **Discord ID and your Minecraft account**, so it can give you roles and rewards.
+- If you link your Minecraft account with the `/link` command, you send a one-time code to our bot in a direct message. The bot then stores the connection between your **Discord ID and your Minecraft account**, so it can give you roles and rewards.
 - Support tickets are visible to the staff who handle them.
 
 ## Purchases
@@ -47,17 +47,17 @@ We keep gameplay and linking data while you are active. If you stop playing, we 
 - We do not share it with advertisers.
 - We only share it when required by law, or to protect players from serious harm.
 
-## Leaderboards and public pages
+## Leaderboards
 
-Player names on leaderboards and directories on this website are only shown for players who have chosen to appear. You can ask to be removed at any time.
+Players appear on the in-game leaderboards automatically, based on their gameplay (for example playtime, money or levels). Only your Minecraft username and your stats are shown. You can ask staff to remove you from the leaderboards at any time.
 
 ## Your choices
 
-You can ask us to show you what we hold about you, correct it, or delete it (where we are not required to keep it). To ask, open a ticket in our Discord or message a staff member. We will answer as soon as a volunteer can.
+You can ask us to show you what we hold about you, correct it, or delete it (where we are not required to keep it). To ask, open a ticket in our Discord, use our [Contact page](/contact), or message a staff member. We will answer as soon as a volunteer can.
 
 ## Children
 
-BrindleWood is a Minecraft community, and young players join it. If you are under 13, please get a parent or guardian's permission before playing or joining our Discord. Parents can ask us to review or remove their child's information at any time through a Discord ticket.
+BrindleWood is a Minecraft community, and young players join it. Discord requires members to be **13 or older**, so our Discord is for ages 13 and up. If you are under 13, you need a parent or guardian's permission to play on the Minecraft server. Parents can ask us to review or remove their child's information at any time through a ticket or our [Contact page](/contact).
 
 ## Changes
 

@@ -15,21 +15,22 @@ By joining the BrindleWood Minecraft server, our Discord, or buying from our sto
 
 - You are responsible for what happens on your Minecraft and Discord accounts.
 - Don't share your account, and don't try to access anyone else's.
-- If you are under 13, you need a parent or guardian's permission to play or join our Discord.
+- Our Discord is for ages **13 and up**, as Discord requires. If you are under 13, you need a parent or guardian's permission to play on the Minecraft server.
 
 ## Your builds and items
 
 - Land only stays protected if you [claim it](/guides/claiming-land). We can try to roll back real grief on claimed land, but we can't promise it.
 - Items, builds and progress on the server are part of a game. They have no real-world value, and we may reset, change or remove game features, items and balances to keep the server healthy.
-- Inactive claims are removed after 30 days without a login.
+- Inactive claims are removed after **2 weeks** (14 days) without a login.
 
 ## Purchases
 
 - Purchases are made through Tebex and are subject to Tebex's own terms.
-- **All purchases are final.** Tebex itself does not allow refunds.
+- **All purchases are final.** We do not offer refunds.
 - **Coins** have no cash value and can't be refunded or exchanged.
 - There are no refunds if the server closes, and purchases do not transfer to any future server.
 - Season resets do not return items you bought before.
+- **Chargebacks:** if you dispute or reverse a payment, we may remove the purchase and ban the account until it is settled.
 - Buying something means you have read and accept these terms. Questions before you buy? Open a ticket in our Discord first.
 
 See the [Refunds and Store Terms](/guides/refunds-and-store-terms) guide and the terms on our [store](https://brindlewood.tebex.io).
@@ -38,9 +39,17 @@ See the [Refunds and Store Terms](/guides/refunds-and-store-terms) guide and the
 
 Hacked clients, exploits, unauthorized automation, scams and attempts to get around a ban or a rule can lead to a permanent ban, without a refund.
 
+## Staff decisions
+
+Staff decisions on rules, bans and disputes are made at their discretion and are final, though you can always ask for a review in a ticket.
+
+## Contact
+
+Questions about these terms? Open a ticket in our Discord or use our [Contact page](/contact).
+
 ## No warranty
 
-BrindleWood is provided "as is". The server may go offline, restart (daily at midnight EST) or lose data. We do our best, but we can't promise it will always be available.
+BrindleWood is provided "as is". The server may go offline, restart (daily at midnight Eastern Time) or lose data. We do our best, but we can't promise it will always be available.
 
 ## Not affiliated with Mojang or Microsoft
 

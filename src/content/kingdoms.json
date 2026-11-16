@@ -10,8 +10,10 @@
     "id": "rosewood",
     "name": "Rosewood",
     "corner": "Northeast",
-    "summary": "A kingdom with a story still being written.",
-    "description": "The story of Rosewood is still being written. Check back soon, or ask about it in our Discord."
+    "summary": "Unclaimed. Nobody has built here yet, so the northeast is open to whoever settles it first.",
+    "description": "Rosewood is the one kingdom nobody has claimed. The land is untouched: painted mountains, rivers and open savanna in the northeast corner of the map. Settle here and you could be the one who founds it. Ask in our Discord how to claim it.",
+    "image": "screens/rosewood.jpg",
+    "imageAlt": "Untouched mountains striped with red, orange and purple above a river in Rosewood"
   },
   {
     "id": "solyra",

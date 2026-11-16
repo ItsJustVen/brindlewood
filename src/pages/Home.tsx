@@ -12,16 +12,24 @@ export default function Home() {
 
   return (
     <>
-      <section className="px-4 pb-10 pt-10 text-center">
-        <img
-          src={asset("logo.png")}
-          alt="BrindleWood castle logo"
-          width={200}
-          height={200}
-          className="mx-auto w-[min(200px,50vw)]"
-        />
-        <h1 className="mb-2 text-4xl font-black sm:text-6xl">{site.name}</h1>
-        <p className="mx-auto mb-6 max-w-xl text-lg text-muted">{site.tagline}</p>
+      <section className="pb-10 text-center">
+        <div className="relative h-[42vh] max-h-[480px] min-h-[240px] overflow-hidden">
+          <img
+            src={asset(home.heroImage)}
+            alt={home.heroAlt}
+            width={1600}
+            height={877}
+            className="h-full w-full object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(to bottom, rgba(20,27,43,0) 40%, rgba(20,27,43,0.85) 85%, #141b2b 100%)" }}
+          />
+          <h1 className="absolute inset-x-0 bottom-3 px-4 text-4xl font-black sm:text-6xl">{site.name}</h1>
+        </div>
+        <div className="px-4">
+        <p className="mx-auto mb-6 mt-3 max-w-xl text-lg text-muted">{site.tagline}</p>
 
         <ServerStatus />
         <div>
@@ -39,7 +47,26 @@ export default function Home() {
             Visit the Store
           </a>
         </div>
+        </div>
       </section>
+
+      <Section title={home.galleryHeading}>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {home.gallery.map((g) => (
+            <figure key={g.src}>
+              <img
+                src={asset(g.src)}
+                alt={g.alt}
+                loading="lazy"
+                width={1600}
+                height={900}
+                className="aspect-video w-full rounded-lg border border-panel2 object-cover"
+              />
+              <figcaption className="mt-1.5 text-sm text-muted">{g.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </Section>
 
       {latest.length > 0 && (
         <Section title="Announcements">

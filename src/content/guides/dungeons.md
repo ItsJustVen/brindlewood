@@ -35,6 +35,8 @@ The guard's info menu shows the current state: awakening, in a conquest, or on c
 
 ## Sanctum of Skulls (Difficulty I, Easy)
 
+![Inside the Sanctum of Skulls: a stone cavern with a red-carpeted bridge and mobs fighting](/screens/sanctum.jpg)
+
 A good first dungeon. Learn how dungeons work here before you try the Whispering Maze.
 
 **Guard:** Travis Woods stands alone outside the sanctum. **Mobs:** Zombies, Skeletons, Pillagers and Piglins, plus a boss.
@@ -51,6 +53,8 @@ And a chance at a bonus: a Common Key or a Rare Key. Rewards are dropped in the 
 **Good for:** early gold, emeralds and enchanted books, and a free shot at crate keys.
 
 ## Whispering Maze (Difficulty II, Medium)
+
+![Inside the Whispering Maze: a mossy stone hall full of mobs chasing a player](/screens/maze.jpg)
 
 A bigger fight than the Sanctum. Bring friends.
 

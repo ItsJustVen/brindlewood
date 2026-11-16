@@ -1,11 +1,12 @@
 import { Fragment, type ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { fill } from "./text";
+import { asset, fill } from "./text";
 
 // A tiny, safe Markdown renderer for guides. It builds React elements (never raw
 // HTML), so pasted text cannot inject scripts.
 // Supported: ## / ### headings, paragraphs, - bullet lists, 1. numbered lists,
-// > notes, | tables |, --- rules, **bold**, *italic*, `code`, [links](url).
+// > notes, | tables |, --- rules, **bold**, *italic*, `code`, [links](url),
+// and ![alt](/screens/file.jpg) on its own line for pictures from public/screens.
 
 export function slugify(text: string): string {
   return text
@@ -93,6 +94,23 @@ export function Markdown({ source }: { source: string }) {
             <Inline text={text} />
           </h2>
         ),
+      );
+      i++;
+      continue;
+    }
+
+    const image = /^!\[([^\]]*)\]\((\/screens\/[\w.-]+)\)\s*$/.exec(line);
+    if (image) {
+      out.push(
+        <img
+          key={key++}
+          src={asset(image[2])}
+          alt={image[1]}
+          loading="lazy"
+          width={1600}
+          height={875}
+          className="my-4 aspect-video w-full rounded-lg border border-panel2 object-cover"
+        />,
       );
       i++;
       continue;

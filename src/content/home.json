@@ -1,4 +1,39 @@
 {
+  "heroImage": "screens/castle.jpg",
+  "heroAlt": "The castle at spawn, seen through the trees at night",
+  "galleryHeading": "A look around",
+  "gallery": [
+    {
+      "src": "screens/gate.jpg",
+      "alt": "A stone castle gate with lanterns and NPCs standing inside",
+      "caption": "The castle gate at spawn"
+    },
+    {
+      "src": "screens/great-tree.jpg",
+      "alt": "A giant tree spreading over the rooftops of a town",
+      "caption": "The great tree over the spawn town"
+    },
+    {
+      "src": "screens/solyra.jpg",
+      "alt": "A village of sandstone and terracotta buildings with gardens",
+      "caption": "Solyra, the southwest kingdom"
+    },
+    {
+      "src": "screens/sanctum.jpg",
+      "alt": "A stone cavern with a red-carpeted bridge and mobs fighting",
+      "caption": "Inside the Sanctum of Skulls"
+    },
+    {
+      "src": "screens/maze.jpg",
+      "alt": "A mossy stone hall full of mobs chasing a player",
+      "caption": "A fight in the Whispering Maze"
+    },
+    {
+      "src": "screens/aurora.jpg",
+      "alt": "A pink and gold aurora over the sea at night",
+      "caption": "Night over the sea in the playworld (taken with shaders)"
+    }
+  ],
   "kingdomsHeading": "The four kingdoms",
   "kingdomsIntro": "One kingdom in each corner of the map. Your kingdom is wherever you settle, and you can move to another one later.",
   "featuresHeading": "What you'll do here",

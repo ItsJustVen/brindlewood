@@ -18,7 +18,9 @@
     "name": "Solyra",
     "corner": "Southwest",
     "summary": "Ruled by the Goddess of Death, with Greek, Italian, and desert builds and a fully shared community.",
-    "description": "Ruled by the Goddess of Death herself, Solyra is a kingdom of Greek, Italian, and desert-inspired architecture. Its people are proud to work as one community, with shared storage, shared resources, and shared villagers. In Solyra, everyone builds together and everyone benefits."
+    "description": "Ruled by the Goddess of Death herself, Solyra is a kingdom of Greek, Italian, and desert-inspired architecture. Its people are proud to work as one community, with shared storage, shared resources, and shared villagers. In Solyra, everyone builds together and everyone benefits.",
+    "image": "screens/solyra.jpg",
+    "imageAlt": "A village of sandstone and terracotta buildings with gardens in Solyra"
   },
   {
     "id": "subterra",

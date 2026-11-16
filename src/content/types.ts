@@ -23,6 +23,10 @@ export interface IconCard {
 }
 
 export interface HomeContent {
+  heroImage: string;
+  heroAlt: string;
+  galleryHeading: string;
+  gallery: { src: string; alt: string; caption: string }[];
   kingdomsHeading: string;
   kingdomsIntro: string;
   featuresHeading: string;
@@ -35,6 +39,8 @@ export interface Kingdom {
   corner: string;
   summary: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export interface RuleItem extends IconCard {

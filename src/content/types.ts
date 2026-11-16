@@ -31,6 +31,9 @@ export interface HomeContent {
   kingdomsIntro: string;
   featuresHeading: string;
   features: { title: string; body: string }[];
+  staffHeading: string;
+  staffIntro: string;
+  staff: { role: string; names: string[] }[];
 }
 
 export interface Kingdom {

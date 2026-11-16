@@ -109,6 +109,19 @@ export default function Home() {
           ))}
         </div>
       </Section>
+
+      {home.staff.length > 0 && (
+        <Section title={home.staffHeading} intro={home.staffIntro}>
+          <dl className="grid gap-x-12 gap-y-5 sm:grid-cols-2">
+            {home.staff.map((group) => (
+              <div key={group.role} className="border-l-2 border-wood pl-4">
+                <dt className="text-xs font-extrabold uppercase tracking-widest text-steel">{group.role}</dt>
+                <dd className="mt-1 font-bold">{group.names.join(", ")}</dd>
+              </div>
+            ))}
+          </dl>
+        </Section>
+      )}
     </>
   );
 }

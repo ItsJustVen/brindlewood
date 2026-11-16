@@ -28,7 +28,9 @@
     "id": "subterra",
     "name": "Subterra",
     "corner": "Southeast",
-    "summary": "A civilization beneath the surface: part trading hub, part stronghold.",
-    "description": "What lies beneath the world belongs to those willing to dig for it. Subterra is a civilization below the surface: a growing community, a trading center, and a defensive stronghold, all carved from the depths."
+    "summary": "Open for a leader. Nothing is built here yet: floating islands above, cliffs and caves below.",
+    "description": "Subterra has no leader and nothing built yet. The southeast corner of the map has floating islands above the forest and cliffs full of caves below, ready for a kingdom carved into the depths. If you want to lead it, ask in our Discord.",
+    "image": "screens/subterra.jpg",
+    "imageAlt": "Floating islands above a forest of giant mushrooms in Subterra"
   }
 ]

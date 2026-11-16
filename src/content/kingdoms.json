@@ -10,8 +10,10 @@
     "id": "rosewood",
     "name": "Rosewood",
     "corner": "Northeast",
-    "summary": "A kingdom with a story still being written.",
-    "description": "The story of Rosewood is still being written. Check back soon, or ask about it in our Discord."
+    "summary": "Unclaimed. Nobody has built here yet, so the northeast is open to whoever founds it.",
+    "description": "Rosewood is one of two kingdoms nobody has claimed. The land is untouched: painted mountains, rivers and open savanna in the northeast corner of the map. Want to found it? Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
+    "image": "screens/rosewood.jpg",
+    "imageAlt": "Untouched mountains striped with red, orange and purple above a river in Rosewood"
   },
   {
     "id": "solyra",
@@ -26,7 +28,9 @@
     "id": "subterra",
     "name": "Subterra",
     "corner": "Southeast",
-    "summary": "A civilization beneath the surface: part trading hub, part stronghold.",
-    "description": "What lies beneath the world belongs to those willing to dig for it. Subterra is a civilization below the surface: a growing community, a trading center, and a defensive stronghold, all carved from the depths."
+    "summary": "Open for a leader. Nothing is built here yet: floating islands above, cliffs and caves below.",
+    "description": "Subterra has no leader and nothing built yet. The southeast corner of the map has floating islands above the forest and cliffs full of caves below. Want to lead it? Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
+    "image": "screens/subterra.jpg",
+    "imageAlt": "Floating islands above a forest of giant mushrooms in Subterra"
   }
 ]

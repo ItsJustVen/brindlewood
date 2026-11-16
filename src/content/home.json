@@ -1,27 +1,31 @@
 {
-  "kingdomsHeading": "Choose Your Kingdom",
-  "kingdomsIntro": "The world is divided into four kingdoms, one in each corner. Each has its own culture, its own allies, and its own story to tell.",
-  "featuresHeading": "Why BrindleWood?",
+  "kingdomsHeading": "The four kingdoms",
+  "kingdomsIntro": "One kingdom in each corner of the map. Your kingdom is wherever you settle, and you can move to another one later.",
+  "featuresHeading": "What you'll do here",
   "features": [
     {
-      "icon": "⚔️",
-      "title": "Kingdoms RPG",
-      "body": "Pick a side, grow your kingdom, and shape the story of the world alongside other players."
+      "title": "Build a character",
+      "body": "Pick from eight races (four are free), six classes and eight playstyles. All three stack, and each free race has an Awakened form at level 100."
     },
     {
-      "icon": "🧝",
-      "title": "Races & Dungeons",
-      "body": "Choose a race, explore an evolving world, and take on dungeons."
+      "title": "Earn money by playing",
+      "body": "Twelve jobs, from Miner and Fisher to Alchemist and Guard. You join each one at its own NPC in Aldoria, the spawn world, and get paid as you play."
     },
     {
-      "icon": "🏡",
-      "title": "Friendly Community",
-      "body": "An active Discord and a welcoming staff team. New players are always encouraged to jump in."
+      "title": "Run the dungeons",
+      "body": "The Sanctum of Skulls and the Whispering Maze. You fight through stages of mobs to a boss, and the rewards get bigger the deeper you go."
     },
     {
-      "icon": "🎮",
-      "title": "Java & Bedrock",
-      "body": "Play on PC, console, or mobile. Everyone is welcome, whatever they play on."
+      "title": "Die without losing your gear",
+      "body": "The world is set to Hard, but your items wait in a grave where you fell. Nobody else can break it."
+    },
+    {
+      "title": "Get fresh resources every Sunday",
+      "body": "The resource world resets each week with a new seed, so there is always untouched land to mine and the newest blocks to find."
+    },
+    {
+      "title": "Play on anything",
+      "body": "Java players join by address. Console, mobile and Windows Bedrock players join through a friend account, with no address to type."
     }
   ]
 }

@@ -12,7 +12,7 @@ export default function Section({
   return (
     <section className="py-10">
       <div className="mx-auto w-[min(1100px,92%)]">
-        {title && <h2 className="mb-3 text-3xl font-bold text-teal">{title}</h2>}
+        {title && <h2 className="mb-3 text-2xl font-bold text-ink sm:text-3xl">{title}</h2>}
         {intro && <p className="mb-6 max-w-2xl text-muted">{intro}</p>}
         {children}
       </div>

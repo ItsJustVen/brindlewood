@@ -26,7 +26,7 @@ export interface HomeContent {
   kingdomsHeading: string;
   kingdomsIntro: string;
   featuresHeading: string;
-  features: IconCard[];
+  features: { title: string; body: string }[];
 }
 
 export interface Kingdom {

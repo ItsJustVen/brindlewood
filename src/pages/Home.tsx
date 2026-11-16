@@ -12,13 +12,13 @@ export default function Home() {
 
   return (
     <>
-      <section className="px-4 pb-10 pt-14 text-center">
+      <section className="px-4 pb-10 pt-10 text-center">
         <img
           src={asset("logo.png")}
           alt="BrindleWood castle logo"
-          width={320}
-          height={320}
-          className="mx-auto w-[min(320px,70vw)] motion-safe:animate-float drop-shadow-[0_0_30px_rgba(47,214,208,0.35)]"
+          width={200}
+          height={200}
+          className="mx-auto w-[min(200px,50vw)]"
         />
         <h1 className="mb-2 text-4xl font-black sm:text-6xl">{site.name}</h1>
         <p className="mx-auto mb-6 max-w-xl text-lg text-muted">{site.tagline}</p>
@@ -56,9 +56,9 @@ export default function Home() {
       )}
 
       <Section title={home.kingdomsHeading} intro={home.kingdomsIntro}>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-5">
+        <div className="grid gap-4 sm:grid-cols-2">
           {kingdoms.map((k) => (
-            <div key={k.id} className="card card-teal">
+            <div key={k.id} className="card">
               <span className="text-xs font-extrabold uppercase tracking-widest text-steel">{k.corner}</span>
               <h3 className="text-xl font-bold">{k.name}</h3>
               <p>{k.summary}</p>
@@ -73,12 +73,11 @@ export default function Home() {
       </Section>
 
       <Section title={home.featuresHeading}>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-5">
+        <div className="grid gap-x-12 gap-y-7 sm:grid-cols-2">
           {home.features.map((f) => (
-            <div key={f.title} className="card">
-              <div aria-hidden="true" className="mb-1 text-3xl">{f.icon}</div>
+            <div key={f.title} className="border-l-2 border-wood pl-4">
               <h3 className="text-lg font-bold">{f.title}</h3>
-              <p>{f.body}</p>
+              <p className="mt-1 text-muted">{f.body}</p>
             </div>
           ))}
         </div>

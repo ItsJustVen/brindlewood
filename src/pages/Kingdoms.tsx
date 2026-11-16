@@ -15,7 +15,7 @@ export default function Kingdoms() {
       </PageHead>
 
       <Section>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5">
+        <div className="grid gap-5 sm:grid-cols-2">
           {kingdoms.map((k) => (
             <article key={k.id} id={k.id} className="card card-teal">
               <span className="text-xs font-extrabold uppercase tracking-widest text-steel">{k.corner}</span>

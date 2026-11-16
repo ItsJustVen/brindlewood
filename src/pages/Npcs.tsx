@@ -38,7 +38,7 @@ export default function Npcs() {
   const selected = npcs.find((n) => n.id === selectedId) ?? null;
 
   const chip = (active: boolean) =>
-    `rounded-full border px-3 py-1 text-sm font-bold ${
+    `rounded-md border px-3 py-1 text-sm font-bold ${
       active
         ? "border-teal bg-teal text-[#08202a]"
         : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"

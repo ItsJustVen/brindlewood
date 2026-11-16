@@ -22,7 +22,7 @@ export default function Guides() {
   );
 
   const chip = (active: boolean) =>
-    `rounded-full border px-4 py-1.5 text-sm font-bold ${
+    `rounded-md border px-4 py-1.5 text-sm font-bold ${
       active
         ? "border-teal bg-teal text-[#08202a]"
         : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"

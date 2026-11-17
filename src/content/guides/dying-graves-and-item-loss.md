@@ -9,7 +9,8 @@ Every death, whatever the cause, puts your items in a **grave** where you died, 
 
 - A glow marks your grave and is visible from about 30 blocks away.
 - **Other players can break your grave**, so get back to it quickly.
-- If nobody breaks it, your grave is deleted after **7 days**.
+- Taking items from another player's grave is allowed.
+- If nobody breaks it, your grave is deleted after **7 days**, and **the items inside are lost**.
 - You can have up to **10 graves** at once. When you die a time too many, your oldest grave breaks.
 - You do not keep all your experience when you die.
 - Custom cosmetic armor and tool sets stay in your inventory when you die.

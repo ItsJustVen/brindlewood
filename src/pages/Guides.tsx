@@ -81,7 +81,7 @@ export default function Guides() {
           if (items.length === 0) return null;
           return (
             <div key={c.id} className="mb-10">
-              <h2 className="text-2xl font-bold text-teal">{c.title}</h2>
+              <h2 className="text-2xl font-bold">{c.title}</h2>
               <p className="mb-4 text-muted">{c.blurb}</p>
               <ul className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4">
                 {items.map((g) => (

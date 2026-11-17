@@ -14,7 +14,6 @@ export default function Store() {
         <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-5">
           {store.featured.map((f) => (
             <div key={f.title} className="card">
-              <div aria-hidden="true" className="mb-1 text-3xl">{f.icon}</div>
               <h3 className="text-lg font-bold">{f.title}</h3>
               <p>{f.body}</p>
             </div>
@@ -28,11 +27,11 @@ export default function Store() {
       </Section>
 
       <Section title={store.categoriesHeading}>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-5">
+        <div className="grid gap-x-12 gap-y-5 sm:grid-cols-2">
           {store.categories.map((c) => (
-            <div key={c.title} className="card">
+            <div key={c.title} className="border-l-2 border-wood pl-4">
               <h3 className="text-lg font-bold">{c.title}</h3>
-              <p>{c.body}</p>
+              <p className="text-muted">{c.body}</p>
             </div>
           ))}
         </div>

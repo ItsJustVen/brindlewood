@@ -14,19 +14,12 @@ export default function Rules() {
       </PageHead>
 
       <Section>
-        <ul className="grid gap-3">
-          {rules.items.map((r) => (
-            <li
-              key={r.title}
-              className="relative rounded-xl border border-panel2 border-l-4 border-l-teal bg-panel py-4 pl-[4.25rem] pr-4"
-            >
-              <span
-                aria-hidden="true"
-                className="absolute left-4 top-4 grid h-10 w-10 place-items-center rounded-lg bg-panel2 text-2xl"
-              >
-                {r.icon}
-              </span>
-              <h2 className="text-lg font-bold text-teal">{r.title}</h2>
+        <ol className="grid gap-6">
+          {rules.items.map((r, i) => (
+            <li key={r.title} className="border-l-2 border-wood pl-4">
+              <h2 className="text-lg font-bold">
+                {i + 1}. {r.title}
+              </h2>
               <p className="text-muted">{r.body}</p>
               {r.note && (
                 <p className="note mt-3">
@@ -35,7 +28,7 @@ export default function Rules() {
               )}
             </li>
           ))}
-        </ul>
+        </ol>
 
         <div className="card mt-6">
           <h2 className="text-lg font-bold">{rules.enforcement.title}</h2>

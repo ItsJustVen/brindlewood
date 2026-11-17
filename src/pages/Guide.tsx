@@ -34,7 +34,7 @@ export default function Guide() {
 
           {related.length > 0 && (
             <div className="mt-8">
-              <h2 className="mb-3 text-xl font-bold text-teal">More in {category?.title}</h2>
+              <h2 className="mb-3 text-xl font-bold">More in {category?.title}</h2>
               <ul className="flex flex-wrap gap-2">
                 {related.map((g) => (
                   <li key={g.slug}>

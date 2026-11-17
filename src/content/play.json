@@ -19,25 +19,25 @@
     ],
     "note": "Bedrock players join through our friend account instead of typing in an address. Ask in our Discord if you need help joining."
   },
-  "gettingStartedHeading": "Getting Started",
+  "gettingStartedHeading": "Your first session",
   "gettingStarted": [
     {
-      "title": "1. Pick a Kingdom",
-      "body": "Read about the four kingdoms and choose the one that fits your style.",
-      "to": "/kingdoms",
-      "linkText": "Meet the kingdoms"
+      "title": "1. Pick your race",
+      "body": "The race menu opens the first time you join, and you can't play until you choose. Four races are free.",
+      "to": "/guides/choosing-your-race",
+      "linkText": "How races work"
     },
     {
-      "title": "2. Read the Rules",
-      "body": "Our rules keep things fun and fair for everybody.",
-      "to": "/rules",
-      "linkText": "Read the rules"
+      "title": "2. Get a job",
+      "body": "Jobs are the main way to earn money. You join each one at its own NPC in the spawn world.",
+      "to": "/guides/jobs",
+      "linkText": "Where the job NPCs are"
     },
     {
-      "title": "3. Say Hi on Discord",
-      "body": "Join our Discord to meet players, ask questions, and hear about events.",
-      "to": "discord",
-      "linkText": "Join the Discord"
+      "title": "3. Claim your land",
+      "body": "You start with 1 claim and 10 chunks. Find a spot in the playworld and claim it so nobody else can build there.",
+      "to": "/guides/claiming-land",
+      "linkText": "How claiming works"
     }
   ],
   "faqHeading": "FAQ"

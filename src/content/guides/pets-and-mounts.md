@@ -5,8 +5,6 @@ summary: "Pets follow you around. Mounts can be ridden."
 order: 74
 updated: "2026-11-05"
 ---
-Pets follow you around. Mounts can be ridden.
-
 **Where to get them:** the [CoinShop](/guides/coinshop). Prices are in coins.
 
 - Veggie pets (carrot, potato, onion, broccoli, eggplant, tomato): 350 coins each

@@ -5,12 +5,10 @@ summary: "Merchant prices move with demand."
 order: 21
 updated: "2026-11-05"
 ---
-Merchants buy and sell goods, and prices move with demand.
-
 - Each merchant shows a **Demand rating from 1 to 5** in their menu.
 - Lots of recent buying raises prices. Quiet days can bring them down.
 - Stock refreshes about every 11 minutes, so check back.
-- Merchants never lower prices for sentiment, and you can never be completely sure what they'll do.
+- Prices follow demand, not who you are, and demand can change at any time.
 
 ## Where to find them
 

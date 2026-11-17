@@ -5,8 +5,6 @@ summary: "Custom looks for tools and weapons. They never change stats."
 order: 77
 updated: "2026-11-05"
 ---
-Custom looks for your tools and weapons. They never change stats.
-
 ## Ways to get them
 
 - **CoinShop:** 100 coins per skin

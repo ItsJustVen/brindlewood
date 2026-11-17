@@ -30,4 +30,29 @@ Better crates give better rewards, more money and more coins.
 - **CoinShop:** Common 50, Rare 100, Epic 200, Superior 400 coins
 - **Store:** [brindlewood.tebex.io](https://brindlewood.tebex.io)
 
-Use your keys at the crates. They're right behind you when you do `/spawn`.
+## Where the crates are
+
+All of them are at spawn in Aldoria. Each one also shows on the [NPC finder](/npcs) map.
+
+| Crate | Key | Coordinates |
+| --- | --- | --- |
+| Common | Common key | -4, 101, -31 |
+| Rare | Rare key | 0, 101, -32 |
+| Epic | Epic key | 4, 101, -31 |
+| Superior | Superior key | 7, 101, -28 |
+| Vote | Vote key | -7, 101, -28 |
+
+The cosmetic crates are in a separate spot at spawn and all use cosmetics keys:
+
+| Crate | Coordinates |
+| --- | --- |
+| Wings | -44, 105, 44 |
+| Hat Parade | -44, 105, 47 |
+| Tails | -44, 105, 50 |
+| Ears and Horns | -44, 105, 53 |
+| Cozy Furniture | -38, 105, 44 |
+| Modern Furniture | -38, 105, 47 |
+| Garden Decor | -38, 105, 50 |
+| Relic | -38, 105, 53 |
+
+Bring a key to the crate to open it. The preview shows what is inside and the odds.

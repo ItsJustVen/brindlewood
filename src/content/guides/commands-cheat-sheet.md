@@ -5,7 +5,7 @@ summary: "The most useful commands in one place."
 order: 6
 updated: "2026-11-05"
 ---
-Every command players can use, in one place. Type `/help` in-game to open the server guide menu. Most things also have a menu, so you can click instead of typing.
+Type `/help` in-game to open the server guide menu. Most things also have a menu, so you can click instead of typing.
 
 ## Getting around
 

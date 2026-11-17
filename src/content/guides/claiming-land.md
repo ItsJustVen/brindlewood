@@ -15,6 +15,10 @@ BrindleWood uses the **SimpleClaimSystem** plugin. Claim your land in **playworl
 2. Type `/claim`. That chunk is yours and the claim menu opens.
 3. Open `/claim settings` to choose who can do what, and `/claim members` to add friends.
 
+When you claim, you get a message in chat, and the top bar shows the name of the claim you are standing in.
+
+![The top bar showing the claim name, and the chat message after a chunk is added to a claim](/screens/guide-claim-chunk-added.jpg)
+
 You can see the borders with `/claim see`, and a chat map of nearby claims with `/claim map`. Your claims also show on the [Live Map](https://map.brindlewood.net).
 
 ## Your limits
@@ -145,5 +149,5 @@ You can sell a claim to another player for money:
 - Claiming costs **no money**.
 - Adding a member takes effect right away. They don't have to accept an invite.
 - You get a message when you enter or leave a claim.
-- `/claim`, `/claims`, `/claiming`, `/unclaim` and `/map` are open to every player. If a specific `/claim` option doesn't work for you, ask in a ticket.
+- `/claim`, `/claims`, `/claiming`, `/unclaim` and `/map` are open to every player. If a specific `/claim` option doesn't work for you, open a ticket.
 - Lost something to grief? See [Griefing and Rollbacks](/guides/griefing-and-rollbacks).

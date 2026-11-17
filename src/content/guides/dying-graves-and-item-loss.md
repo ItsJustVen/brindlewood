@@ -7,6 +7,8 @@ updated: "2026-11-17"
 ---
 Every death, whatever the cause, puts your items in a **grave** where you died, instead of scattering them on the ground. Go back and interact with it to get your items.
 
+![A grave marker with a hologram showing when and how the player died](/screens/guide-grave.jpg)
+
 - A glow marks your grave and is visible from about 30 blocks away.
 - **Other players can break your grave**, so get back to it quickly.
 - Taking items from another player's grave is allowed.

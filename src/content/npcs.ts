@@ -1,6 +1,6 @@
 import npcsJson from "./npcs.json";
 
-// NPC positions come from the server's NPC list (all in the spawn world, Aldoria).
+// NPC and crate positions come from the server's NPC list and crate settings (all in the spawn world, Aldoria).
 // Coordinates are whole blocks and can be about one block off.
 export interface Npc {
   id: string;
@@ -32,6 +32,7 @@ export const npcCategories: NpcCategory[] = [
   { id: "dungeons", label: "Dungeons", color: "#ef5350" },
   { id: "bounties", label: "Bounties", color: "#f06292" },
   { id: "guards", label: "Guards", color: "#a8b2c7" },
+  { id: "crates", label: "Crates", color: "#ff7ad9" },
 ];
 
 export const npcs: Npc[] = npcsJson;

@@ -7,6 +7,8 @@ updated: "2026-11-05"
 ---
 Everyone gets free rewards just for playing. Open the menu with `/rewards` and click to claim.
 
+![The Rewards menu with Hourly, Daily and Weekly rewards, plus Referrals and Voting](/screens/guide-rewards-menu.jpg)
+
 | Command | What it does |
 | --- | --- |
 | `/rewards` | Hourly, daily and weekly rewards |

@@ -5,8 +5,6 @@ summary: "Put a price on a player, or claim one."
 order: 59
 updated: "2026-11-05"
 ---
-Put a price on another player's head, or claim a bounty someone else placed.
-
 ## Placing a bounty
 
 1. Visit the **Tavern Keeper** NPC in Aldoria (spawn world) at **104, 90, 25**.

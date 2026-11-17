@@ -107,9 +107,8 @@ export function Markdown({ source }: { source: string }) {
           src={asset(image[2])}
           alt={image[1]}
           loading="lazy"
-          width={1600}
-          height={875}
-          className="my-4 aspect-video w-full rounded-lg border border-panel2 object-cover"
+          decoding="async"
+          className="mx-auto my-4 h-auto max-w-full rounded-lg border border-panel2"
         />,
       );
       i++;

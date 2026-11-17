@@ -65,7 +65,8 @@ function Header() {
             rel="noopener noreferrer"
             className="rounded-lg px-3 py-2 font-semibold text-ink no-underline hover:bg-panel2 hover:text-teal"
           >
-            Live Map
+            Live Map<span aria-hidden="true"> &#8599;</span>
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
           <a
             href={site.discordUrl}

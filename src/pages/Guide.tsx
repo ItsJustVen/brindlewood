@@ -15,7 +15,10 @@ export default function Guide() {
   if (!guide) return <NotFound />;
 
   const category = guideCategories.find((c) => c.id === guide.category);
-  const related = guides.filter((g) => g.category === guide.category && g.slug !== guide.slug);
+  const siblings = guides.filter((g) => g.category === guide.category);
+  const at = siblings.findIndex((g) => g.slug === guide.slug);
+  const prev = at > 0 ? siblings[at - 1] : null;
+  const next = at >= 0 && at < siblings.length - 1 ? siblings[at + 1] : null;
 
   return (
     <>
@@ -32,30 +35,37 @@ export default function Guide() {
             <Markdown source={guide.body} />
           </article>
 
-          {related.length > 0 && (
-            <div className="mt-8">
-              <h2 className="mb-3 text-xl font-bold">More in {category?.title}</h2>
-              <ul className="flex flex-wrap gap-2">
-                {related.map((g) => (
-                  <li key={g.slug}>
-                    <Link
-                      to={`/guides/${g.slug}`}
-                      className="block rounded-lg border border-steel bg-panel2 px-3 py-1.5 text-sm font-semibold text-ink no-underline hover:border-teal hover:text-teal"
-                    >
-                      {g.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {(prev || next) && (
+            <nav aria-label="More guides" className="mt-8 grid gap-3 sm:grid-cols-2">
+              {prev ? (
+                <Link
+                  to={`/guides/${prev.slug}`}
+                  className="card card-teal no-underline hover:border-teal"
+                >
+                  <span className="block text-sm text-muted">&larr; Previous</span>
+                  <span className="font-bold text-ink">{prev.title}</span>
+                </Link>
+              ) : (
+                <span />
+              )}
+              {next && (
+                <Link
+                  to={`/guides/${next.slug}`}
+                  className="card card-teal text-right no-underline hover:border-teal sm:col-start-2"
+                >
+                  <span className="block text-sm text-muted">Next &rarr;</span>
+                  <span className="font-bold text-ink">{next.title}</span>
+                </Link>
+              )}
+            </nav>
           )}
 
           <p className="note mt-8">
-            Still stuck? Ask in our{" "}
+            Can't find your answer? Ask in our{" "}
             <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">
               Discord
-            </a>
-            , our team and players are happy to help.
+            </a>{" "}
+            or open a ticket.
           </p>
         </div>
       </Section>

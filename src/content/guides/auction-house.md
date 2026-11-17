@@ -5,7 +5,9 @@ summary: "Sell items to other players, even while offline."
 order: 38
 updated: "2026-11-05"
 ---
-Sell items to other players, even while you're offline. Buy what other adventurers are selling. No shop needed.
+Buy what other adventurers are selling, and list your own items without needing a shop.
+
+![The Auction House menu, Items for Sale](/screens/guide-auction-house.jpg)
 
 **Open it:** `/ah` (also `/auction` or `/auctionhouse`), or visit the Auction NPC in the spawn world at **46, 100, 0**.
 

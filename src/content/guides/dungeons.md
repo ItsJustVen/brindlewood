@@ -16,10 +16,12 @@ Use `/warp` to find them. The dungeon NPCs are in the spawn world at **-471, 72,
 
 ## How a run works
 
+![The Sanctum of Skulls guard menu, showing the dungeon is awakening and how many monsters to kill](/screens/guide-dungeon-menu.jpg)
+
 Dungeons run in rounds:
 
 1. The dungeon is awakening, waiting for adventurers.
-2. A conquest begins. You fight your way through stages of mobs.
+2. A conquest begins once enough monsters have been killed (in the Sanctum of Skulls the guard's menu shows a counter, for example 0/34). You fight your way through stages of mobs.
 3. Each stage you finish drops rewards in the main area. The deeper you get, the bigger the reward.
 4. When the conquest ends, the dungeon goes on cooldown. A new awakening starts when the cooldown is over.
 

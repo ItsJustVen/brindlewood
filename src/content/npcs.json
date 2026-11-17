@@ -82,7 +82,7 @@
  },
  {
   "id": "aldoria_guard_1",
-  "name": "Guard 1",
+  "name": "Dane Blackridge, Guard",
   "category": "guards",
   "guide": "npcs",
   "x": 9,
@@ -91,7 +91,7 @@
  },
  {
   "id": "aldoria_guard_2",
-  "name": "Guard 2",
+  "name": "Callum Graymoor, Guard",
   "category": "guards",
   "guide": "npcs",
   "x": -8,
@@ -334,7 +334,7 @@
  },
  {
   "id": "aldoria_stablemaster_1",
-  "name": "Horse Stables 1",
+  "name": "Elowen Bridlepath, Horse Stables",
   "category": "stables",
   "guide": "horses-and-stables",
   "x": -20,
@@ -343,7 +343,7 @@
  },
  {
   "id": "aldoria_stablemaster_2",
-  "name": "Horse Stables 2",
+  "name": "Branford Hoofstone, Horse Stables",
   "category": "stables",
   "guide": "horses-and-stables",
   "x": -320,
@@ -352,7 +352,7 @@
  },
  {
   "id": "aldoria_stablemaster_3",
-  "name": "Horse Stables 3",
+  "name": "Lyla Stirrup, Horse Stables",
   "category": "stables",
   "guide": "horses-and-stables",
   "x": -164,
@@ -361,7 +361,7 @@
  },
  {
   "id": "aldoria_stablemaster_4",
-  "name": "Horse Stables 4",
+  "name": "Darla Pasturebrook, Horse Stables",
   "category": "stables",
   "guide": "horses-and-stables",
   "x": -641,
@@ -370,7 +370,7 @@
  },
  {
   "id": "aldoria_stablemaster_5",
-  "name": "Horse Stables 5",
+  "name": "Hugh Saddlewood, Horse Stables",
   "category": "stables",
   "guide": "horses-and-stables",
   "x": -35,
@@ -397,7 +397,7 @@
  },
  {
   "id": "aldoria_vendor_1",
-  "name": "Vendor 1",
+  "name": "Gregor Mossbank, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": 26,
@@ -406,7 +406,7 @@
  },
  {
   "id": "aldoria_vendor_10",
-  "name": "Vendor 10",
+  "name": "Caiden Wildmoor, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -18,
@@ -415,7 +415,7 @@
  },
  {
   "id": "aldoria_vendor_11",
-  "name": "Vendor 11",
+  "name": "Stetson Farcrest, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -603,
@@ -424,7 +424,7 @@
  },
  {
   "id": "aldoria_vendor_12",
-  "name": "Vendor 12",
+  "name": "Caspian Oakenmark, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -579,
@@ -433,7 +433,7 @@
  },
  {
   "id": "aldoria_vendor_13",
-  "name": "Vendor 13",
+  "name": "Kian Duskrow, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -549,
@@ -442,7 +442,7 @@
  },
  {
   "id": "aldoria_vendor_14",
-  "name": "Vendor 14",
+  "name": "Annalise Moonmark, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -585,
@@ -451,7 +451,7 @@
  },
  {
   "id": "aldoria_vendor_15",
-  "name": "Vendor 15",
+  "name": "Leon Hillcrest, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -591,
@@ -460,7 +460,7 @@
  },
  {
   "id": "aldoria_vendor_2",
-  "name": "Vendor 2",
+  "name": "Perrin Alder, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": 33,
@@ -469,7 +469,7 @@
  },
  {
   "id": "aldoria_vendor_3",
-  "name": "Vendor 3",
+  "name": "Sylvia Birch, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": 33,
@@ -478,7 +478,7 @@
  },
  {
   "id": "aldoria_vendor_4",
-  "name": "Vendor 4",
+  "name": "Arlin Marigold, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": 53,
@@ -487,7 +487,7 @@
  },
  {
   "id": "aldoria_vendor_5",
-  "name": "Vendor 5",
+  "name": "Darek Finchley, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": 9,
@@ -496,7 +496,7 @@
  },
  {
   "id": "aldoria_vendor_6",
-  "name": "Vendor 6",
+  "name": "Finn Grasshollow, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -50,
@@ -505,7 +505,7 @@
  },
  {
   "id": "aldoria_vendor_7",
-  "name": "Vendor 7",
+  "name": "Esmera Whitemist, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -46,
@@ -514,7 +514,7 @@
  },
  {
   "id": "aldoria_vendor_8",
-  "name": "Vendor 8",
+  "name": "Remy Graydown, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -68,
@@ -523,7 +523,7 @@
  },
  {
   "id": "aldoria_vendor_9",
-  "name": "Vendor 9",
+  "name": "Heath Stillwater, Vendor",
   "category": "shops",
   "guide": "npcs",
   "x": -65,
@@ -682,5 +682,122 @@
   "x": -7,
   "y": 99,
   "z": 18
+ },
+ {
+  "id": "crate_common",
+  "name": "Common Crate",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -4,
+  "y": 101,
+  "z": -31
+ },
+ {
+  "id": "crate_rare",
+  "name": "Rare Crate",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": 0,
+  "y": 101,
+  "z": -32
+ },
+ {
+  "id": "crate_epic",
+  "name": "Epic Crate",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": 4,
+  "y": 101,
+  "z": -31
+ },
+ {
+  "id": "crate_superior",
+  "name": "Superior Crate",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": 7,
+  "y": 101,
+  "z": -28
+ },
+ {
+  "id": "crate_vote",
+  "name": "Vote Crate",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -7,
+  "y": 101,
+  "z": -28
+ },
+ {
+  "id": "crate_wings",
+  "name": "Wings Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -44,
+  "y": 105,
+  "z": 44
+ },
+ {
+  "id": "crate_hat_parade",
+  "name": "Hat Parade Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -44,
+  "y": 105,
+  "z": 47
+ },
+ {
+  "id": "crate_tails",
+  "name": "Tails Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -44,
+  "y": 105,
+  "z": 50
+ },
+ {
+  "id": "crate_ears_horns",
+  "name": "Ears and Horns Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -44,
+  "y": 105,
+  "z": 53
+ },
+ {
+  "id": "crate_furniture_cozy",
+  "name": "Cozy Furniture Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -38,
+  "y": 105,
+  "z": 44
+ },
+ {
+  "id": "crate_furniture_modern",
+  "name": "Modern Furniture Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -38,
+  "y": 105,
+  "z": 47
+ },
+ {
+  "id": "crate_garden_decor",
+  "name": "Garden Decor Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -38,
+  "y": 105,
+  "z": 50
+ },
+ {
+  "id": "crate_relic",
+  "name": "Relic Crate (cosmetic)",
+  "category": "crates",
+  "guide": "crates-and-keys",
+  "x": -38,
+  "y": 105,
+  "z": 53
  }
 ]

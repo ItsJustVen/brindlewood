@@ -5,7 +5,7 @@ summary: "Five premium ranks with kits, extra slots and commands."
 order: 35
 updated: "2026-11-05"
 ---
-Five premium ranks, each with a prefix in chat and TAB, a kit, extra slots and commands. Commands carry up the ranks. The slot numbers below are the total for that rank.
+Each rank has a prefix in chat and TAB, a kit, extra slots and commands. Commands carry up the ranks. The slot numbers below are the total for that rank.
 
 ## Extra slots
 

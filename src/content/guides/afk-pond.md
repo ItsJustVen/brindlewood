@@ -5,7 +5,9 @@ summary: "Stand in the pond and get paid for doing nothing."
 order: 4
 updated: "2026-11-05"
 ---
-Stand in the pond and get paid for doing nothing.
+The AFK Pond pays you money and coins while you stand in it, so you can leave your character there and get on with your evening.
+
+![The AFK Pond sign listing $50 every 15 minutes and 1 coin every 2 hours](/screens/guide-afk-pond.jpg)
 
 **Where:** Aldoria (the spawn world), outside the gate and to the right. **Coordinates:** x -34, y 101, z 46.5.
 

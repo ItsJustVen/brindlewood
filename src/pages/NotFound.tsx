@@ -10,9 +10,15 @@ export default function NotFound() {
       <PageHead title="Lost in the Woods">
         We couldn't find that page. Let's get you back to the castle.
       </PageHead>
-      <div className="text-center">
+      <div className="flex flex-wrap justify-center gap-3 text-center">
         <Link className="btn btn-primary" to="/">
           Back to Home
+        </Link>
+        <Link className="btn btn-wood" to="/guides">
+          Browse Guides
+        </Link>
+        <Link className="btn btn-wood" to="/contact">
+          Contact Us
         </Link>
       </div>
     </div>

@@ -5,8 +5,6 @@ summary: "Set homes and teleport back any time."
 order: 55
 updated: "2026-11-05"
 ---
-Set a spot you can teleport back to any time.
-
 | Command | What it does |
 | --- | --- |
 | `/sethome <name>` | Sets a home where you stand |

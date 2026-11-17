@@ -5,6 +5,22 @@ import Section from "../components/Section";
 import { guideCategories, guides } from "../content/guides";
 import { usePageTitle } from "../hooks/usePageTitle";
 
+const startHere = [
+  { slug: "the-world", title: "The World", text: "Where you spawn and how the world is laid out." },
+  { slug: "choosing-your-race", title: "Choosing Your Race", text: "Your first big choice. It can't be changed later." },
+  { slug: "claiming-land", title: "Claiming Land", text: "Protect your builds before you start." },
+  { slug: "free-rewards", title: "Free Rewards", text: "Money, coins and keys just for playing." },
+];
+
+const terms: [string, string][] = [
+  ["Aldoria", "The spawn world, with the NPCs, dungeons and the AFK Pond."],
+  ["Playworld", "The main survival world, where you can claim land."],
+  ["Money ($) and coins", "Two separate currencies. See Money vs Coins."],
+  ["Kingdom", "One of the four regions of the map. Each is run as a guild by its leader."],
+  ["Guild", "A group of players who play and level together."],
+  ["Grave", "What a death leaves behind. Your items wait in it for 7 days."],
+];
+
 export default function Guides() {
   usePageTitle("Guides");
   const [query, setQuery] = useState("");
@@ -22,7 +38,7 @@ export default function Guides() {
   );
 
   const chip = (active: boolean) =>
-    `rounded-md border px-4 py-1.5 text-sm font-bold ${
+    `rounded-md border px-4 py-2.5 text-sm font-bold ${
       active
         ? "border-teal bg-teal text-[#08202a]"
         : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"
@@ -76,6 +92,25 @@ export default function Guides() {
           </p>
         )}
 
+        {!q && category === "all" && (
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold">Start here</h2>
+            <p className="mb-4 text-muted">New to BrindleWood? These four cover your first night.</p>
+            <ul className="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
+              {startHere.map((s) => (
+                <li key={s.slug} className="card card-teal">
+                  <h3 className="text-lg font-bold">
+                    <Link to={`/guides/${s.slug}`} className="no-underline hover:underline">
+                      {s.title}
+                    </Link>
+                  </h3>
+                  <p>{s.text}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {guideCategories.map((c) => {
           const items = shown.filter((g) => g.category === c.id);
           if (items.length === 0) return null;
@@ -98,6 +133,19 @@ export default function Guides() {
             </div>
           );
         })}
+        {!q && category === "all" && (
+          <details className="card mx-auto mt-4 max-w-3xl">
+            <summary className="cursor-pointer font-bold">Key terms</summary>
+            <dl className="mt-3 space-y-2 text-muted">
+              {terms.map(([k, v]) => (
+                <div key={k}>
+                  <dt className="inline font-bold text-ink">{k}: </dt>
+                  <dd className="inline">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </details>
+        )}
       </Section>
     </>
   );

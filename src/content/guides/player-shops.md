@@ -5,7 +5,7 @@ summary: "A chest that sells an item for you 24/7."
 order: 39
 updated: "2026-11-17"
 ---
-Set up a chest that sells an item for you 24/7. Players walk up, click, and buy. A floating hologram shows what you're selling and the price.
+Players walk up, click, and buy. A floating hologram shows what you're selling and the price.
 
 There are **no commands** for player shops. Everything is done with the chest.
 

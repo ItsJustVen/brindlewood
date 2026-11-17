@@ -7,6 +7,8 @@ updated: "2026-11-17"
 ---
 Your race defines how your character plays. Each one plays differently, with its own strengths, weaknesses and abilities.
 
+![The Choose Your Destiny menu, where you pick your race](/screens/guide-race-menu.jpg)
+
 ## Picking your race
 
 - The race menu opens on its own the first time you join.

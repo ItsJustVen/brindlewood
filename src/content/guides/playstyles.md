@@ -22,4 +22,4 @@ Open the menu with `/playstyles`, or visit the Playstyles NPC in the spawn world
 | Opportunist | Clever and resourceful |
 | Architect | Focused on building |
 
-Not sure? Pick the one that matches what you're going to spend most of your time doing.
+Pick the one that matches how you expect to spend most of your time.

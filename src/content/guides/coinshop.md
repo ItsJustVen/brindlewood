@@ -5,7 +5,9 @@ summary: "What coins buy: keys, boosters, commands, cosmetics and ranks."
 order: 34
 updated: "2026-11-05"
 ---
-Spend your coins on ranks, keys, boosters, commands and cosmetics. To open it, talk to the CoinShop NPC at spawn, or use `/coinshop`.
+To open the CoinShop, talk to the CoinShop NPC at spawn, or use `/coinshop`.
+
+![The CoinShop menu with its categories, plus Coins and Store buttons](/screens/guide-coinshop.jpg)
 
 ## Crate keys
 

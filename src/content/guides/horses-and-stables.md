@@ -5,7 +5,7 @@ summary: "Buy a horse and keep it in your stable. Prices and horse armor."
 order: 75
 updated: "2026-11-05"
 ---
-Buy a horse and keep it in your stable. The stable has **5 slots**. Horses are sold by the Horse Stables NPCs. Higher tiers are better horses.
+Your stable has **5 slots**. Horses are sold by the Horse Stables NPCs. Higher tiers are better horses.
 
 ## Where to find the stables
 

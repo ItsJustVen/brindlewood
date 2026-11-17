@@ -3,9 +3,9 @@ title: "Maps and Claim Maps"
 category: world
 summary: "Find towns and see claims before you build."
 order: 25
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
-- `/openmap` opens the world map menu (overworld, nether and end).
+- `/map` opens the world map menu (overworld, nether and end).
 - `/claims` shows claims around you.
 
 Use the map to find towns, and the claim map before you build so you don't overlap someone else.

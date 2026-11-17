@@ -3,7 +3,7 @@ title: "Voting for BrindleWood"
 category: extras
 summary: "Vote on three sites and get a Vote Crate key and Level XP."
 order: 79
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 Every vote helps new players find BrindleWood, and it pays you back. Each vote gives you:
 
@@ -23,7 +23,7 @@ Every link counts:
 ## How it works
 
 1. Open a link above.
-2. Enter your exact Minecraft username.
+2. Enter your exact Minecraft username. **Bedrock players must include the `BR_` prefix** (for example `BR_Steve`).
 3. Complete the vote.
 4. Your reward arrives in-game. If you're offline, you get it when you log in.
 

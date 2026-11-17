@@ -3,7 +3,7 @@ title: "Claiming Land"
 category: land
 summary: "Protect your builds: how to claim, every claim command, settings, members, selling and more."
 order: 50
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 BrindleWood uses the **SimpleClaimSystem** plugin. Claim your land in **playworld**, and only you and the people you add can build there. Claiming is **free**.
 
@@ -141,7 +141,7 @@ You can sell a claim to another player for money:
 
 ## Good to know
 
-- You can only claim in **playworld**. Aldoria (spawn), the Nether and the End can't be claimed.
+- You can only claim in **playworld**. Aldoria (spawn), the Nether, the End and the resource world can't be claimed.
 - Claiming costs **no money**.
 - Adding a member takes effect right away. They don't have to accept an invite.
 - You get a message when you enter or leave a claim.

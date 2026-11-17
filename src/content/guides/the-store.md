@@ -3,7 +3,7 @@ title: "The Store: What's in It"
 category: store
 summary: "What the store sells, and what can only be bought."
 order: 90
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 The store is optional. BrindleWood is built as support without buying the win. Almost everything sold can also be earned in-game, including claims and chunks.
 
@@ -33,3 +33,5 @@ Everything else is available in-game for free if you'd rather play for it.
 ## Having trouble with a purchase?
 
 Open a ticket in our Discord and tell us your username and what you bought.
+
+**Bedrock players:** enter your name with the `BR_` prefix at checkout (for example `BR_Steve`), or your purchase won't reach the right account.

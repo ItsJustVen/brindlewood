@@ -3,7 +3,7 @@ title: "Choosing Your Race"
 category: characters
 summary: "How races work and which one to pick."
 order: 14
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 Your race defines how your character plays. Each one plays differently, with its own strengths, weaknesses and abilities.
 
@@ -11,6 +11,8 @@ Your race defines how your character plays. Each one plays differently, with its
 
 - The race menu opens on its own the first time you join.
 - You can't play until you pick one.
+- **Your race is permanent.** You can't switch between the free races, so choose with care.
+- The only way to get a different race is the store: each premium race is **$10** and is bought separately, and you can't switch between premium races either. A **custom race** (you design it, staff approve it) starts at **$35**.
 - Missed it or want another look? Use `/races gui`.
 
 ## Race commands

@@ -3,7 +3,7 @@ title: "Warps and Player Warps"
 category: land
 summary: "Server warps and warps made by players."
 order: 56
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 
 ## Warps
@@ -31,6 +31,10 @@ Let everyone teleport to a place you made.
 
 ## The resource world
 
-The resource world is for gathering. It **resets every Sunday** with a new seed, so new items and blocks from the latest Minecraft release show up. Don't build or leave anything there you want to keep.
+The resource world is for gathering. It **resets every Saturday night at 11 PM Eastern**, during the server restart, with a new seed, so new items and blocks from the latest Minecraft release show up. Don't leave anything there you want to keep.
 
 - `/warp rw` takes you there
+- There is **no world border**.
+- You **can't claim land** there.
+- **PvP is on.**
+- It has no End of its own.

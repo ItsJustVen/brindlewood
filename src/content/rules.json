@@ -20,7 +20,7 @@
     {
       "icon": "⛏️",
       "title": "Play Fair",
-      "body": "No cheating, hacked clients, exploits, unauthorized automation, or scams. Follow each server's gameplay rules."
+      "body": "No cheating, hacked clients, exploits, unauthorized automation, or scams."
     },
     {
       "icon": "🏡",
@@ -50,7 +50,8 @@
   ],
   "enforcement": {
     "title": "Enforcement",
-    "body": "Breaking the rules may result in warnings, mutes, kicks, or temporary/permanent bans depending on the severity and circumstances."
+    "body": "Breaking the rules may result in warnings, mutes, kicks, or temporary/permanent bans depending on the severity and circumstances. The usual ladder is a written warning, then a 3-day temporary ban, then a permanent ban. It works the same way on Discord. To appeal a ban, open a ticket in our Discord (#create-a-ticket)."
   },
+  "ages": "BrindleWood is built for adult players, but every respectful player is welcome. Discord requires members to be 13 or older. Players under 13 need a parent or guardian's permission to play on the Minecraft server.",
   "closing": "**Thank you for helping make BrindleWood a place everyone can enjoy!**"
 }

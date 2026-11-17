@@ -1,7 +1,7 @@
 [
   {
     "q": "What version of Minecraft do I need?",
-    "a": "BrindleWood supports Minecraft version {minecraftVersion}."
+    "a": "Java players need Minecraft {minecraftVersion}. Bedrock players should use the newest version."
   },
   {
     "q": "How do I join?",
@@ -13,7 +13,7 @@
   },
   {
     "q": "Do I have to use the resource pack?",
-    "a": "Yes. It powers the custom furniture, cosmetics and every menu, and it installs automatically. The first download can take up to about 10 minutes. Don't cancel it, even if it looks stuck."
+    "a": "Yes. It powers the custom furniture, cosmetics and every menu, and it installs automatically. The first download can take up to about 5 minutes. Don't cancel it, even if it looks stuck."
   },
   {
     "q": "Can Bedrock players join?",
@@ -21,7 +21,7 @@
   },
   {
     "q": "When does the server restart?",
-    "a": "Every day at midnight EST. Finish dungeon runs and trades before then, and if you get kicked, try again in a few minutes."
+    "a": "Every day at 11 PM Eastern Time, for both Java and Bedrock. Finish dungeon runs and trades before then, and if you get kicked, try again in a few minutes."
   },
   {
     "q": "Is the server free to play?",
@@ -40,8 +40,16 @@
     "a": "The Guides section covers races, classes, skills, jobs, money, claims, guilds, minions, dungeons and more. You can search it for any word."
   },
   {
+    "q": "Can I change my race later?",
+    "a": "No. Your race is permanent, and you can't switch between the free races. Premium races are $10 each in the store, and you can't switch between those either. You can also buy a custom race, starting at $35."
+  },
+  {
     "q": "Can I switch kingdoms later?",
     "a": "Yes, but you can only bring what fits in your inventory and ender chest. Builds and other structures must be left as they are, and you need to unclaim your land in the kingdom you're leaving."
+  },
+  {
+    "q": "What happens when a season ends?",
+    "a": "BrindleWood plays in seasons, and everything resets at the end of one. Nothing carries over, including store purchases. We don't have an end date yet and will announce it in our Discord."
   },
   {
     "q": "Can I get a refund on a purchase?",

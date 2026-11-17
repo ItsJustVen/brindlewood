@@ -23,7 +23,7 @@
   "gettingStarted": [
     {
       "title": "1. Pick your race",
-      "body": "The race menu opens the first time you join, and you can't play until you choose. Four races are free.",
+      "body": "The race menu opens the first time you join, and you can't play until you choose. Four races are free. **Your race is permanent**, so choose with care.",
       "to": "/guides/choosing-your-race",
       "linkText": "How races work"
     },

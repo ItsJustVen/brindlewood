@@ -3,11 +3,11 @@ title: "Jobs: How to Earn Money"
 category: economy
 summary: "The main way to earn money by playing normally, with every job NPC location."
 order: 31
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or fight, and get paid for it.
 
-**Start here:** each job has its own NPC in the spawn world (`/spawn`). Find the NPC to join. Money arrives as you do the job's actions.
+**Start here:** each job has its own NPC in Aldoria, the spawn world. You walk there to join, and some are more than 500 blocks from the spawn gate, so it's a bit of a journey. Money arrives as you do the job's actions.
 
 ## Where to find each job NPC (x, y, z)
 
@@ -26,11 +26,11 @@ Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or
 | Lumberjack | -596, 86, 372 |
 | Miner | -95, 79, -102 |
 
-The **Jobs NPC** at **-53, 99, 19** in the spawn world has the jobs menu. Each job also has its own NPC (below).
+The main **Jobs NPC** at **-53, 99, 19** in the spawn world shows how many job slots you have, how many you're using and your job level. Once you've chosen a job, it can teleport you to your employer (that job's NPC).
 
 ## Joining and leaving
 
-Jobs are **not** joined with commands. Walk up to the job's NPC in the spawn world (`/spawn`) and use its menu to join, leave or check your progress.
+Jobs are **not** joined with commands. Walk up to the job's own NPC in Aldoria and use its menu to join, leave or check your progress.
 
 ## How jobs work
 

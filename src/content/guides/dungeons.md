@@ -3,7 +3,7 @@ title: "Dungeons"
 category: world
 summary: "How dungeon runs work, plus the Sanctum of Skulls and the Whispering Maze."
 order: 27
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 BrindleWood has two dungeons in Aldoria. Each one is a place with its own enemies, a boss and its own loot.
 
@@ -29,9 +29,9 @@ The guard's info menu shows the current state: awakening, in a conquest, or on c
 
 - Difficulty is Hard. Bring food, potions and spare armor.
 - Team up. More players means the mobs go down faster.
-- Don't leave right before the midnight EST restart.
+- Don't leave it until right before the 11 PM Eastern restart.
 - Dungeon drops sell well at the [Auction House](/guides/auction-house).
-- Found a bug? Post it in **#bug-reports** on our Discord.
+- Found a bug? Post it in **#help-us** on our Discord.
 
 ## Sanctum of Skulls (Difficulty I, Easy)
 

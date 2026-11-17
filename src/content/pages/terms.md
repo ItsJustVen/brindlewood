@@ -49,7 +49,7 @@ Questions about these terms? Open a ticket in our Discord or use our [Contact pa
 
 ## No warranty
 
-BrindleWood is provided "as is". The server may go offline, restart (daily at midnight Eastern Time) or lose data. We do our best, but we can't promise it will always be available.
+BrindleWood is provided "as is". The server may go offline, restart (daily at 11 PM Eastern Time) or lose data. We do our best, but we can't promise it will always be available.
 
 ## Not affiliated with Mojang or Microsoft
 

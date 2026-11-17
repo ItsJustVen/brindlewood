@@ -35,6 +35,13 @@ export default function Rules() {
           <p>{rules.enforcement.body}</p>
         </div>
 
+        {rules.ages && (
+          <div className="card mt-6">
+            <h2 className="text-lg font-bold">Ages</h2>
+            <p>{rules.ages}</p>
+          </div>
+        )}
+
         <p className="mt-8 text-center text-lg">
           <RichText text={rules.closing} />
         </p>

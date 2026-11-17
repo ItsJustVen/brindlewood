@@ -3,7 +3,7 @@ title: "Free and Premium Races"
 category: characters
 summary: "The four free races and the four premium races, with strengths and weaknesses."
 order: 15
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 
 ## The four free races
@@ -44,7 +44,7 @@ Hewn from stone.
 
 ## The four premium races
 
-Available through the [store](/guides/the-store). Each has an Awakened form at level 100.
+Available through the [store](/guides/the-store) for **$10 each**, bought separately. Once you pick one you can't switch between premium races. Each has an Awakened form at level 100.
 
 ### Kaldrun
 

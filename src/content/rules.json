@@ -1,5 +1,5 @@
 {
-  "intro": "Welcome to **BrindleWood!** 🌿 Our goal is to create a friendly, welcoming community where everyone can relax, build, explore, and have fun. By participating in our Discord or Minecraft servers, you agree to follow these rules.",
+  "intro": "Welcome to **BrindleWood!** Our goal is to create a friendly, welcoming community where everyone can relax, build, explore, and have fun. By participating in our Discord or Minecraft servers, you agree to follow these rules.",
   "items": [
     {
       "icon": "🌿",
@@ -49,8 +49,8 @@
     }
   ],
   "enforcement": {
-    "title": "⚖️ Enforcement",
+    "title": "Enforcement",
     "body": "Breaking the rules may result in warnings, mutes, kicks, or temporary/permanent bans depending on the severity and circumstances."
   },
-  "closing": "❤️ **Thank you for helping make BrindleWood a place everyone can enjoy!**"
+  "closing": "**Thank you for helping make BrindleWood a place everyone can enjoy!**"
 }

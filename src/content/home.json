@@ -62,5 +62,44 @@
       "title": "Play on anything",
       "body": "Java players join by address. Console, mobile and Windows Bedrock players join through a friend account, with no address to type."
     }
+  ],
+  "staffHeading": "Who runs BrindleWood",
+  "staffIntro": "The people behind the server. You'll find us in game and in the Discord.",
+  "staff": [
+    {
+      "role": "Owners",
+      "names": [
+        "BR_ItsJustVen596",
+        "Ekoh_Nav",
+        "Ljos57",
+        "MossPlays5070"
+      ]
+    },
+    {
+      "role": "Manager",
+      "names": [
+        "FlamedSunset"
+      ]
+    },
+    {
+      "role": "Administrator",
+      "names": [
+        "Jhostfist"
+      ]
+    },
+    {
+      "role": "Senior Moderators",
+      "names": [
+        "BR_xioro2",
+        "Ner0Machine"
+      ]
+    },
+    {
+      "role": "Helpers",
+      "names": [
+        "TiltedNinjaBoss",
+        "BR_DarkLightFox"
+      ]
+    }
   ]
 }

@@ -90,7 +90,7 @@ export function Markdown({ source }: { source: string }) {
             <Inline text={text} />
           </h3>
         ) : (
-          <h2 key={key++} id={id} className="mb-3 mt-8 text-2xl font-bold text-teal">
+          <h2 key={key++} id={id} className="mb-3 mt-8 text-2xl font-bold">
             <Inline text={text} />
           </h2>
         ),
@@ -150,7 +150,7 @@ export function Markdown({ source }: { source: string }) {
             <thead>
               <tr>
                 {head.map((h, c) => (
-                  <th key={c} className="border-b-2 border-wood px-3 py-2 font-bold text-teal">
+                  <th key={c} className="border-b-2 border-wood px-3 py-2 font-bold">
                     <Inline text={h} />
                   </th>
                 ))}

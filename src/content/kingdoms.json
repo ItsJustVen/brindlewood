@@ -4,7 +4,9 @@
     "name": "Peacefield",
     "corner": "Northwest",
     "summary": "A calm, cooperative kingdom that will do anything to protect its peace.",
-    "description": "Peace is the heart of Peacefield. This is a kingdom for players who value calm, cooperation, and a quiet corner of the world to call home, and its people will do everything in their power to protect that peace."
+    "description": "Peace is the heart of Peacefield. This is a kingdom for players who value calm, cooperation, and a quiet corner of the world to call home, and its people will do everything in their power to protect that peace.",
+    "image": "screens/peacefield.jpg",
+    "imageAlt": "Small wooden houses and flower fields beneath a floating island in Peacefield"
   },
   {
     "id": "rosewood",

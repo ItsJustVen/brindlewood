@@ -11,7 +11,7 @@ export default function Kingdoms() {
   return (
     <>
       <PageHead title="The Four Kingdoms">
-        One kingdom in each corner of the world. Choose where your story begins.
+        One kingdom in each corner of the map. Two are settled, and two are waiting for a founder.
       </PageHead>
 
       <Section>

@@ -12,10 +12,15 @@ const fail = (msg) => errors.push(msg);
 const read = (name) => (existsSync(join(dist, name)) ? readFileSync(join(dist, name), "utf8") : null);
 
 const index = read("index.html");
+// Page copies may have their own title and link-preview tags; everything else must match.
+const noHead = (html) => html.replace(/<head>[\s\S]*<\/head>/, "");
+const sameApp = (a, b) => /<\/head>/.test(a) && noHead(a) === noHead(b);
 const notFound = read("404.html");
 if (!index) fail("dist/index.html is missing");
 if (!notFound) fail("dist/404.html is missing (direct links to pages would 404)");
 if (index && notFound && index !== notFound) fail("dist/404.html differs from index.html");
+if (!existsSync(join(dist, "sitemap.xml"))) fail("dist/sitemap.xml is missing");
+if (!existsSync(join(dist, "robots.txt"))) fail("dist/robots.txt is missing");
 if (!existsSync(join(dist, ".nojekyll"))) fail("dist/.nojekyll is missing");
 const guideDir = new URL("../src/content/guides/", import.meta.url).pathname;
 const guideRoutes = existsSync(guideDir)
@@ -24,7 +29,7 @@ const guideRoutes = existsSync(guideDir)
 for (const route of ["play", "kingdoms", "rules", "store", "guides", "npcs", "contact", "privacy", "terms", ...guideRoutes]) {
   const page = read(`${route}/index.html`);
   if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
-  else if (index && page !== index) fail(`dist/${route}/index.html differs from index.html`);
+  else if (index && !sameApp(page, index)) fail(`dist/${route}/index.html differs from index.html`);
 }
 
 if (index) {

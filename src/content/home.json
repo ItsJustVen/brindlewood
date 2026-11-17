@@ -101,5 +101,8 @@
         "BR_DarkLightFox"
       ]
     }
-  ]
+  ],
+  "staffImage": "screens/crew.jpg",
+  "staffImageAlt": "Five players standing together on a wooden bridge at night, lit by lanterns",
+  "staffImageCaption": "A few of us in game"
 }

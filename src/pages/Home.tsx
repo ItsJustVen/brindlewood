@@ -112,6 +112,21 @@ export default function Home() {
 
       {home.staff.length > 0 && (
         <Section title={home.staffHeading} intro={home.staffIntro}>
+          {home.staffImage && (
+            <figure className="mb-6 max-w-2xl">
+              <img
+                src={asset(home.staffImage)}
+                alt={home.staffImageAlt ?? ""}
+                loading="lazy"
+                width={1600}
+                height={900}
+                className="aspect-video w-full rounded-lg border border-panel2 object-cover"
+              />
+              {home.staffImageCaption && (
+                <figcaption className="mt-1.5 text-sm text-muted">{home.staffImageCaption}</figcaption>
+              )}
+            </figure>
+          )}
           <dl className="grid gap-x-12 gap-y-5 sm:grid-cols-2">
             {home.staff.map((group) => (
               <div key={group.role} className="border-l-2 border-wood pl-4">

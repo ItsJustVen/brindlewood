@@ -34,6 +34,9 @@ export interface HomeContent {
   staffHeading: string;
   staffIntro: string;
   staff: { role: string; names: string[] }[];
+  staffImage?: string;
+  staffImageAlt?: string;
+  staffImageCaption?: string;
 }
 
 export interface Kingdom {

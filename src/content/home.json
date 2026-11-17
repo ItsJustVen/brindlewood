@@ -101,5 +101,15 @@
         "BR_DarkLightFox"
       ]
     }
-  ]
+  ],
+  "staffImage": "screens/crew.jpg",
+  "staffImageAlt": "Five players standing together on a wooden bridge at night, lit by lanterns",
+  "staffImageCaption": "A few of us in game",
+  "aboutHeading": "How BrindleWood started",
+  "about": [
+    "BrindleWood started as a family realm. We grew way too big for the 10 people a realm allows, so we became a server.",
+    "From there we slowly started roleplaying, which is when we decided on Kingdoms and built the spawn we have now.",
+    "We wanted somewhere we could have fun, use a ton of different things, and welcome people who were strangers into the fold as family."
+  ],
+  "since": "Running since April 27, 2021"
 }

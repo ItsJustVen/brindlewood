@@ -3,11 +3,13 @@ import IpBox from "../components/IpBox";
 import Section from "../components/Section";
 import ServerStatus from "../components/ServerStatus";
 import { announcements, home, kingdoms, site } from "../content";
+import { useDiscordStats } from "../hooks/useDiscordStats";
 import { usePageTitle } from "../hooks/usePageTitle";
 import { asset } from "../lib/text";
 
 export default function Home() {
   usePageTitle();
+  const discord = useDiscordStats();
   const latest = [...announcements].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   return (
@@ -110,8 +112,46 @@ export default function Home() {
         </div>
       </Section>
 
+      <Section title={home.aboutHeading}>
+        <div className="max-w-2xl space-y-3 text-muted">
+          {home.about.map((p) => (
+            <p key={p}>{p}</p>
+          ))}
+        </div>
+        <p className="mt-5 min-h-6 text-sm font-bold">
+          {home.since}
+          {discord && (
+            <>
+              <span className="text-muted"> · </span>
+              {discord.members} Discord members
+              {discord.online > 0 && (
+                <>
+                  <span className="text-muted"> · </span>
+                  {discord.online} online now
+                </>
+              )}
+            </>
+          )}
+        </p>
+      </Section>
+
       {home.staff.length > 0 && (
         <Section title={home.staffHeading} intro={home.staffIntro}>
+          {home.staffImage && (
+            <figure className="mb-6 max-w-2xl">
+              <img
+                src={asset(home.staffImage)}
+                alt={home.staffImageAlt ?? ""}
+                loading="lazy"
+                width={1600}
+                height={900}
+                className="aspect-video w-full rounded-lg border border-panel2 object-cover"
+              />
+              {home.staffImageCaption && (
+                <figcaption className="mt-1.5 text-sm text-muted">{home.staffImageCaption}</figcaption>
+              )}
+            </figure>
+          )}
           <dl className="grid gap-x-12 gap-y-5 sm:grid-cols-2">
             {home.staff.map((group) => (
               <div key={group.role} className="border-l-2 border-wood pl-4">

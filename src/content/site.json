@@ -11,5 +11,9 @@
   "serverStatus": {
     "enabled": true,
     "apiUrl": "https://api.mcstatus.io/v2/status/java/"
+  },
+  "discordStats": {
+    "enabled": true,
+    "apiUrl": "https://discord.com/api/v10/invites/aCjzjkNV7F?with_counts=true"
   }
 }

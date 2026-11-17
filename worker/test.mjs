@@ -65,3 +65,37 @@ assert.ok(validate("appeal", { username: "A" }).error);
 assert.equal(webhookUrl({ DISCORD_WEBHOOK_URL: "https://discord.test/hook" }), "https://discord.test/hook");
 assert.equal(webhookUrl({ DISCORD_WEBHOOK_URL: "https://discord.test/hook", DISCORD_THREAD_ID: "123" }), "https://discord.test/hook?thread_id=123");
 console.log("worker tests passed");
+
+// Patch notes
+{
+  const { cleanNote, pickNotes } = await import("./index.js");
+  assert.equal(cleanNote("Hi <@123> <@&9> <#55> <:pog:77> @everyone  \n\n\n\nBye"), "Hi\n\nBye");
+  assert.equal(cleanNote(null), "");
+  const msgs = [
+    { id: "3", type: 7, content: "joined" },
+    { id: "2", type: 0, content: "", embeds: [{ title: "v2", description: "Fixed graves" }], timestamp: "2026-11-16T00:00:00Z" },
+    { id: "1", type: 0, content: "**v1** <@1>", timestamp: "2026-11-15T00:00:00Z" },
+  ];
+  assert.deepEqual(pickNotes(msgs), [
+    { id: "2", date: "2026-11-16T00:00:00Z", text: "v2\n\nFixed graves" },
+    { id: "1", date: "2026-11-15T00:00:00Z", text: "**v1**" },
+  ]);
+  const get = (e) => worker.fetch(new Request("https://forms.test/patch-notes", { headers: { origin: "https://brindlewood.net" } }), e);
+  let res = await get(env);
+  assert.equal(res.status, 200);
+  assert.deepEqual(await res.json(), { ok: true, notes: [] });
+  let asked = null;
+  globalThis.fetch = async (url, init) => { asked = { url: String(url), auth: init.headers.authorization }; return new Response(JSON.stringify(msgs)); };
+  res = await get({ ...env, DISCORD_BOT_TOKEN: "tok", PATCH_NOTES_CHANNEL_ID: "42" });
+  const body = await res.json();
+  assert.equal(body.notes.length, 2);
+  assert.ok(asked.url.includes("/channels/42/messages") && asked.auth === "Bot tok");
+  assert.equal(res.headers.get("access-control-allow-origin"), "https://brindlewood.net");
+  assert.ok(!JSON.stringify(body).includes("tok"));
+  globalThis.fetch = async () => new Response("nope", { status: 403 });
+  res = await get({ ...env, DISCORD_BOT_TOKEN: "tok", PATCH_NOTES_CHANNEL_ID: "42" });
+  assert.deepEqual(await res.json(), { ok: true, notes: [] });
+  res = await worker.fetch(new Request("https://forms.test/other", { headers: { origin: "https://brindlewood.net" } }), env);
+  assert.equal(res.status, 404);
+  console.log("patch notes tests passed");
+}

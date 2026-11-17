@@ -5,11 +5,15 @@ import ServerStatus from "../components/ServerStatus";
 import { announcements, home, kingdoms, site } from "../content";
 import { useDiscordStats } from "../hooks/useDiscordStats";
 import { usePageTitle } from "../hooks/usePageTitle";
+import { discordToMarkdown, usePatchNotes } from "../hooks/usePatchNotes";
+import { Markdown } from "../lib/markdown";
 import { asset } from "../lib/text";
 
 export default function Home() {
   usePageTitle();
   const discord = useDiscordStats();
+  const latestNote = usePatchNotes()[0];
+  const noteDate = latestNote ? new Date(latestNote.date) : null;
   const latest = [...announcements].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   return (
@@ -81,6 +85,26 @@ export default function Home() {
               </article>
             ))}
           </div>
+        </Section>
+      )}
+
+      {latestNote && (
+        <Section title="Latest patch notes">
+          <article className="border-l-2 border-wood pl-4">
+            {noteDate && !Number.isNaN(noteDate.getTime()) && (
+              <p className="text-xs font-extrabold uppercase tracking-widest text-steel">
+                {noteDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+              </p>
+            )}
+            <div className="max-w-3xl">
+              <Markdown source={discordToMarkdown(latestNote.text)} />
+            </div>
+            <p className="mt-2 text-sm">
+              <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">
+                Earlier notes are in our Discord
+              </a>
+            </p>
+          </article>
         </Section>
       )}
 

@@ -4,3 +4,4 @@ compatibility_date = "2025-01-01"
 
 [vars]
 ALLOWED_ORIGINS = "https://brindlewood.net"
+PATCH_NOTES_CHANNEL_ID = "1572048903551983616"

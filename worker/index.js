@@ -1,13 +1,17 @@
 // BrindleWood forms Worker.
 // Receives a form from the website, checks it is from a human (Cloudflare Turnstile),
 // and posts it to a private staff channel in Discord. Nothing is stored here.
+// It also serves the latest posts from the public #patch-notes channel to the
+// website (GET /patch-notes), read with the bot's token and cached for 10 minutes.
 //
 // Secrets (set in Cloudflare, never in this file):
 //   TURNSTILE_SECRET     the Turnstile secret key
 //   DISCORD_WEBHOOK_URL  the webhook URL of the staff channel
+//   DISCORD_BOT_TOKEN    optional, the bot's token, used only to read patch notes
 // Settings (plain text):
 //   ALLOWED_ORIGINS      comma separated, for example https://brindlewood.net
 //   DISCORD_THREAD_ID    optional, the forum post (thread) to post into
+//   PATCH_NOTES_CHANNEL_ID  optional, the channel whose latest posts the site shows
 
 const FORMS = {
   support: {
@@ -140,6 +144,71 @@ async function humanCheck(env, token, ip) {
   return data.success === true;
 }
 
+// Turns a Discord message into plain text that is safe to show on the website:
+// no mentions, no custom emoji codes, and a length limit.
+export function cleanNote(text) {
+  if (typeof text !== "string") return "";
+  return text
+    .replace(/\r\n?/g, "\n")
+    .replace(/<@[!&]?\d+>/g, "")
+    .replace(/<#\d+>/g, "")
+    .replace(/<a?:\w+:\d+>/g, "")
+    .replace(/@(everyone|here)/g, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim()
+    .slice(0, 2000);
+}
+
+// Picks the newest ordinary posts that have text. Discord returns newest first.
+export function pickNotes(messages, limit = 3) {
+  const notes = [];
+  if (!Array.isArray(messages)) return notes;
+  for (const m of messages) {
+    if (!m || (m.type !== 0 && m.type !== 19)) continue;
+    const embed = Array.isArray(m.embeds) && m.embeds[0] ? m.embeds[0] : null;
+    const raw = m.content || (embed ? [embed.title, embed.description].filter(Boolean).join("\n\n") : "");
+    const text = cleanNote(raw);
+    if (!text) continue;
+    notes.push({ id: String(m.id), date: String(m.timestamp || ""), text });
+    if (notes.length >= limit) break;
+  }
+  return notes;
+}
+
+const NOTES_CACHE_KEY = "https://brindlewood-forms.internal/patch-notes-v1";
+
+// Never fails loudly: if anything is missing or Discord is down, the site gets
+// an empty list and simply shows nothing.
+async function patchNotes(env) {
+  if (!env.DISCORD_BOT_TOKEN || !env.PATCH_NOTES_CHANNEL_ID) return [];
+  const cache = typeof caches !== "undefined" ? caches.default : null;
+  if (cache) {
+    const hit = await cache.match(NOTES_CACHE_KEY);
+    if (hit) return hit.json();
+  }
+  let notes = [];
+  try {
+    const res = await fetch(
+      `https://discord.com/api/v10/channels/${encodeURIComponent(env.PATCH_NOTES_CHANNEL_ID)}/messages?limit=15`,
+      { headers: { authorization: `Bot ${env.DISCORD_BOT_TOKEN}` } },
+    );
+    if (!res.ok) return [];
+    notes = pickNotes(await res.json());
+  } catch {
+    return [];
+  }
+  if (cache) {
+    await cache.put(
+      NOTES_CACHE_KEY,
+      new Response(JSON.stringify(notes), {
+        headers: { "content-type": "application/json", "cache-control": "max-age=600" },
+      }),
+    );
+  }
+  return notes;
+}
+
 export default {
   async fetch(request, env) {
     const allowed = (env.ALLOWED_ORIGINS || "").split(",").map((s) => s.trim()).filter(Boolean);
@@ -152,12 +221,16 @@ export default {
         status: 204,
         headers: {
           "access-control-allow-origin": okOrigin,
-          "access-control-allow-methods": "POST, OPTIONS",
+          "access-control-allow-methods": "GET, POST, OPTIONS",
           "access-control-allow-headers": "content-type",
           "access-control-max-age": "86400",
           vary: "origin",
         },
       });
+    }
+
+    if (request.method === "GET" && new URL(request.url).pathname === "/patch-notes") {
+      return json({ ok: true, notes: await patchNotes(env) }, 200, okOrigin);
     }
 
     if (request.method !== "POST") return json({ ok: false, error: "Not found." }, 404, okOrigin);

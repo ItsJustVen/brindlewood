@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 summary: What BrindleWood collects, why, and how to ask for it to be removed.
-updated: "2026-11-05"
+updated: "2026-11-16"
 ---
 BrindleWood is a small, volunteer-run Minecraft community. We collect as little as we can, only to run the server safely and keep it fair. This page covers our website, our Minecraft server, our Discord server and our Discord bot.
 
@@ -9,6 +9,7 @@ BrindleWood is a small, volunteer-run Minecraft community. We collect as little 
 
 - **No accounts, no ads, no tracking cookies.** The website is a static site. We do not run analytics on it.
 - **Server status.** The home page shows whether the server is online. To do that, your browser asks a public status service (mcstatus.io) about our server. That service can see your IP address, as any website you visit can.
+- **Discord member count.** The home page shows how many members our Discord has. To do that, your browser asks Discord's public invite service. Discord can see your IP address when it answers, as any website you visit can.
 - **Hosting.** The site is hosted by GitHub Pages and the domain is managed by Cloudflare. They may keep ordinary technical logs, under their own privacy policies.
 - **Links to other services.** Our Discord, our Tebex store and our live map are run by other services with their own privacy policies.
 

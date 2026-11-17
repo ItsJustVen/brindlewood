@@ -14,6 +14,7 @@ export interface SiteConfig {
   /** Public Cloudflare Turnstile site key. Leave empty until it is set up. */
   turnstileSiteKey: string;
   serverStatus: { enabled: boolean; apiUrl: string };
+  discordStats: { enabled: boolean; apiUrl: string };
 }
 
 export interface IconCard {
@@ -31,6 +32,9 @@ export interface HomeContent {
   kingdomsIntro: string;
   featuresHeading: string;
   features: { title: string; body: string }[];
+  aboutHeading: string;
+  about: string[];
+  since: string;
   staffHeading: string;
   staffIntro: string;
   staff: { role: string; names: string[] }[];

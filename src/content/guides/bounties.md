@@ -21,5 +21,5 @@ The player doesn't need to be online. A **10% tax** is added to the amount, so b
 
 ## Tips
 
-- PvP is on outside spawn. See [PvP and Combat](/guides/pvp-and-combat) for the combat timer and safe areas.
+- PvP is on outside the spawn safe zone. See [PvP and Combat](/guides/pvp-and-combat) for the combat timer and safe areas.
 - Claimed land may have PvP turned off by its owner.

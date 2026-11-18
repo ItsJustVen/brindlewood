@@ -31,7 +31,9 @@ export default function Home() {
           <h1 className="absolute inset-x-0 bottom-3 px-4 text-4xl font-black sm:text-6xl">{site.name}</h1>
         </div>
         <div className="px-4">
-        <p className="mx-auto mb-6 mt-3 max-w-xl text-lg text-muted">{site.tagline}</p>
+        <p className="mx-auto mt-3 max-w-xl text-lg text-muted">{site.tagline}</p>
+        {site.subtagline && <p className="mx-auto mt-1 max-w-xl text-sm text-muted">{site.subtagline}</p>}
+        <div className="mb-6" />
 
         <ServerStatus />
         <div>

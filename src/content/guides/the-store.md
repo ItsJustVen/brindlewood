@@ -14,7 +14,7 @@ The store is optional. BrindleWood is built as support without buying the win. A
 - Coins (see [Coins](/guides/coins))
 - Ranks (see [Ranks](/guides/ranks))
 - Crate keys
-- Fly Command
+- Fly Command (fly anywhere)
 - Extra claims and chunks
 - Premium races
 - Furniture package
@@ -25,10 +25,10 @@ The store is optional. BrindleWood is built as support without buying the win. A
 Three things can't be earned in-game:
 
 - Premium races
-- Fly Command
+- Fly Command (flying anywhere on the server). Flying inside your own claims can be earned in-game.
 - Spawner Core (extra spawner permissions, since too many spawners cause lag)
 
-Everything else is available in-game for free if you'd rather play for it.
+Everything else, including ranks, claims, crates and cosmetics, can be earned in-game if you'd rather play for it.
 
 ## Having trouble with a purchase?
 

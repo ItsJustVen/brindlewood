@@ -1,5 +1,5 @@
 {
-  "intro": "Joining BrindleWood takes about a minute. Java and Bedrock players are both welcome.",
+  "intro": "Joining BrindleWood should be fast and easy!",
   "java": {
     "title": "Java Edition (PC)",
     "steps": [
@@ -40,5 +40,6 @@
       "linkText": "How claiming works"
     }
   ],
-  "faqHeading": "FAQ"
+  "faqHeading": "FAQ",
+  "introSub": "Especially for Bedrock!"
 }

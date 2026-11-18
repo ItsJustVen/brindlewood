@@ -1,6 +1,6 @@
 {
   "name": "BrindleWood",
-  "tagline": "Kingdoms RPG survival for Java and Bedrock. Pick a race, join a kingdom, claim your land.",
+  "tagline": "Create your character, join or build a Kingdom, and write your own story.",
   "minecraftVersion": "26.2 and above",
   "javaIp": "rpg.brindlewood.net",
   "discordUrl": "https://discord.gg/aCjzjkNV7F",
@@ -15,5 +15,6 @@
   "discordStats": {
     "enabled": true,
     "apiUrl": "https://discord.com/api/v10/invites/aCjzjkNV7F?with_counts=true"
-  }
+  },
+  "subtagline": "An RPG Kingdoms server for all platforms."
 }

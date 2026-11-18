@@ -8,8 +8,8 @@ updated: "2026-11-17"
 
 ## PvP
 
-- Spawn (Aldoria) is safe. PvP is off in the spawn hub.
-- Everywhere else, PvP is on (including playworld and the resource world). Other players can fight you. Inside a claim, PvP depends on whether the claim owner turned it on.
+- The safe zone around spawn in Aldoria has PvP off.
+- Everywhere else, PvP is on, including the danger zones in Aldoria, the playworld and the resource world. Other players can fight you. Inside a claim, PvP depends on whether the claim owner turned it on.
 
 Difficulty is Hard, so be ready for mobs too.
 

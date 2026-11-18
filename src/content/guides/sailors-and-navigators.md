@@ -28,5 +28,5 @@ In the spawn world (Aldoria):
 
 - Set a home first with `/sethome`.
 - Bring food, armor and spare gear. Difficulty is Hard.
-- PvP is on outside spawn, so valuables stay home.
+- PvP is on outside the spawn safe zone, so valuables stay home.
 - If you die, see [Dying: Graves and Item Loss](/guides/dying-graves-and-item-loss).

@@ -32,7 +32,15 @@ export default function Play() {
 
   return (
     <>
-      <PageHead title="How to Play">{play.intro}</PageHead>
+      <PageHead title="How to Play">
+        {play.intro}
+        {play.introSub && (
+          <>
+            <br />
+            {play.introSub}
+          </>
+        )}
+      </PageHead>
 
       <Section>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5">

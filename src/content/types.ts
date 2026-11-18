@@ -4,6 +4,7 @@
 export interface SiteConfig {
   name: string;
   tagline: string;
+  subtagline?: string;
   minecraftVersion: string;
   javaIp: string;
   discordUrl: string;
@@ -82,6 +83,7 @@ export interface StoreContent {
 
 export interface PlayContent {
   intro: string;
+  introSub?: string;
   java: { title: string; steps: string[] };
   bedrock: { title: string; steps: string[]; note: string };
   gettingStartedHeading: string;

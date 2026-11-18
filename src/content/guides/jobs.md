@@ -42,6 +42,25 @@ Jobs are **not** joined with commands. Walk up to the job's own NPC in Aldoria a
 - Higher job level means higher pay: at level 30 you earn about 3.9x what you earned at level 1.
 - There is no hourly earnings cap.
 
+## What each job pays
+
+Pay depends on what you do. These are the base amounts at job level 1. They grow about 10% per level (see above). Some jobs pay a flat amount for everything they cover, and others pay far more for rare things.
+
+| Job | What pays | Pay per action |
+| --- | --- | --- |
+| Alchemist | Brewing potions | $0.40 to $5 (dragon's breath pays the most) |
+| Builder | Placing blocks | $0.50 per block |
+| Enchanter | Enchanting items | $1 to $30 (an elytra pays the most, netherite gear $20) |
+| Engineer | Crafting and repairing | $0.50 to $10 crafting (end crystals, ender chests and lodestones pay the most), up to $5 repairing netherite tools |
+| Explorer | Exploring new places | $0.10 to $3 |
+| Farmer | Harvesting and planting crops | $0.10 to $0.40 |
+| Fighter | Killing tough mobs | $0.50 to $8 (a warden pays the most) |
+| Fisher | Fishing | $1 to $3.50 (pufferfish pays the most) |
+| Guard | Killing Sanctum of Skulls monsters | $1 per kill |
+| Hunter | Hunting and taming animals | $0.80 to $8 hunting (polar bears pay the most), $2.50 to $4 taming |
+| Lumberjack | Chopping logs and planting saplings | $0.10 to $0.40 |
+| Miner | Mining ores and smelting | $0.30 to $3.50 mining (diamond pays the most), $0.40 to $0.70 smelting |
+
 ## Tips
 
 - Pick the job that matches what you already enjoy.

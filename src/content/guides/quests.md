@@ -3,7 +3,7 @@ title: "Quests: General and Race Quests"
 category: characters
 summary: "Quests for everyone and three quests for every race."
 order: 18
-updated: "2026-11-05"
+updated: "2026-11-17"
 ---
 Quests are part of the Races system. You get a chat message when one starts, and you can read any quest's objectives and rewards with `/races questview <quest name>`.
 
@@ -19,14 +19,16 @@ Quest names have spaces, so write the whole name, like `/races questview Chef Ch
 
 ## Quests for everyone
 
-- **Beginning:** break 10 grass blocks and 10 dirt blocks for a diamond
-- **Hunting:** become a master hunter
-- **Explorer:** discover new horizons
-- **Architect:** build masterful structures
-- **Farmer's Duty:** harvest and cultivate
-- **Treasure Hunter:** seek out hidden treasures
-- **Chef Challenge:** prepare a feast fit for a king
-- **Miner Madness:** mine rare ores in the depths
+| Quest | What it's about | Reward |
+| --- | --- | --- |
+| Beginning | Break 10 grass blocks and 10 dirt blocks | 1 diamond |
+| Hunting | Become a master hunter | 1 diamond, 3 emeralds, 1 nether star |
+| Explorer | Discover new horizons | 5 gold ingots |
+| Architect | Build masterful structures | 10 iron ingots |
+| Farmer's Duty | Harvest and cultivate | 3 bread, 1 golden apple |
+| Treasure Hunter | Seek out hidden treasures | 5 diamonds |
+| Chef Challenge | Prepare a feast fit for a king | Chef's Special Kit (custom food with special effects) |
+| Miner Madness | Mine rare ores in the depths | Miner's Fury Pickaxe (Efficiency VI, Unbreaking IV, Fortune III) |
 
 ## Race quests
 

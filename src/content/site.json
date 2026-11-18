@@ -1,6 +1,6 @@
 {
   "name": "BrindleWood",
-  "tagline": "Create your character, join or build a Kingdom, and write your own story.",
+  "tagline": "A Kingdoms RPG with 8 races, 6 classes and 12 jobs.",
   "minecraftVersion": "26.2 and above",
   "javaIp": "rpg.brindlewood.net",
   "discordUrl": "https://discord.gg/aCjzjkNV7F",
@@ -10,11 +10,13 @@
   "turnstileSiteKey": "0x4AAAAAAF0i1SfZ8MFzKl2j",
   "serverStatus": {
     "enabled": true,
-    "apiUrl": "https://api.mcstatus.io/v2/status/java/"
+    "apiUrl": "https://api.mcstatus.io/v2/status/java/",
+    "minPlayersToShow": 5
   },
   "discordStats": {
     "enabled": true,
     "apiUrl": "https://discord.com/api/v10/invites/aCjzjkNV7F?with_counts=true"
   },
-  "subtagline": "An RPG Kingdoms server for all platforms."
+  "subtagline": "Create your character, join or build a Kingdom, and write your own story.",
+  "bedrockFriend": "EuphoriaHQ7845"
 }

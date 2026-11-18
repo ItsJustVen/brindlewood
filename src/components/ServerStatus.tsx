@@ -1,3 +1,4 @@
+import { site } from "../content";
 import { useServerStatus } from "../hooks/useServerStatus";
 
 /**
@@ -7,15 +8,14 @@ import { useServerStatus } from "../hooks/useServerStatus";
  * if the status API fails. The wrapper always reserves the pill's height so the
  * page below does not jump.
  */
-export default function ServerStatus() {
+export default function ServerStatus({ discordOnline = 0 }: { discordOnline?: number }) {
   const status = useServerStatus();
 
-  const text =
-    status.state === "online"
-      ? status.players > 0
-        ? `${status.players} adventuring now`
-        : "Server online"
-      : null;
+  // A tiny player count makes a server look empty, so only show it once it is a healthy number.
+  const min = site.serverStatus.minPlayersToShow ?? 1;
+  const base =
+    status.state === "online" ? (status.players >= min ? `${status.players} adventuring now` : "Server online") : null;
+  const text = base && discordOnline > 0 ? `${base} · ${discordOnline} online in Discord` : base;
 
   return (
     <div className="mb-4 flex min-h-[2.125rem] justify-center">

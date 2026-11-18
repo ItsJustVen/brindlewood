@@ -125,5 +125,24 @@
     "title": "Lead a Kingdom",
     "body": "Rosewood in the northeast and Subterra in the southeast have no leader yet. Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
     "linkText": "Open a ticket in Discord"
-  }
+  },
+  "highlights": [
+    {
+      "title": "Build your character",
+      "body": "Pick a race, a class and a playstyle. They all stack."
+    },
+    {
+      "title": "Earn as you play",
+      "body": "12 jobs, plus free hourly, daily and weekly rewards."
+    },
+    {
+      "title": "Run the dungeons",
+      "body": "Fight through the Sanctum of Skulls and the Whispering Maze."
+    },
+    {
+      "title": "Found or join a Kingdom",
+      "body": "Claim your land, build a home and share a guild bank."
+    }
+  ],
+  "freeLine": "Free to play. No whitelist and no application. Just join."
 }

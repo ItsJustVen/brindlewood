@@ -5,6 +5,8 @@ export interface SiteConfig {
   name: string;
   tagline: string;
   subtagline?: string;
+  /** Bedrock players join by adding this friend account. */
+  bedrockFriend?: string;
   minecraftVersion: string;
   javaIp: string;
   discordUrl: string;
@@ -14,7 +16,7 @@ export interface SiteConfig {
   formsUrl: string;
   /** Public Cloudflare Turnstile site key. Leave empty until it is set up. */
   turnstileSiteKey: string;
-  serverStatus: { enabled: boolean; apiUrl: string };
+  serverStatus: { enabled: boolean; apiUrl: string; /** Show the player count only at or above this number. */ minPlayersToShow?: number };
   discordStats: { enabled: boolean; apiUrl: string };
 }
 
@@ -29,6 +31,8 @@ export interface HomeContent {
   heroAlt: string;
   galleryHeading: string;
   gallery: { src: string; alt: string; caption: string }[];
+  highlights?: { title: string; body: string }[];
+  freeLine?: string;
   newHere?: { text: string; linkText: string };
   leaderCta?: { title: string; body: string; linkText: string };
   kingdomsHeading: string;

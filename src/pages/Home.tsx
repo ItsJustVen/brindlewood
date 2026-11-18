@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import IpBox from "../components/IpBox";
+import ConnectBox from "../components/ConnectBox";
 import Section from "../components/Section";
 import ServerStatus from "../components/ServerStatus";
 import { announcements, home, kingdoms, site } from "../content";
@@ -29,29 +29,31 @@ export default function Home() {
             className="absolute inset-0"
             style={{ background: "linear-gradient(to bottom, rgba(20,27,43,0) 40%, rgba(20,27,43,0.85) 85%, #141b2b 100%)" }}
           />
-          <h1 className="absolute inset-x-0 bottom-3 px-4 text-4xl font-black sm:text-6xl">{site.name}</h1>
+          <h1 className="absolute inset-x-0 bottom-3 px-4 text-4xl font-black sm:text-6xl">
+            {site.name}
+            <span className="sr-only"> Kingdoms RPG Minecraft Server</span>
+          </h1>
         </div>
         <div className="px-4">
-        <p className="mx-auto mt-3 max-w-xl text-lg text-muted">{site.tagline}</p>
-        {site.subtagline && <p className="mx-auto mt-1 max-w-xl text-sm text-muted">{site.subtagline}</p>}
-        <div className="mb-6" />
+        <p className="mx-auto mt-3 max-w-xl text-xl font-bold">{site.tagline}</p>
+        {site.subtagline && <p className="mx-auto mt-1 max-w-xl text-muted">{site.subtagline}</p>}
+        <div className="mb-5" />
 
-        <ServerStatus />
-        <div>
-          <IpBox ip={site.javaIp} />
-        </div>
-        <p className="text-sm text-muted">
-          Java &amp; Bedrock supported. <Link to="/play">See how to join</Link>
-        </p>
+        <ServerStatus discordOnline={discord?.online} />
+        <ConnectBox />
+        {home.freeLine && <p className="mt-1 text-sm text-muted">{home.freeLine}</p>}
 
         <div className="mt-5 flex flex-wrap justify-center gap-3">
+          <Link className="btn btn-primary" to="/play">
+            How to Join
+          </Link>
           <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
             Join our Discord
           </a>
-          <a className="btn btn-wood" href={site.storeUrl} target="_blank" rel="noopener noreferrer">
-            Visit the Store
-          </a>
         </div>
+        <p className="mt-4 text-sm">
+          <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Visit the Store</a>
+        </p>
         {home.newHere && (
           <p className="mt-5 text-muted">
             {home.newHere.text} <Link to="/guides/your-first-hour">{home.newHere.linkText}</Link>
@@ -59,6 +61,19 @@ export default function Home() {
         )}
         </div>
       </section>
+
+      {home.highlights && (
+        <Section>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {home.highlights.map((h) => (
+              <div key={h.title} className="border-l-2 border-wood pl-4">
+                <h2 className="text-lg font-bold">{h.title}</h2>
+                <p className="mt-1 text-sm text-muted">{h.body}</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       <Section title={home.galleryHeading}>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

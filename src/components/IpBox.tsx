@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function IpBox({ ip }: { ip: string }) {
+export default function IpBox({ ip, button = "Copy IP" }: { ip: string; button?: string }) {
   const [message, setMessage] = useState("");
 
   async function copy() {
@@ -22,7 +22,7 @@ export default function IpBox({ ip }: { ip: string }) {
           onClick={copy}
           className="cursor-pointer border-l-2 border-steel bg-panel2 px-4 font-extrabold text-ink hover:bg-steel"
         >
-          Copy IP
+          {button}
         </button>
       </div>
       <p role="status" aria-live="polite" className="mt-1 h-5 text-sm text-teal">

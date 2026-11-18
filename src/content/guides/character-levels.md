@@ -9,6 +9,8 @@ As you play, your character levels up. Every level has a reward waiting for you,
 
 > Important: claim rewards in order. You have to claim your previous level's reward before the next one.
 
+![The Level Up message when you reach a new level](/screens/guide-level-up.jpg)
+
 ## What levels give you
 
 - Coins, money and crate keys

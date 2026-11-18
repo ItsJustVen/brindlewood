@@ -29,6 +29,11 @@
       "caption": "A fight in the Whispering Maze"
     },
     {
+      "src": "screens/players-group.jpg",
+      "alt": "Five players standing together in front of a red wooden building",
+      "caption": "Friends at spawn"
+    },
+    {
       "src": "screens/aurora.jpg",
       "alt": "A pink and gold aurora over the sea at night",
       "caption": "Night over the sea in the playworld (taken with shaders)"

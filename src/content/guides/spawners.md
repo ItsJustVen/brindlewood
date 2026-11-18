@@ -26,6 +26,10 @@ Spawners are a big part of BrindleWood, and they run on **SpawnerMeta**. Every p
 - **Upgrade** them: spawn speed, mobs per wave, activation range, how many mobs can be nearby, and how hard they are to break
 - Buy new ones in the spawner shop
 
+![A pile of iron golems from a spawner left running without limits](/screens/guide-spawner-golems.jpg)
+
+This is why spawners are limited. Too many mobs at once cause lag for everyone.
+
 ## Tips
 
 - Mine spawners with **Silk Touch** or you'll lose them.

@@ -532,7 +532,7 @@
  },
  {
   "id": "dungeons_1",
-  "name": "Sanctum of Skulls (Dungeon, Easy)",
+  "name": "Sanctum of Skulls (Easy)",
   "category": "dungeons",
   "guide": "dungeons",
   "x": -471,
@@ -541,7 +541,7 @@
  },
  {
   "id": "dungeons_2",
-  "name": "Whispering Maze (Dungeon, Medium)",
+  "name": "Whispering Maze (Medium)",
   "category": "dungeons",
   "guide": "dungeons",
   "x": -630,

@@ -799,5 +799,14 @@
   "x": -38,
   "y": 105,
   "z": 53
+ },
+ {
+  "id": "spawn_rtp",
+  "name": "RTP Pond (to the playworld)",
+  "category": "services",
+  "guide": "the-world",
+  "x": 0,
+  "y": 97,
+  "z": 42
  }
 ]

@@ -12,7 +12,6 @@ Type `/help` in-game to open the server guide menu. Most things also have a menu
 | Command | What it does |
 | --- | --- |
 | `/spawn` | Goes to Aldoria, the spawn world |
-| `/rtp` | Opens the random teleport menu |
 | `/warp` | Lists server warps. `/warp <name>` goes to one |
 | `/warp rw` | Goes to the weekly resource world |
 | `/pw` | Player warps (also `/pwarp` or `/playerwarps`) |

@@ -6,7 +6,7 @@
 //  - .nojekyll stops GitHub from running Jekyll over the files.
 //
 // When you add a new page to src/App.tsx, add its path to ROUTES below.
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 
 // Every guide in src/content/guides/ gets its own page automatically.
 const SITE = "https://brindlewood.net";
@@ -86,10 +86,17 @@ if (!existsSync(new URL("index.html", dist))) {
 
 const baseHtml = readFileSync(new URL("index.html", dist), "utf8");
 
+// Pre-render every page to HTML (built by `vite build --ssr`), so visitors and search
+// engines get real content before any JavaScript runs. The browser then hydrates it.
+const { render } = await import(new URL("../dist-ssr/entry-server.js", import.meta.url));
+const ROOT = '<div id="root"></div>';
+if (!baseHtml.includes(ROOT)) throw new Error("postbuild: empty root div not found in index.html");
+const withContent = (html, path) => html.replace(ROOT, () => `<div id="root">${render(path)}</div>`);
+
 for (const route of ROUTES) {
   const dir = new URL(`${route}/`, dist);
   mkdirSync(dir, { recursive: true });
-  writeFileSync(new URL("index.html", dir), pageHtml(baseHtml, route));
+  writeFileSync(new URL("index.html", dir), withContent(pageHtml(baseHtml, route), `/${route}`));
 }
 
 // Sitemap and robots.txt so search engines find every page.
@@ -107,6 +114,8 @@ writeFileSync(
 );
 writeFileSync(new URL("robots.txt", dist), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 
-copyFileSync(new URL("index.html", dist), new URL("404.html", dist));
+// 404.html keeps the empty shell, so unknown addresses render the app's own "not found" page.
+writeFileSync(new URL("404.html", dist), baseHtml);
+writeFileSync(new URL("index.html", dist), withContent(baseHtml, "/"));
 writeFileSync(new URL(".nojekyll", dist), "");
 console.log(`postbuild: created ${ROUTES.length} route pages, sitemap.xml, robots.txt, dist/404.html and dist/.nojekyll`);

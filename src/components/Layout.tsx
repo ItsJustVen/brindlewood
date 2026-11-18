@@ -101,7 +101,7 @@ function Footer() {
           <Link to="/privacy">Privacy</Link>
           <Link to="/terms">Terms</Link>
         </nav>
-        <p>
+        <p suppressHydrationWarning>
           &copy; {new Date().getFullYear()} {site.name}. Not an official Minecraft product. Not
           approved by or associated with Mojang or Microsoft.
         </p>

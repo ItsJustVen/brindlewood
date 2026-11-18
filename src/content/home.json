@@ -1,5 +1,5 @@
 {
-  "heroImage": "screens/castle.jpg",
+  "heroImage": "screens/castle-entrance.jpg",
   "heroAlt": "The grand castle entrance at spawn, with lanterns and a hanging chandelier",
   "galleryHeading": "A look around",
   "gallery": [
@@ -9,7 +9,7 @@
       "caption": "The castle gate at spawn"
     },
     {
-      "src": "screens/great-tree.jpg",
+      "src": "screens/great-tree-day.jpg",
       "alt": "A giant tree spreading over the rooftops of a town",
       "caption": "The great tree over the spawn town"
     },

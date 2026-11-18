@@ -24,3 +24,5 @@ Swords, bows, fishing rods, shovels, pickaxes, hoes, crossbows and axes, with a 
 3. Apply the skin to the tool or weapon it's for.
 
 > Careful: once a skin is on a tool, you can't change it. If that tool or weapon breaks, you lose the skin.
+
+See also: [Blacksmiths, Tailors and Artists](/guides/blacksmiths-tailors-artists).

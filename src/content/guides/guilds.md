@@ -78,3 +78,5 @@ Your guild has its own bank account with the Banker. Deposits are tax-free and a
 See [Guild Levels and Rewards](/guides/guild-levels) for how guilds grow.
 
 > Command list from the BetterTeams documentation. Some commands may differ here. If one doesn't work, open a ticket.
+
+See also: [Chat and Social Commands](/guides/chat-and-social).

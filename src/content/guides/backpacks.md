@@ -36,3 +36,5 @@ Backpacks take real time to make, then you claim them from the Tailor. The Tailo
 - Higher tiers need the **Pack Mule** trait. The Tailor menu shows what you need. See [Your Player Profile and Traits](/guides/player-profile-and-traits).
 - The **Negotiator** trait lowers prices.
 - Start the long builds before you log off.
+
+See also: [Blacksmiths, Tailors and Artists](/guides/blacksmiths-tailors-artists).

@@ -29,6 +29,8 @@ export interface HomeContent {
   heroAlt: string;
   galleryHeading: string;
   gallery: { src: string; alt: string; caption: string }[];
+  newHere?: { text: string; linkText: string };
+  leaderCta?: { title: string; body: string; linkText: string };
   kingdomsHeading: string;
   kingdomsIntro: string;
   featuresHeading: string;
@@ -86,6 +88,7 @@ export interface PlayContent {
   introSub?: string;
   java: { title: string; steps: string[] };
   bedrock: { title: string; steps: string[]; note: string };
+  firstHour?: { text: string; linkText: string };
   gettingStartedHeading: string;
   gettingStarted: { title: string; body: string; to: string; linkText: string }[];
   faqHeading: string;

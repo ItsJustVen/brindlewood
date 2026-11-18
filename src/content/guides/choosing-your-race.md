@@ -43,3 +43,5 @@ Your race levels up as you play, up to level 100. At level 100 you unlock your r
 - Mining, caves and a tough character? **Terrune**
 
 The four free races and four premium races are in [Free and Premium Races](/guides/free-and-premium-races).
+
+See also: [Classes](/guides/classes).

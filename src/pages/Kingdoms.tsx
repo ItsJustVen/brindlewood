@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PageHead from "../components/PageHead";
 import Section from "../components/Section";
-import { kingdoms } from "../content";
+import { home, kingdoms, site } from "../content";
 import { usePageTitle } from "../hooks/usePageTitle";
 import { asset } from "../lib/text";
 
@@ -34,6 +34,15 @@ export default function Kingdoms() {
             </article>
           ))}
         </div>
+        {home.leaderCta && (
+          <div className="card card-teal mt-8">
+            <h2 className="text-2xl font-bold">{home.leaderCta.title}</h2>
+            <p>{home.leaderCta.body}</p>
+            <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
+              {home.leaderCta.linkText}
+            </a>
+          </div>
+        )}
         <div className="mt-8 text-center">
           <Link className="btn btn-primary" to="/play">
             Ready to Join?

@@ -61,3 +61,5 @@ More: [Homes](/guides/homes).
 - Join a [guild](/guides/guilds) or look at [how the Kingdoms work](/guides/how-kingdoms-work).
 - Try the [Sanctum of Skulls](/guides/dungeons), the easier of the two dungeons.
 - Stuck? Ask in our Discord or open a ticket. See [Getting Help](/guides/getting-help).
+
+See also: [Classes](/guides/classes), [Quests: General and Race Quests](/guides/quests), [Minions](/guides/minions).

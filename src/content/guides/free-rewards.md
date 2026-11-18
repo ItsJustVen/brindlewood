@@ -52,3 +52,5 @@ Did a friend send you here? Type `/referral <their username>`.
 - **AFK Pond:** see [The AFK Pond](/guides/afk-pond).
 - **Character levels:** coins, keys, homes and more. See [Character Levels](/guides/character-levels).
 - **Jobs:** see [Jobs](/guides/jobs).
+
+See also: [Seasons and Resets](/guides/seasons), [Quests: General and Race Quests](/guides/quests).

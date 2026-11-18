@@ -62,3 +62,5 @@ Buy what other adventurers are selling, and list your own items without needing 
 - Check `/ah` first to see what similar items go for.
 - Rare drops from dungeons and crates usually sell best.
 - Sort the list inside the menu to find the cheapest or newest items.
+
+See also: [Trading With Other Players](/guides/trading).

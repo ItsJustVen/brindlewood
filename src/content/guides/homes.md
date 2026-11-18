@@ -28,3 +28,5 @@ Every player starts with **2 homes**. You get more from:
 
 - Teleports have a 3-second delay. Stand still until it finishes.
 - You can't teleport while tagged in combat. See [PvP and Combat](/guides/pvp-and-combat).
+
+See also: [Teleporting to Friends](/guides/teleporting-to-friends).

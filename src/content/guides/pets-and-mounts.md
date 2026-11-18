@@ -16,3 +16,5 @@ updated: "2026-11-05"
 Once you buy one, you own it for good. Open `/pets` to summon yours. Pets are cosmetic. They never change how strong you are.
 
 For horses, see [Horses and Stables](/guides/horses-and-stables).
+
+See also: [Minions](/guides/minions).

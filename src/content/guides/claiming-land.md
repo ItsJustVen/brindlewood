@@ -153,3 +153,5 @@ You can sell a claim to another player for money:
 - You get a message when you enter or leave a claim.
 - `/claim`, `/claims`, `/claiming`, `/unclaim` and `/map` are open to every player. If a specific `/claim` option doesn't work for you, open a ticket.
 - Lost something to grief? See [Griefing and Rollbacks](/guides/griefing-and-rollbacks).
+
+See also: [Maps and Claim Maps](/guides/maps-and-claim-maps).

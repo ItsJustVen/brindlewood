@@ -67,3 +67,5 @@ Pay depends on what you do. These are the base amounts at job level 1. They grow
 - Some jobs pay more per action (like Enchanter and Fighter); others pay less per action but are easy to do all day (like Farmer and Lumberjack).
 - Spend your money at the [Auction House](/guides/auction-house), [Player Shops](/guides/player-shops), the Landlord's [chunk auctions](/guides/chunk-auctions) and the [horse stables](/guides/horses-and-stables).
 - Don't forget the free hourly, daily and weekly rewards in `/rewards`.
+
+See also: [Minions](/guides/minions), [Money vs Coins](/guides/money-vs-coins).

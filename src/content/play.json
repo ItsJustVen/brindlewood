@@ -41,5 +41,9 @@
     }
   ],
   "faqHeading": "FAQ",
-  "introSub": "Especially for Bedrock!"
+  "introSub": "Especially for Bedrock!",
+  "firstHour": {
+    "text": "Want the full walkthrough?",
+    "linkText": "Read Your First Hour"
+  }
 }

@@ -40,3 +40,5 @@ The resource world is for gathering. It **resets every Saturday night at 11 PM E
 - You **can't claim land** there.
 - **PvP is on.**
 - It has no End of its own.
+
+See also: [Sailors and Navigators: Fast Travel](/guides/sailors-and-navigators), [Teleporting to Friends](/guides/teleporting-to-friends), [Maps and Claim Maps](/guides/maps-and-claim-maps).

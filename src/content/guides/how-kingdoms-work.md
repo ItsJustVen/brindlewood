@@ -37,3 +37,5 @@ You can move any time, but you can only bring what fits in your **inventory and 
 ## Leading a kingdom
 
 Rosewood and Subterra have no leader yet. To take one, open a ticket in our Discord with a **name**, a **theme** and **how you plan to rule**. A new leader can rename the kingdom to fit their theme.
+
+See also: [NPCs: Who's Who in Aldoria](/guides/npcs).

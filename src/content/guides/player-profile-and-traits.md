@@ -51,3 +51,5 @@ Traits come in categories such as Social, Athletic, Magical, Resource, Navigatio
 - **Acrobat** (Athletic): less fall damage
 
 Others include Mining Vision, Loot Slayer, Bait Master, Cartographer, Trader and Gambler. Open `/traits` to see what each tier does.
+
+See also: [Skills and Skill Points](/guides/skills), [Quests: General and Race Quests](/guides/quests).

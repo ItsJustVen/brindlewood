@@ -77,6 +77,11 @@ export default function Play() {
             </div>
           ))}
         </div>
+        {play.firstHour && (
+          <p className="mt-5">
+            {play.firstHour.text} <Link to="/guides/your-first-hour">{play.firstHour.linkText}</Link>
+          </p>
+        )}
       </Section>
 
       <Section title={play.faqHeading}>

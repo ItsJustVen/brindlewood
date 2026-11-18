@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Kingdoms from "./pages/Kingdoms";
 import Legal from "./pages/Legal";
+import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import Npcs from "./pages/Npcs";
 import Play from "./pages/Play";
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="kingdoms" element={<Kingdoms />} />
         <Route path="guides" element={<Guides />} />
         <Route path="guides/:slug" element={<Guide />} />
+        <Route path="news" element={<News />} />
         <Route path="npcs" element={<Npcs />} />
         <Route path="contact" element={<Contact />} />
         <Route path="rules" element={<Rules />} />

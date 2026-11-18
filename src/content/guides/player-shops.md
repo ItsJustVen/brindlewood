@@ -37,3 +37,5 @@ There are **no commands** for player shops. Everything is done with the chest.
 - Link a [player warp](/guides/warps) so customers can find you.
 - Check the [Auction House](/guides/auction-house) for a price before setting yours.
 - Stock one item per shop so the hologram is easy to read.
+
+See also: [Trading With Other Players](/guides/trading).

@@ -28,3 +28,5 @@ Coin packs are in the [store](https://brindlewood.tebex.io):
 | 30,000 coins | $59.99 |
 
 The bigger the pack, the better the value. Where to spend them: see [The CoinShop](/guides/coinshop).
+
+See also: [Money vs Coins](/guides/money-vs-coins).

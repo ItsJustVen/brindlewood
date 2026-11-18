@@ -116,5 +116,14 @@
     "From there we slowly started roleplaying, which is when we decided on Kingdoms and built the spawn we have now.",
     "We wanted somewhere we could have fun, use a ton of different things, and welcome people who were strangers into the fold as family."
   ],
-  "since": "Running since April 27, 2021"
+  "since": "Running since April 27, 2021",
+  "newHere": {
+    "text": "New here? Read Your First Hour for a step by step start.",
+    "linkText": "Your First Hour"
+  },
+  "leaderCta": {
+    "title": "Lead a Kingdom",
+    "body": "Rosewood in the northeast and Subterra in the southeast have no leader yet. Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
+    "linkText": "Open a ticket in Discord"
+  }
 }

@@ -48,3 +48,5 @@ See [Pets and Mounts](/guides/pets-and-mounts) and [Horses and Stables](/guides/
 ## Ranks
 
 Permanent and 30-day ranks. See [Ranks](/guides/ranks).
+
+See also: [Money vs Coins](/guides/money-vs-coins).

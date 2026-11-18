@@ -64,3 +64,5 @@ The cosmetic crates are in a separate spot at spawn and all use cosmetics keys:
 | Relic | -38, 105, 53 |
 
 Bring a key to the crate to open it. The preview shows what is inside and the odds.
+
+See also: [Custom Enchantments](/guides/custom-enchantments).

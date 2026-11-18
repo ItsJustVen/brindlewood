@@ -26,3 +26,5 @@ For in-game help, find the **Server Guide** NPC in the spawn world at **-7, 99, 
 - Include what you were doing, where, and any screenshots.
 
 You get the **COMMUNITY** Discord role automatically. No application needed.
+
+See also: [Chat and Social Commands](/guides/chat-and-social), [Your First Hour](/guides/your-first-hour).

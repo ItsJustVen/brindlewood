@@ -41,3 +41,5 @@ Use `/races classgui`. This menu doesn't open on its own, so run it yourself to 
 - Want to try something different? Mage.
 
 Your race matters too. A Terrune (extra health) Guardian and an Umbrath (night hunter) Rogue play very differently. Mix and match!
+
+See also: [Skills and Skill Points](/guides/skills), [Character Levels and Rewards](/guides/character-levels).

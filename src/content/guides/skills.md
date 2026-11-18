@@ -48,3 +48,5 @@ Every skill level-up gives you skill points, and the higher the level, the more 
 Spend them in the skill tree, which has several pages. Plan your path before you spend, and pick things that match how you actually play. A miner and a fighter should spend very differently.
 
 Your skill levels and your character level are separate. Character levels are covered in [Character Levels and Rewards](/guides/character-levels).
+
+See also: [Custom Enchantments](/guides/custom-enchantments).

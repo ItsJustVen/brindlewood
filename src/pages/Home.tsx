@@ -52,6 +52,11 @@ export default function Home() {
             Visit the Store
           </a>
         </div>
+        {home.newHere && (
+          <p className="mt-5 text-muted">
+            {home.newHere.text} <Link to="/guides/your-first-hour">{home.newHere.linkText}</Link>
+          </p>
+        )}
         </div>
       </section>
 
@@ -80,10 +85,13 @@ export default function Home() {
               <article key={`${a.date}-${a.title}`} className="card card-teal">
                 <p className="text-sm font-bold uppercase tracking-widest text-steel">{a.date}</p>
                 <h3 className="text-xl font-bold">{a.title}</h3>
-                <p>{a.body}</p>
+                <p className="whitespace-pre-line">{a.body.split("\n").slice(0, 4).join("\n")}</p>
               </article>
             ))}
           </div>
+          <p className="mt-4">
+            <Link to="/news">See all news and patch notes</Link>
+          </p>
         </Section>
       )}
 
@@ -97,6 +105,15 @@ export default function Home() {
             </div>
           ))}
         </div>
+        {home.leaderCta && (
+          <div className="card card-teal mt-6">
+            <h3 className="text-xl font-bold">{home.leaderCta.title}</h3>
+            <p>{home.leaderCta.body}</p>
+            <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
+              {home.leaderCta.linkText}
+            </a>
+          </div>
+        )}
         <div className="mt-6 text-center">
           <Link className="btn btn-primary" to="/kingdoms">
             Explore the Kingdoms

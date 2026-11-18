@@ -64,3 +64,5 @@ That adds up to **4,300 free coins**.
 - Rare: levels 10, 15, 17, 20 and 24
 - Epic: levels 22, 27, 29, 32, 34, 36, 39 and 44
 - Superior: levels 41, 49, 51, 53, 57 and 59
+
+See also: [Quests: General and Race Quests](/guides/quests), [Skills and Skill Points](/guides/skills), [Classes](/guides/classes).

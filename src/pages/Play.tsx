@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { startEdition, type Edition } from "../components/ConnectBox";
 import IpBox from "../components/IpBox";
 import PageHead from "../components/PageHead";
@@ -30,7 +30,8 @@ function Steps({ steps }: { steps: string[] }) {
 }
 
 export default function Play() {
-  const [edition, setEdition] = useState<Edition>(startEdition);
+  const [edition, setEdition] = useState<Edition>("java");
+  useEffect(() => setEdition(startEdition()), []);
   usePageTitle("Getting Started");
 
   return (

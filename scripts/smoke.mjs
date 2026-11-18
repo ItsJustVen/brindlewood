@@ -13,12 +13,14 @@ const read = (name) => (existsSync(join(dist, name)) ? readFileSync(join(dist, n
 
 const index = read("index.html");
 // Page copies may have their own title and link-preview tags; everything else must match.
-const noHead = (html) => html.replace(/<head>[\s\S]*<\/head>/, "");
+const noHead = (html) =>
+  html.replace(/<head>[\s\S]*<\/head>/, "").replace(/<div id="root">[\s\S]*<\/div>(\s*<noscript>)/, '<div id="root"></div>$1');
 const sameApp = (a, b) => /<\/head>/.test(a) && noHead(a) === noHead(b);
 const notFound = read("404.html");
 if (!index) fail("dist/index.html is missing");
 if (!notFound) fail("dist/404.html is missing (direct links to pages would 404)");
-if (index && notFound && index !== notFound) fail("dist/404.html differs from index.html");
+if (index && notFound && !sameApp(notFound, index)) fail("dist/404.html differs from index.html");
+if (index && !/<div id="root"><[a-z]/.test(index)) fail("dist/index.html was not pre-rendered (root is empty)");
 if (!existsSync(join(dist, "sitemap.xml"))) fail("dist/sitemap.xml is missing");
 if (!existsSync(join(dist, "robots.txt"))) fail("dist/robots.txt is missing");
 if (!existsSync(join(dist, ".nojekyll"))) fail("dist/.nojekyll is missing");
@@ -30,6 +32,7 @@ for (const route of ["play", "kingdoms", "rules", "store", "guides", "npcs", "co
   const page = read(`${route}/index.html`);
   if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
   else if (index && !sameApp(page, index)) fail(`dist/${route}/index.html differs from index.html`);
+  else if (!/<div id="root"><[a-z]/.test(page)) fail(`dist/${route}/index.html was not pre-rendered`);
 }
 
 if (index) {

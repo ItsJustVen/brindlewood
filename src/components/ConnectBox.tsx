@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { site } from "../content";
 import IpBox from "./IpBox";
@@ -12,7 +12,8 @@ export function startEdition(): Edition {
 }
 
 export default function ConnectBox() {
-  const [edition, setEdition] = useState<Edition>(startEdition);
+  const [edition, setEdition] = useState<Edition>("java");
+  useEffect(() => setEdition(startEdition()), []);
   const tab = (id: Edition, label: string) => (
     <button
       type="button"

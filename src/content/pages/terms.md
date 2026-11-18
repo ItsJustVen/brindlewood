@@ -15,7 +15,7 @@ By joining the BrindleWood Minecraft server, our Discord, or buying from our sto
 
 - You are responsible for what happens on your Minecraft and Discord accounts.
 - Don't share your account, and don't try to access anyone else's.
-- Our Discord is for ages **13 and up**, as Discord requires. If you are under 13, you need a parent or guardian's permission to play on the Minecraft server.
+- **Age notice:** BrindleWood is legally accessible to anyone with a valid copy of Minecraft, but it is operated for an adult community (18 and older). Nothing on BrindleWood is monitored or moderated for the protection of anyone under 18. If you are under 18, you take part solely at your own discretion and that of your parent or legal guardian, who accept responsibility for that access. BrindleWood, its Owners and its Staff are not responsible for how other users, including adults, behave on the server or in the community. Discord separately requires members to be 13 or older.
 
 ## Your builds and items
 

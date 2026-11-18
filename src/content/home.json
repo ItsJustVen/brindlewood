@@ -144,5 +144,15 @@
       "body": "Claim your land, build a home and share a guild bank."
     }
   ],
-  "freeLine": "Free to play. No whitelist and no application. Just join."
+  "freeLine": "Free to play. No whitelist and no application. Just join.",
+  "happening": [
+    {
+      "title": "Nightly key drop",
+      "body": "Every night at 10:30 PM Eastern."
+    },
+    {
+      "title": "Most Active Player",
+      "body": "Each week's top player wins 50 coins and a cosmetic crate key, given the next time they join after the week ends."
+    }
+  ]
 }

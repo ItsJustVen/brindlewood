@@ -46,12 +46,17 @@
       "icon": "🧠",
       "title": "Common Sense",
       "body": "Not every situation can be listed. Staff may act against behavior that harms the community, disrupts others, or attempts to bypass these rules."
+    },
+    {
+      "icon": "🏰",
+      "title": "Kingdom and Town Rules",
+      "body": "Kingdoms and towns can set their own rules, but they must stay in line with the server rules. If a kingdom or town rule conflicts with a server rule, the server rule applies."
     }
   ],
   "enforcement": {
     "title": "Enforcement",
     "body": "Breaking the rules may result in warnings, mutes, kicks, or temporary/permanent bans depending on the severity and circumstances. The usual ladder is a written warning, then a 3-day temporary ban, then a permanent ban. It works the same way on Discord. To appeal a ban, open a ticket in our Discord (#create-a-ticket)."
   },
-  "ages": "BrindleWood is built for adult players, but every respectful player is welcome. Discord requires members to be 13 or older. Players under 13 need a parent or guardian's permission to play on the Minecraft server.",
+  "ages": "**Age Notice.** BrindleWood is legally accessible to any person holding a valid copy of Minecraft, but it is operated for an adult community (18 years of age or older). Content, conversations and conduct encountered on any BrindleWood platform, including the Minecraft server, Discord and website, are not monitored or moderated for the protection of persons under 18 years of age. Any person under 18 who accesses BrindleWood does so solely at their own discretion and at the discretion of their parent or legal guardian, who accept full responsibility for that access. BrindleWood, its Owners and its Staff are not responsible or liable for the actions, statements or conduct of other users, including adults, on the server or within the BrindleWood community and brand. Discord separately requires members to be 13 or older.",
   "closing": "**Thank you for helping make BrindleWood a place everyone can enjoy!**"
 }

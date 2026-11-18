@@ -31,6 +31,7 @@ export interface HomeContent {
   heroAlt: string;
   galleryHeading: string;
   gallery: { src: string; alt: string; caption: string }[];
+  happening?: { title: string; body: string }[];
   highlights?: { title: string; body: string }[];
   freeLine?: string;
   newHere?: { text: string; linkText: string };

@@ -38,7 +38,7 @@ export default function Rules() {
         {rules.ages && (
           <div className="card mt-6">
             <h2 className="text-lg font-bold">Ages</h2>
-            <p>{rules.ages}</p>
+            <p><RichText text={rules.ages} /></p>
           </div>
         )}
 

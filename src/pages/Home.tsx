@@ -70,6 +70,19 @@ export default function Home() {
         </Section>
       )}
 
+      {home.happening && (
+        <Section>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {home.happening.map((x) => (
+              <div key={x.title} className="card card-teal">
+                <h2 className="text-lg font-bold">{x.title}</h2>
+                <p className="text-sm text-muted">{x.body}</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+
       <Section title={home.galleryHeading}>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {home.gallery.map((g) => (

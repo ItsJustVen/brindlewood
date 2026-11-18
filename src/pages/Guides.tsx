@@ -6,6 +6,7 @@ import { guideCategories, guides } from "../content/guides";
 import { usePageTitle } from "../hooks/usePageTitle";
 
 const startHere = [
+  { slug: "your-first-hour", title: "Your First Hour", text: "Join, pick a race, earn and claim, in order." },
   { slug: "the-world", title: "The World", text: "Where you spawn and how the world is laid out." },
   { slug: "choosing-your-race", title: "Choosing Your Race", text: "Your first big choice. It can't be changed later." },
   { slug: "claiming-land", title: "Claiming Land", text: "Protect your builds before you start." },
@@ -95,7 +96,7 @@ export default function Guides() {
         {!q && category === "all" && (
           <div className="mb-10">
             <h2 className="text-2xl font-bold">Start here</h2>
-            <p className="mb-4 text-muted">New to BrindleWood? These four cover your first night.</p>
+            <p className="mb-4 text-muted">New to BrindleWood? These cover your first night.</p>
             <ul className="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
               {startHere.map((s) => (
                 <li key={s.slug} className="card card-teal">

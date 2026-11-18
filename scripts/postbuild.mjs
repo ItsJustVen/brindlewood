@@ -47,6 +47,13 @@ const PAGES = {
   terms: ["Terms of Service", "The terms for playing on BrindleWood and buying from its store."],
 };
 
+// Guides that were merged into another one. The old address still works and sends visitors on.
+const REDIRECTS = {
+  "guides/coins": "guides/money-vs-coins",
+  "guides/boosters": "guides/coinshop",
+  "guides/pets-and-mounts": "guides/cosmetics",
+};
+
 const ROUTES = [...Object.keys(PAGES), ...guideSlugs.map((slug) => `guides/${slug}`)];
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
@@ -97,6 +104,15 @@ for (const route of ROUTES) {
   const dir = new URL(`${route}/`, dist);
   mkdirSync(dir, { recursive: true });
   writeFileSync(new URL("index.html", dir), withContent(pageHtml(baseHtml, route), `/${route}`));
+}
+
+for (const [from, to] of Object.entries(REDIRECTS)) {
+  const dir = new URL(`${from}/`, dist);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(
+    new URL("index.html", dir),
+    `<!doctype html><html lang="en"><head><meta charset="UTF-8" /><title>Moved | BrindleWood</title><meta name="robots" content="noindex" /><link rel="canonical" href="${SITE}/${to}" /><meta http-equiv="refresh" content="0; url=/${to}" /></head><body><p>This page moved to <a href="/${to}">${SITE}/${to}</a>.</p></body></html>\n`,
+  );
 }
 
 // Sitemap and robots.txt so search engines find every page.

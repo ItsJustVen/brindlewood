@@ -11,7 +11,7 @@ The store is optional. BrindleWood is built as support without buying the win. A
 
 ## What you'll find
 
-- Coins (see [Coins](/guides/coins))
+- Coins (see [Money and Coins](/guides/money-vs-coins))
 - Ranks (see [Ranks](/guides/ranks))
 - Crate keys
 - Fly Command (fly anywhere)

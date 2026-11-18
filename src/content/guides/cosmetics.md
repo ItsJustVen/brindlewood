@@ -1,9 +1,9 @@
 ---
 title: "Cosmetics"
 category: extras
-summary: "Hats, particles, death effects, projectile effects and chat tags."
+summary: "Hats, particles, death effects, projectile effects, chat tags, pets and mounts."
 order: 76
-updated: "2026-11-05"
+updated: "2026-11-18"
 ---
 Cosmetics change how you look. They never change how strong you are.
 
@@ -40,5 +40,15 @@ The Cosmetics NPC is in the spawn world at **45, 99, 17**.
 - **Projectile effects:** arrows and more leave a trail
 - **Chat tags:** a title beside your name
 - **Tool skins:** see [Tool Skins](/guides/tool-skins)
+
+## Pets and mounts
+
+Bought in the [CoinShop](/guides/coinshop) with coins:
+
+- Veggie pets (carrot, potato, onion, broccoli, eggplant, tomato): 350 coins each
+- Dinosaur pets: 800 coins each
+- Dragon mount: 3,500 coins
+
+Once you buy one, you own it for good. Open `/pets` to summon yours. Pets are cosmetic. They never change how strong you are. For horses, see [Horses and Stables](/guides/horses-and-stables). See also: [Minions](/guides/minions).
 
 Once you buy a cosmetic, it's yours for good. Coins are free to earn, so you never have to spend real money.

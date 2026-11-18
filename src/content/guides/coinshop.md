@@ -3,7 +3,7 @@ title: "The CoinShop"
 category: economy
 summary: "What coins buy: keys, boosters, commands, cosmetics and ranks."
 order: 34
-updated: "2026-11-05"
+updated: "2026-11-18"
 ---
 To open the CoinShop, talk to the CoinShop NPC at spawn, or use `/coinshop`.
 
@@ -20,7 +20,13 @@ To open the CoinShop, talk to the CoinShop NPC at spawn, or use `/coinshop`.
 
 ## Boosters
 
-1 hour each, **200 coins** each: 2x Experience, 2x Level XP, and +20% Discounts. See [Boosters](/guides/boosters).
+**200 coins** each. Each one lasts **1 hour** once activated:
+
+- **Experience booster:** 2x vanilla XP
+- **Level XP booster:** 2x Level XP
+- **Discount booster:** 20% off NPC prices in spawn
+
+Boosters can also drop from crates (see [Crates and Keys](/guides/crates-and-keys)). Use an XP booster before a long dungeon or grind session, and a discount booster before big NPC buys like backpack tiers or horses.
 
 The CoinShop NPC is in the spawn world at **-13, 99, 16**. You can also type `/coinshop`.
 
@@ -43,10 +49,10 @@ Hats, particles, death effects, projectile effects, chat tags and tool skins. Se
 
 ## Pets, mounts and horse armor
 
-See [Pets and Mounts](/guides/pets-and-mounts) and [Horses and Stables](/guides/horses-and-stables).
+See [Cosmetics](/guides/cosmetics) for pets and mounts, and [Horses and Stables](/guides/horses-and-stables).
 
 ## Ranks
 
 Permanent and 30-day ranks. See [Ranks](/guides/ranks).
 
-See also: [Money vs Coins](/guides/money-vs-coins).
+See also: [Money and Coins](/guides/money-vs-coins).

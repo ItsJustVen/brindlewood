@@ -1,9 +1,9 @@
 ---
-title: "Money vs Coins"
+title: "Money and Coins"
 category: economy
-summary: "The two currencies and how to earn and spend each."
+summary: "The two currencies, how to earn and spend each, and the coin pack prices."
 order: 30
-updated: "2026-11-05"
+updated: "2026-11-18"
 ---
 
 ## Money ($)
@@ -27,10 +27,22 @@ Coins are separate. See `/coinshop` and `/rewards` below.
 
 Coins are the premium currency.
 
-- **Earn them free:** `/rewards`, character levels (4,300 in total), the AFK Pond and crates
+- **Earn them free:** `/rewards` (1 coin hourly, 5 daily, 25 weekly), character levels (4,300 coins in total across 19 levels), the AFK Pond (1 coin every 2 hours), vote crates and every other crate
 - **Buy them:** coin packs in the store
 - **Spend them:** the CoinShop, which sells ranks, crate keys, boosters, commands, cosmetics, pets and mounts
 
-Coins have no cash value and can't be refunded. See [Coins](/guides/coins) and [The CoinShop](/guides/coinshop).
+Coins have no cash value and can't be refunded. See [The CoinShop](/guides/coinshop).
+
+### Coin packs
+
+Coin packs are in the [store](https://brindlewood.tebex.io). The bigger the pack, the better the value.
+
+| Pack | Price |
+| --- | --- |
+| 1,000 coins | $2.99 |
+| 2,500 coins | $6.99 |
+| 6,000 coins | $14.99 |
+| 14,000 coins | $29.99 |
+| 30,000 coins | $59.99 |
 
 Your profile (`/menu`) shows money, bank and coins together.

@@ -5,7 +5,7 @@ import { asset } from "../lib/text";
 
 const links = [
   { to: "/", label: "Home", end: true },
-  { to: "/play", label: "How to Play" },
+  { to: "/play", label: "Getting Started" },
   { to: "/kingdoms", label: "Kingdoms" },
   { to: "/guides", label: "Guides" },
   { to: "/rules", label: "Rules" },
@@ -92,7 +92,7 @@ function Footer() {
           <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Store</a>
           <a href={site.mapUrl} target="_blank" rel="noopener noreferrer">Live Map</a>
           <Link to="/rules">Rules</Link>
-          <Link to="/play">How to Play</Link>
+          <Link to="/play">Getting Started</Link>
           <Link to="/guides">Guides</Link>
           <Link to="/staff">Staff</Link>
           <Link to="/news">News</Link>

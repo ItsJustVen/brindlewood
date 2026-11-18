@@ -5,7 +5,7 @@ summary: "How Bedrock players join and how to type names in commands (the BR_ pr
 order: 2
 updated: "2026-11-05"
 ---
-Bedrock players can join and play. How to get in is covered on the [How to Play](/play) page.
+Bedrock players can join and play. How to get in is covered on the [Getting Started](/play) page.
 
 ## The BR_ prefix
 

@@ -45,7 +45,7 @@ export default function Home() {
 
         <div className="mt-5 flex flex-wrap justify-center gap-3">
           <Link className="btn btn-primary" to="/play">
-            How to Join
+            Get Started
           </Link>
           <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
             Join our Discord

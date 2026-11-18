@@ -96,6 +96,9 @@ export interface PlayContent {
   gettingStartedHeading: string;
   gettingStarted: { title: string; body: string; to: string; linkText: string }[];
   faqHeading: string;
+  versionLine?: string;
+  troubleHeading?: string;
+  trouble?: { title: string; body: string; to?: string; linkText?: string }[];
 }
 
 export interface Announcement {

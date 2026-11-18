@@ -1,12 +1,13 @@
 {
-  "intro": "Joining BrindleWood should be fast and easy!",
+  "intro": "Free to play. No whitelist, no application. Just join.",
   "java": {
     "title": "Java Edition (PC)",
     "steps": [
       "Open Minecraft Java and click **Multiplayer**.",
       "Click **Add Server**.",
       "Enter the address **{javaIp}** and click Done.",
-      "Select BrindleWood and click **Join Server**."
+      "Select BrindleWood and click **Join Server**.",
+      "Accept the **resource pack** and wait. The first download can take up to about 5 minutes. Don't cancel it."
     ]
   },
   "bedrock": {
@@ -15,7 +16,8 @@
       "Open Minecraft and press **Play**.",
       "Go to **Social**, at the top right.",
       "Search for **EuphoriaHQ7845** and add them as a friend.",
-      "Join through their game."
+      "Join through their game.",
+      "Accept the **resource pack** and wait. The first download can take up to about 3 minutes. Don't cancel it."
     ],
     "note": "Bedrock players join through our friend account instead of typing in an address. Ask in our Discord if you need help joining."
   },
@@ -38,12 +40,37 @@
       "body": "You start with 1 claim and 10 chunks. Find a spot in the playworld and claim it so nobody else can build there.",
       "to": "/guides/claiming-land",
       "linkText": "How claiming works"
+    },
+    {
+      "title": "4. Link your Discord",
+      "body": "Run /link in game, send the code to the BrindleWood bot in a direct message, and get a free diamond.",
+      "to": "/guides/link-your-account",
+      "linkText": "How to link"
     }
   ],
   "faqHeading": "FAQ",
-  "introSub": "Especially for Bedrock!",
+  "introSub": "Works on Java and Bedrock, Minecraft 26.2 and above.",
   "firstHour": {
     "text": "Want the full walkthrough?",
     "linkText": "Read Your First Hour"
-  }
+  },
+  "troubleHeading": "Having trouble?",
+  "trouble": [
+    {
+      "title": "Version mismatch or can't connect",
+      "body": "Update Minecraft to 26.2 or newer, then try again. Java players should also double check the address."
+    },
+    {
+      "title": "Resource pack looks stuck",
+      "body": "Wait. The first download takes up to about 5 minutes on Java and 3 on Bedrock, and cancelling it means you can't play.",
+      "to": "/guides/resource-pack",
+      "linkText": "Resource pack help"
+    },
+    {
+      "title": "Can't find the Bedrock friend",
+      "body": "Type the name exactly: EuphoriaHQ7845. Still nothing? Ask in our Discord.",
+      "to": "discord",
+      "linkText": "Open a ticket in Discord"
+    }
+  ]
 }

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { site } from "../content";
 import IpBox from "./IpBox";
 
-type Edition = "java" | "bedrock";
+export type Edition = "java" | "bedrock";
 
 // Phones, tablets and consoles are almost always Bedrock, so start on that tab for them.
-function startEdition(): Edition {
+export function startEdition(): Edition {
   const ua = typeof navigator === "undefined" ? "" : navigator.userAgent;
   return /Android|iPhone|iPad|iPod|Xbox|PlayStation|Nintendo/i.test(ua) ? "bedrock" : "java";
 }

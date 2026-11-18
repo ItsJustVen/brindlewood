@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { startEdition, type Edition } from "../components/ConnectBox";
 import IpBox from "../components/IpBox";
 import PageHead from "../components/PageHead";
 import Section from "../components/Section";
@@ -28,11 +30,12 @@ function Steps({ steps }: { steps: string[] }) {
 }
 
 export default function Play() {
-  usePageTitle("How to Play");
+  const [edition, setEdition] = useState<Edition>(startEdition);
+  usePageTitle("Getting Started");
 
   return (
     <>
-      <PageHead title="How to Play">
+      <PageHead title="Getting Started">
         {play.intro}
         {play.introSub && (
           <>
@@ -43,19 +46,35 @@ export default function Play() {
       </PageHead>
 
       <Section>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5">
-          <div className="card">
-            <h2 className="text-xl font-bold">{play.java.title}</h2>
-            <Steps steps={play.java.steps} />
+        <div className="mx-auto max-w-2xl">
+          <div role="tablist" aria-label="Choose your edition" className="mb-4 flex justify-center gap-2">
+            {(["java", "bedrock"] as Edition[]).map((id) => (
+              <button
+                key={id}
+                type="button"
+                role="tab"
+                aria-selected={edition === id}
+                onClick={() => setEdition(id)}
+                className={`cursor-pointer rounded-lg px-5 py-2 font-extrabold ${
+                  edition === id ? "bg-teal text-[#08202a]" : "bg-panel text-ink hover:bg-panel2"
+                }`}
+              >
+                {id === "java" ? "Java (PC)" : "Bedrock (console, mobile, Windows)"}
+              </button>
+            ))}
           </div>
-          <div className="card">
-            <h2 className="text-xl font-bold">{play.bedrock.title}</h2>
-            <Steps steps={play.bedrock.steps} />
-            <p className="note mt-4">{play.bedrock.note}</p>
+          <div role="tabpanel" className="card">
+            <h2 className="text-xl font-bold">{edition === "java" ? play.java.title : play.bedrock.title}</h2>
+            <Steps steps={edition === "java" ? play.java.steps : play.bedrock.steps} />
+            {edition === "bedrock" && <p className="note mt-4">{play.bedrock.note}</p>}
           </div>
-        </div>
-        <div className="mt-6 text-center">
-          <IpBox ip={site.javaIp} />
+          <div className="mt-6 text-center">
+            {edition === "java" ? (
+              <IpBox ip={site.javaIp} />
+            ) : (
+              <IpBox ip={site.bedrockFriend ?? ""} button="Copy name" />
+            )}
+          </div>
         </div>
       </Section>
 
@@ -83,6 +102,28 @@ export default function Play() {
           </p>
         )}
       </Section>
+
+      {play.trouble && (
+        <Section title={play.troubleHeading}>
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-5">
+            {play.trouble.map((x) => (
+              <div key={x.title} className="card">
+                <h3 className="text-lg font-bold">{x.title}</h3>
+                <p>{x.body}</p>
+                {x.to && x.linkText && (
+                  <p>
+                    {x.to === "discord" ? (
+                      <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">{x.linkText}</a>
+                    ) : (
+                      <Link to={x.to}>{x.linkText}</Link>
+                    )}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       <Section title={play.faqHeading}>
         <div className="grid gap-3">

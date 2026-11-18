@@ -13,9 +13,9 @@ All the words on the site live in `src/content/`. Edit a file on GitHub (pencil 
 | `site.json` | Server IPs, Bedrock port, Minecraft version, Discord and store links, live status on/off |
 | `kingdoms.json` | The four kingdoms (name, corner, short summary, full description) |
 | `rules.json` | The rules page (each rule has an icon, title, text, and optional note) |
-| `faq.json` | FAQ questions and answers on the How to Play page |
+| `faq.json` | FAQ questions and answers on the Getting Started page |
 | `store.json` | Store page text (items and prices are on Tebex, not here) |
-| `play.json` | How to Play steps for Java and Bedrock |
+| `play.json` | Getting Started steps for Java and Bedrock |
 | `home.json` | Home page headings and feature cards |
 | `announcements.json` | News on the home page. Add items like `{ "date": "2026-11-05", "title": "Hello", "body": "Text" }`. Empty means the section is hidden |
 

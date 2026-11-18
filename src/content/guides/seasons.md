@@ -13,7 +13,7 @@ BrindleWood plays in **seasons**. When a season ends, the server resets.
 
 ## When does a season end?
 
-The end date has not been set yet. When it is, we will announce it in our [Discord](https://discord.gg/aCjzjkNV7F).
+There is no fixed end date. A season only ends when members ask for a reset and vote on it in our [Discord](https://discord.gg/aCjzjkNV7F). We will announce the result there.
 
 ## What this means for you
 

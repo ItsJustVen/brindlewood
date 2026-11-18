@@ -9,7 +9,7 @@ Here is a simple order for your first hour. Each step links to the full guide if
 
 ## 1. Join and accept the resource pack
 
-Join with the address or friend account on the [How to Play](/play) page. When the resource pack prompt appears, accept it and wait. The first download takes up to about 3 minutes on Bedrock and 5 on Java. See [Resource Pack](/guides/resource-pack) if it seems stuck.
+Join with the address or friend account on the [Getting Started](/play) page. When the resource pack prompt appears, accept it and wait. The first download takes up to about 3 minutes on Bedrock and 5 on Java. See [Resource Pack](/guides/resource-pack) if it seems stuck.
 
 ## 2. Pick your race
 

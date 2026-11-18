@@ -34,7 +34,7 @@ const guideList = guideSlugs.map(guideMeta);
 // Page title and description for link previews and search results.
 // When you add a page, add a line here as well as in ROUTES.
 const PAGES = {
-  play: ["How to Play", "How to join BrindleWood on Java or Bedrock, and what to do in your first ten minutes."],
+  play: ["Getting Started", "How to join BrindleWood on Java or Bedrock, and what to do in your first ten minutes."],
   kingdoms: ["Kingdoms", "The four kingdoms of BrindleWood and who leads them."],
   rules: ["Rules", "The rules of BrindleWood, and what happens when they are broken."],
   store: ["Store", "Ranks, keys, races and cosmetics. What the BrindleWood store sells and what it never will."],

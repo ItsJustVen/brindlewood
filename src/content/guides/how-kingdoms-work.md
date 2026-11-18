@@ -14,7 +14,7 @@ BrindleWood has four kingdoms, one in each corner of the map. See the [Kingdoms 
 | Solyra | Southwest | BR_ItsJustVen596 |
 | Subterra | Southeast | Open |
 
-![The sandstone capital of Solyra, in the southwest](/screens/guide-solyra-capital.jpg)
+![The sandstone capital of Solyra, in the southwest](/screens/guide-solyra-capital.webp)
 
 ## Which kingdom am I in?
 

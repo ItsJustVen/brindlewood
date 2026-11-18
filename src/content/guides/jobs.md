@@ -9,7 +9,7 @@ Jobs are the main way to earn money ($) by playing normally. Mine, farm, fish or
 
 **Start here:** each job has its own NPC in Aldoria, the spawn world. You walk there to join, and some are more than 500 blocks from the spawn gate, so it's a bit of a journey. Money arrives as you do the job's actions.
 
-![The Jobs menu showing your job slots. One slot is unlocked and two are locked](/screens/guide-jobs-menu.jpg)
+![The Jobs menu showing your job slots. One slot is unlocked and two are locked](/screens/guide-jobs-menu.webp)
 
 ## Where to find each job NPC (x, y, z)
 

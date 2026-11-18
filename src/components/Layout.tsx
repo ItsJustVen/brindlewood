@@ -25,7 +25,7 @@ function Header() {
           to="/"
           className="flex items-center gap-3 font-display text-xl font-black text-ink no-underline hover:text-ink"
         >
-          <img src={asset("logo.png")} alt="" width={44} height={44} className="h-11 w-11" />
+          <img src={asset("logo-small.png")} alt="" width={44} height={44} className="h-11 w-11" />
           {site.name}
         </Link>
 
@@ -86,7 +86,7 @@ function Footer() {
   return (
     <footer className="mt-8 border-t-2 border-wood bg-deep py-8 text-center text-sm text-muted">
       <div className="mx-auto w-[min(1100px,92%)]">
-        <img src={asset("logo.png")} alt="" width={56} height={56} className="mx-auto mb-2 h-14 w-14 opacity-90" />
+        <img src={asset("logo-small.png")} alt="" width={56} height={56} className="mx-auto mb-2 h-14 w-14 opacity-90" />
         <nav aria-label="Footer" className="mb-3 flex flex-wrap justify-center gap-x-5 gap-y-1">
           <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">Discord</a>
           <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Store</a>

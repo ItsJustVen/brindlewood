@@ -16,7 +16,7 @@ Use `/warp` to find them. The dungeon NPCs are in the spawn world at **-471, 72,
 
 ## How a run works
 
-![The Sanctum of Skulls guard menu, showing the dungeon is awakening and how many monsters to kill](/screens/guide-dungeon-menu.jpg)
+![The Sanctum of Skulls guard menu, showing the dungeon is awakening and how many monsters to kill](/screens/guide-dungeon-menu.webp)
 
 Dungeons run in rounds:
 
@@ -37,15 +37,15 @@ The guard's info menu shows the current state: awakening, in a conquest, or on c
 
 ## Sanctum of Skulls (Difficulty I, Easy)
 
-![Inside the Sanctum of Skulls: a stone cavern with a red-carpeted bridge and mobs fighting](/screens/sanctum.jpg)
+![Inside the Sanctum of Skulls: a stone cavern with a red-carpeted bridge and mobs fighting](/screens/sanctum.webp)
 
 A good first dungeon. Learn how dungeons work here before you try the Whispering Maze.
 
-![The entrance to the Sanctum of Skulls, with the monster counter at the top of the screen](/screens/guide-sanctum-entrance.jpg)
+![The entrance to the Sanctum of Skulls, with the monster counter at the top of the screen](/screens/guide-sanctum-entrance.webp)
 
 The main area is the **Heart of the Dungeon**. Conquest drops land here, and `/spawn` takes you back to Aldoria.
 
-![The Heart of the Dungeon inside the Sanctum of Skulls](/screens/guide-sanctum-heart.jpg)
+![The Heart of the Dungeon inside the Sanctum of Skulls](/screens/guide-sanctum-heart.webp)
 
 **Guard:** Travis Woods stands alone outside the sanctum. **Mobs:** Zombies, Skeletons, Pillagers and Piglins, plus a boss.
 
@@ -62,11 +62,11 @@ And a chance at a bonus: a Common Key or a Rare Key. Rewards are dropped in the 
 
 ## Whispering Maze (Difficulty II, Medium)
 
-![Inside the Whispering Maze: a mossy stone hall full of mobs chasing a player](/screens/maze.jpg)
+![Inside the Whispering Maze: a mossy stone hall full of mobs chasing a player](/screens/maze.webp)
 
-![The Whispering Maze seen from above, a huge multi-level ruin](/screens/guide-maze-outside.jpg)
+![The Whispering Maze seen from above, a huge multi-level ruin](/screens/guide-maze-outside.webp)
 
-![The Heart of the Dungeon inside the Whispering Maze, with mobs gathering](/screens/guide-maze-heart.jpg)
+![The Heart of the Dungeon inside the Whispering Maze, with mobs gathering](/screens/guide-maze-heart.webp)
 
 A bigger fight than the Sanctum. Bring friends.
 

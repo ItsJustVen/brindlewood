@@ -17,7 +17,7 @@ BrindleWood uses the **SimpleClaimSystem** plugin. Claim your land in **playworl
 
 When you claim, you get a message in chat, and the top bar shows the name of the claim you are standing in.
 
-![The top bar showing the claim name, and the chat message after a chunk is added to a claim](/screens/guide-claim-chunk-added.jpg)
+![The top bar showing the claim name, and the chat message after a chunk is added to a claim](/screens/guide-claim-chunk-added.webp)
 
 You can see the borders with `/claim see`, and a chat map of nearby claims with `/claim map`. Your claims also show on the [Live Map](https://map.brindlewood.net).
 
@@ -112,7 +112,7 @@ Settings for the whole claim, which apply to everyone:
 
 > **Spawners** are protected by the *Special Blocks* setting, which is off by default. If you can't break a spawner in your own claim, check it in `/claim settings`. See [Spawners](/guides/spawners).
 
-![The claim settings menu with the Fly toggle](/screens/guide-claim-settings-fly.jpg)
+![The claim settings menu with the Fly toggle](/screens/guide-claim-settings-fly.webp)
 
 ## Handy toggles
 

@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 To open the CoinShop, talk to the CoinShop NPC at spawn, or use `/coinshop`.
 
-![The CoinShop menu with its categories, plus Coins and Store buttons](/screens/guide-coinshop.jpg)
+![The CoinShop menu with its categories, plus Coins and Store buttons](/screens/guide-coinshop.webp)
 
 ## Crate keys
 

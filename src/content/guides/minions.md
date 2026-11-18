@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 Minions work for you around the clock, even while you're offline. Buy one, place it, and collect what it gathers.
 
-![The Minions shop menu](/screens/guide-minions-shop.jpg)
+![The Minions shop menu](/screens/guide-minions-shop.webp)
 
 - There is no command to place them. Buy one, then place the minion item in the world like a block.
 - You do not need to feed your minions. Hunger is turned off.

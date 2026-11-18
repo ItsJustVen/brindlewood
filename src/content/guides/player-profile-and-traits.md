@@ -14,7 +14,7 @@ From the profile you can reach your levels, achievements, settings and skill tre
 
 The Leaderboards NPC is in the spawn world at **-64, 99, 3**. Or check `/leaderboards` to see how you rank against everyone else: weekly, monthly and all time.
 
-![Your player profile menu](/screens/guide-player-profile.jpg)
+![Your player profile menu](/screens/guide-player-profile.webp)
 
 ## Commands
 

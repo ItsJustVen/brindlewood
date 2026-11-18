@@ -15,7 +15,7 @@ Linking connects your Minecraft account to your Discord account. It takes about 
 4. Send the code to the bot in that direct message.
 5. The bot checks it and confirms that your accounts are linked. Your diamond arrives after the link is confirmed.
 
-![The link code shown in chat](/screens/guide-link-code.jpg)
+![The link code shown in chat](/screens/guide-link-code.webp)
 
 ## Good to know
 

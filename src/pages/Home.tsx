@@ -20,7 +20,8 @@ export default function Home() {
             src={asset(home.heroImage)}
             alt={home.heroAlt}
             width={1600}
-            height={877}
+            height={900}
+            fetchPriority="high"
             className="h-full w-full object-cover"
           />
           <div

@@ -14,4 +14,4 @@ There is also a **Live Map** of the whole server on the web: [map.brindlewood.ne
 
 > Tip: look at the claim map before you claim. See [Claiming Land](/guides/claiming-land).
 
-![The Claim Map tooltip explaining the chunk colors](/screens/guide-claim-map.jpg)
+![The Claim Map tooltip explaining the chunk colors](/screens/guide-claim-map.webp)

@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 Need more land? Bid on it. The Landlord NPC auctions off chunks, and the winner gets them added to their claim limit.
 
-![The Landlord menu](/screens/guide-landlord.jpg)
+![The Landlord menu](/screens/guide-landlord.webp)
 
 ## How it works
 

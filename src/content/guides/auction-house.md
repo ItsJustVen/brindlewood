@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 Buy what other adventurers are selling, and list your own items without needing a shop.
 
-![The Auction House menu, Items for Sale](/screens/guide-auction-house.jpg)
+![The Auction House menu, Items for Sale](/screens/guide-auction-house.webp)
 
 **Open it:** `/ah` (also `/auction` or `/auctionhouse`), or visit the Auction NPC in the spawn world at **46, 100, 0**.
 

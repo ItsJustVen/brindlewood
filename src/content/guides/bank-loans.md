@@ -23,7 +23,7 @@ Need money now? Take out a loan. You get the cash right away and pay it back ove
 - If you can't afford a payment, the Banker warns you. Keep money available.
 - Bigger loans are locked behind your **Trustworthy** trait level, so everyone's limit is different.
 
-![The Bank Loans menu](/screens/guide-bank-loans.jpg)
+![The Bank Loans menu](/screens/guide-bank-loans.webp)
 
 ## Tips
 

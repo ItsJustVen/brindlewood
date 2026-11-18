@@ -15,7 +15,7 @@ updated: "2026-11-05"
 
 Swords, bows, fishing rods, shovels, pickaxes, hoes, crossbows and axes, with a page of skins for each.
 
-![The Toolskins menu](/screens/guide-toolskins.jpg)
+![The Toolskins menu](/screens/guide-toolskins.webp)
 
 ## Using a skin voucher
 

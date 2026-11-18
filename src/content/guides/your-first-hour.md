@@ -15,7 +15,7 @@ Join with the address or friend account on the [How to Play](/play) page. When t
 
 The race menu opens by itself the first time you join, and you can't play until you choose. **Your race is permanent**, so read each one first.
 
-![The Choose Your Destiny menu, where you pick your race](/screens/guide-race-menu.jpg)
+![The Choose Your Destiny menu, where you pick your race](/screens/guide-race-menu.webp)
 
 More: [Choosing Your Race](/guides/choosing-your-race).
 
@@ -23,7 +23,7 @@ More: [Choosing Your Race](/guides/choosing-your-race).
 
 Type `/rewards` and claim your hourly reward. The daily and weekly rewards give keys as well as money and coins.
 
-![The Rewards menu with Hourly, Daily and Weekly rewards, plus Referrals and Voting](/screens/guide-rewards-menu.jpg)
+![The Rewards menu with Hourly, Daily and Weekly rewards, plus Referrals and Voting](/screens/guide-rewards-menu.webp)
 
 More: [Free Rewards](/guides/free-rewards). Linking your Discord account with `/link` also gives you a free diamond ([how](/guides/link-your-account)).
 
@@ -31,7 +31,7 @@ More: [Free Rewards](/guides/free-rewards). Linking your Discord account with `/
 
 Jobs are the main way to earn money. Each one has its own NPC in Aldoria, and some are a long walk from spawn. The Jobs NPC at **-53, 99, 19** shows your slots and can send you to your employer once you have chosen a job.
 
-![The Jobs menu showing your job slots](/screens/guide-jobs-menu.jpg)
+![The Jobs menu showing your job slots](/screens/guide-jobs-menu.webp)
 
 More: [Jobs](/guides/jobs) has every NPC location and what each job pays. The [NPC finder](/npcs) shows them on a map.
 
@@ -45,7 +45,7 @@ More: [The World](/guides/the-world) and [Danger Zones and Safe Zones](/guides/d
 
 The playworld is where you build. Walk into the **RTP pond** at spawn (around 0, 97, 42) and a menu opens. Left-click the Overworld option to teleport to a random spot in the playworld (it has a 5 minute cooldown). When you find a spot you like, stand in the chunk and type `/claim`. Claiming is free, and you start with 1 claim and 10 chunks. **Claim before you build.** Unclaimed land can't be protected.
 
-![The chat message and top bar after a chunk is added to a claim](/screens/guide-claim-chunk-added.jpg)
+![The chat message and top bar after a chunk is added to a claim](/screens/guide-claim-chunk-added.webp)
 
 More: [Claiming Land](/guides/claiming-land).
 

@@ -5,7 +5,7 @@
     "corner": "Northwest",
     "summary": "A calm, cooperative kingdom that will do anything to protect its peace.",
     "description": "Peace is the heart of Peacefield. This is a kingdom for players who value calm, cooperation, and a quiet corner of the world to call home, and its people will do everything in their power to protect that peace. Leader: Neptunes_Revenge.",
-    "image": "screens/peacefield.jpg",
+    "image": "screens/peacefield.webp",
     "imageAlt": "Small wooden houses and flower fields beneath a floating island in Peacefield"
   },
   {
@@ -14,7 +14,7 @@
     "corner": "Northeast",
     "summary": "Unclaimed. Nobody has built here yet, so the northeast is open to whoever founds it.",
     "description": "Rosewood is one of two kingdoms nobody has claimed. The land is untouched: painted mountains, rivers and open savanna in the northeast corner of the map. Want to found it? Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
-    "image": "screens/rosewood.jpg",
+    "image": "screens/rosewood.webp",
     "imageAlt": "Untouched mountains striped with red, orange and purple above a river in Rosewood"
   },
   {
@@ -23,7 +23,7 @@
     "corner": "Southwest",
     "summary": "Ruled by the Goddess of Death, with Greek, Italian, and desert builds and a fully shared community.",
     "description": "Ruled by the Goddess of Death herself, Solyra is a kingdom of Greek, Italian, and desert-inspired architecture. Its people are proud to work as one community, with shared storage, shared resources, and shared villagers. In Solyra, everyone builds together and everyone benefits. Leader: BR_ItsJustVen596.",
-    "image": "screens/solyra.jpg",
+    "image": "screens/solyra.webp",
     "imageAlt": "A village of sandstone and terracotta buildings with gardens in Solyra"
   },
   {
@@ -32,7 +32,7 @@
     "corner": "Southeast",
     "summary": "Open for a leader. Nothing is built here yet: floating islands above, cliffs and caves below.",
     "description": "Subterra has no leader and nothing built yet. The southeast corner of the map has floating islands above the forest and cliffs full of caves below. Want to lead it? Open a ticket in our Discord with a name, a theme and how you plan to rule. You can rename the kingdom to fit your theme.",
-    "image": "screens/subterra.jpg",
+    "image": "screens/subterra.webp",
     "imageAlt": "Floating islands above a forest of giant mushrooms in Subterra"
   }
 ]

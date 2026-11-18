@@ -11,7 +11,7 @@ Guilds run on **BetterTeams**.
 
 The Guilds NPC is in the spawn world at **-48, 99, 4**.
 
-![The Guilds menu showing your guild's level and its members](/screens/guide-guilds.jpg)
+![The Guilds menu showing your guild's level and its members](/screens/guide-guilds.webp)
 
 ## Start a guild
 

@@ -17,11 +17,11 @@ Each rank has a prefix in chat and TAB, a kit, extra slots and commands. Command
 | Duke | +10 | +8 | +5 | +3 |
 | King | +12 | +10 | +6 | +3 |
 
-![Knight rank perks](/screens/guide-rank-knight.jpg)
+![Knight rank perks](/screens/guide-rank-knight.webp)
 
-![Lord rank perks](/screens/guide-rank-lord.jpg)
+![Lord rank perks](/screens/guide-rank-lord.webp)
 
-![King rank perks](/screens/guide-rank-king.jpg)
+![King rank perks](/screens/guide-rank-king.webp)
 
 ## Where to buy a rank
 

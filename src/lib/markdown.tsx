@@ -6,7 +6,7 @@ import { asset, fill } from "./text";
 // HTML), so pasted text cannot inject scripts.
 // Supported: ## / ### headings, paragraphs, - bullet lists, 1. numbered lists,
 // > notes, | tables |, --- rules, **bold**, *italic*, `code`, [links](url),
-// and ![alt](/screens/file.jpg) on its own line for pictures from public/screens.
+// and ![alt](/screens/file.webp) on its own line for pictures from public/screens.
 
 export function slugify(text: string): string {
   return text

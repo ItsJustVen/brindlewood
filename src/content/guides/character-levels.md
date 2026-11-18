@@ -9,7 +9,7 @@ As you play, your character levels up. Every level has a reward waiting for you,
 
 > Important: claim rewards in order. You have to claim your previous level's reward before the next one.
 
-![The Level Up message when you reach a new level](/screens/guide-level-up.jpg)
+![The Level Up message when you reach a new level](/screens/guide-level-up.webp)
 
 ## What levels give you
 
@@ -20,7 +20,7 @@ As you play, your character levels up. Every level has a reward waiting for you,
 
 Everything here is free to earn. No store purchase needed.
 
-![Chat output showing your race, level and class](/screens/guide-profile-chat.jpg)
+![Chat output showing your race, level and class](/screens/guide-profile-chat.webp)
 
 ## Commands you unlock
 

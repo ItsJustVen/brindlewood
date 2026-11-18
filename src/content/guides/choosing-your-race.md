@@ -7,7 +7,7 @@ updated: "2026-11-17"
 ---
 Your race defines how your character plays. Each one plays differently, with its own strengths, weaknesses and abilities.
 
-![The Choose Your Destiny menu, where you pick your race](/screens/guide-race-menu.jpg)
+![The Choose Your Destiny menu, where you pick your race](/screens/guide-race-menu.webp)
 
 ## Picking your race
 
@@ -29,7 +29,7 @@ Your race defines how your character plays. Each one plays differently, with its
 | `/races leaderboard` | Shows the race leaderboard |
 | `/races help` | Lists the race commands |
 
-![The race tree menu](/screens/guide-race-tree.jpg)
+![The race tree menu](/screens/guide-race-tree.webp)
 
 ## Growing your race
 

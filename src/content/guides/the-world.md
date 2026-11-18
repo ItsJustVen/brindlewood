@@ -27,9 +27,9 @@ You spawn in **Moonfall Castle**, in **Moonfall Town**, the capital of Aldoria. 
 
 The rest of the map is made up of forests, farmland, beaches and landmarks, such as Clearwater Beach, Whispering Woods, Mystic Falls, Eastpoint Lighthouse and Waldorf Mansion. Open the map to see them all. Discovering a region on it rewards you with XP.
 
-![The World Teleport menu, where you choose the overworld](/screens/guide-world-teleport.jpg)
+![The World Teleport menu, where you choose the overworld](/screens/guide-world-teleport.webp)
 
-![The playworld, with lakes, forests and mountains](/screens/guide-playworld.jpg)
+![The playworld, with lakes, forests and mountains](/screens/guide-playworld.webp)
 
 ## Server settings
 

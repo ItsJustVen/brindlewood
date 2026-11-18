@@ -23,7 +23,7 @@ You level skills by doing them. Every skill goes up to **level 100**.
 
 Skills go up from normal play, so just do what you enjoy.
 
-![The skills menu](/screens/guide-skills-menu.jpg)
+![The skills menu](/screens/guide-skills-menu.webp)
 
 ## Commands
 

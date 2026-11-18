@@ -7,7 +7,7 @@ updated: "2026-11-05"
 ---
 The AFK Pond pays you money and coins while you stand in it, so you can leave your character there and get on with your evening.
 
-![The AFK Pond sign listing $50 every 15 minutes and 1 coin every 2 hours](/screens/guide-afk-pond.jpg)
+![The AFK Pond sign listing $50 every 15 minutes and 1 coin every 2 hours](/screens/guide-afk-pond.webp)
 
 **Where:** Aldoria (the spawn world), outside the gate and to the right. **Coordinates:** x -34, y 101, z 46.5.
 

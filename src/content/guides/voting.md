@@ -29,7 +29,7 @@ Every link counts:
 
 Each site has its own cooldown (usually once a day), so come back and vote again.
 
-![Vote Crate rewards](/screens/guide-crate-vote.jpg)
+![Vote Crate rewards](/screens/guide-crate-vote.webp)
 
 ## Using your key
 

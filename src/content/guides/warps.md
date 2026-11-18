@@ -22,7 +22,7 @@ Let everyone teleport to a place you made.
 - `/pw` opens and manages player warps (also `/pwarp` or `/playerwarps`)
 - You start with 1 player warp slot
 
-![The Player Warps menu with Home, Shop and Farm categories](/screens/guide-player-warps.jpg)
+![The Player Warps menu with Home, Shop and Farm categories](/screens/guide-player-warps.webp)
 
 ## More player warp slots
 

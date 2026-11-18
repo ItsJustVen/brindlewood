@@ -1,40 +1,40 @@
 {
-  "heroImage": "screens/castle-entrance.jpg",
+  "heroImage": "screens/castle-entrance.webp",
   "heroAlt": "The grand castle entrance at spawn, with lanterns and a hanging chandelier",
   "galleryHeading": "A look around",
   "gallery": [
     {
-      "src": "screens/gate.jpg",
+      "src": "screens/gate.webp",
       "alt": "A stone castle gate with lanterns and NPCs standing inside",
       "caption": "The castle gate at spawn"
     },
     {
-      "src": "screens/great-tree-day.jpg",
+      "src": "screens/great-tree-day.webp",
       "alt": "A giant tree spreading over the rooftops of a town",
       "caption": "The great tree over the spawn town"
     },
     {
-      "src": "screens/solyra.jpg",
+      "src": "screens/solyra.webp",
       "alt": "A village of sandstone and terracotta buildings with gardens",
       "caption": "Solyra, the southwest kingdom"
     },
     {
-      "src": "screens/sanctum.jpg",
+      "src": "screens/sanctum.webp",
       "alt": "A stone cavern with a red-carpeted bridge and mobs fighting",
       "caption": "Inside the Sanctum of Skulls"
     },
     {
-      "src": "screens/maze.jpg",
+      "src": "screens/maze.webp",
       "alt": "A mossy stone hall full of mobs chasing a player",
       "caption": "A fight in the Whispering Maze"
     },
     {
-      "src": "screens/players-group.jpg",
+      "src": "screens/players-group.webp",
       "alt": "Five players standing together in front of a red wooden building",
       "caption": "Friends at spawn"
     },
     {
-      "src": "screens/aurora.jpg",
+      "src": "screens/aurora.webp",
       "alt": "A pink and gold aurora over the sea at night",
       "caption": "Night over the sea in the playworld (taken with shaders)"
     }
@@ -107,7 +107,7 @@
       ]
     }
   ],
-  "staffImage": "screens/crew.jpg",
+  "staffImage": "screens/crew.webp",
   "staffImageAlt": "Five players standing together on a wooden bridge at night, lit by lanterns",
   "staffImageCaption": "A few of us in game",
   "aboutHeading": "How BrindleWood started",

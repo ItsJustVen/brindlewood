@@ -17,7 +17,7 @@ Spawners are a big part of BrindleWood, and they run on **SpawnerMeta**. Every p
 | `/spawnerdrops` | Gives back drops that were stored because your inventory was full |
 | `/spawnertrust` | Manages the list of players trusted on your spawners |
 
-![A spawner menu](/screens/guide-spawner.jpg)
+![A spawner menu](/screens/guide-spawner.webp)
 
 ## What you can do with them
 
@@ -26,7 +26,7 @@ Spawners are a big part of BrindleWood, and they run on **SpawnerMeta**. Every p
 - **Upgrade** them: spawn speed, mobs per wave, activation range, how many mobs can be nearby, and how hard they are to break
 - Buy new ones in the spawner shop
 
-![A pile of iron golems from a spawner left running without limits](/screens/guide-spawner-golems.jpg)
+![A pile of iron golems from a spawner left running without limits](/screens/guide-spawner-golems.webp)
 
 This is why spawners are limited. Too many mobs at once cause lag for everyone.
 

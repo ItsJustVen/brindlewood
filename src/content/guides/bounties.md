@@ -13,11 +13,15 @@ updated: "2026-11-05"
 
 The player doesn't need to be online. A **10% tax** is added to the amount, so budget for it.
 
+![The Tavern Keeper bounty menu](/screens/guide-tavern-keeper.jpg)
+
 ## Claiming a bounty
 
 - Kill the player who has the bounty on them.
 - The bounty money is paid to you right away.
 - Bounties don't expire. They stay until someone claims them.
+
+![An active bounty](/screens/guide-bounty-active.jpg)
 
 ## Tips
 

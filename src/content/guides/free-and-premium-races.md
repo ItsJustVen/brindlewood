@@ -60,6 +60,8 @@ Brewed in venom.
 - Immune to poison and wither, and bonus attack damage
 - Fragile health, and they can't drink milk
 
+![The Vyressa premium race tooltip](/screens/guide-race-vyressa.jpg)
+
 ### Aethran
 
 Born under far stars. They drift rather than fall.

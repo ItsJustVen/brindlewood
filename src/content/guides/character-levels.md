@@ -18,6 +18,8 @@ As you play, your character levels up. Every level has a reward waiting for you,
 
 Everything here is free to earn. No store purchase needed.
 
+![Chat output showing your race, level and class](/screens/guide-profile-chat.jpg)
+
 ## Commands you unlock
 
 These commands can be bought with coins in the [CoinShop](/guides/coinshop), but you can also unlock them free by levelling:

@@ -17,6 +17,8 @@ Spawners are a big part of BrindleWood, and they run on **SpawnerMeta**. Every p
 | `/spawnerdrops` | Gives back drops that were stored because your inventory was full |
 | `/spawnertrust` | Manages the list of players trusted on your spawners |
 
+![A spawner menu](/screens/guide-spawner.jpg)
+
 ## What you can do with them
 
 - **Stack** spawners together

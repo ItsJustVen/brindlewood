@@ -10,13 +10,19 @@ updated: "2026-11-05"
 
 Skilled blacksmiths like Rowan Ironclad in Moonfall do tool work for you. Their **Workload** (1 to 5) decides how long an order takes. Free means fast.
 
+![The Blacksmith menu](/screens/guide-blacksmith.jpg)
+
 ## Tailors
 
 Tailors make backpacks and backpack upgrades. Workload affects production time here too. See [Backpacks](/guides/backpacks).
 
+![The Tailor menu](/screens/guide-tailor.jpg)
+
 ## Artists
 
 Artists like Liora Fairheart need help finishing their paintings. Complete their quests to unlock rewards.
+
+![The Artist menu](/screens/guide-artist.jpg)
 
 ## Where to find them
 

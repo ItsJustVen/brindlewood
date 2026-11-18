@@ -13,3 +13,5 @@ Use the map to find towns, and the claim map before you build so you don't overl
 There is also a **Live Map** of the whole server on the web: [map.brindlewood.net](https://map.brindlewood.net).
 
 > Tip: look at the claim map before you claim. See [Claiming Land](/guides/claiming-land).
+
+![The Claim Map tooltip explaining the chunk colors](/screens/guide-claim-map.jpg)

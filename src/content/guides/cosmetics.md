@@ -18,6 +18,8 @@ All **100 coins each** in the [CoinShop](/guides/coinshop):
 
 The Cosmetics NPC is in the spawn world at **45, 99, 17**.
 
+![The Cosmetics menu categories](/screens/guide-cosmetics-menu.jpg)
+
 ## Commands
 
 | Command | What it does |

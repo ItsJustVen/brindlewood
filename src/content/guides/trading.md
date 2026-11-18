@@ -19,6 +19,8 @@ Want to swap items or sell something to a friend right now? Use a direct trade.
 4. Both of you add items, money or coins in the trade window.
 5. Both confirm. There is a 5-second countdown before it completes.
 
+![The trading menu](/screens/guide-trading.jpg)
+
 ## Staying safe
 
 - Read the window before you confirm. Check the item names and amounts.

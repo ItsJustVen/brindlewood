@@ -15,6 +15,8 @@ updated: "2026-11-05"
 
 Swords, bows, fishing rods, shovels, pickaxes, hoes, crossbows and axes, with a page of skins for each.
 
+![The Toolskins menu](/screens/guide-toolskins.jpg)
+
 ## Using a skin voucher
 
 1. Hold the voucher and click in the air. It tells you which skin you claimed.

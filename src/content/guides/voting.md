@@ -29,6 +29,8 @@ Every link counts:
 
 Each site has its own cooldown (usually once a day), so come back and vote again.
 
+![Vote Crate rewards](/screens/guide-crate-vote.jpg)
+
 ## Using your key
 
 Use your Vote Crate key on the Vote Crate. See [Crates and Keys](/guides/crates-and-keys) for what crates can hold.

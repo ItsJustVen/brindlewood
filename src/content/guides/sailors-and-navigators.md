@@ -10,9 +10,15 @@ updated: "2026-11-05"
 
 Sailors like Finn Wavecrest at Moonfall Harbor will sail you to other destinations. Open the menu, pick a travel route, and set sail.
 
+![The Sailor menu with the harbors you can sail to](/screens/guide-sailor.jpg)
+
 ## Navigators
 
 Navigators like Corin Seabound know the Nether. They teleport you to dangerous places there.
+
+![The Navigator menu for the Nether](/screens/guide-navigator-nether.jpg)
+
+![The Navigator menu for the End](/screens/guide-navigator-end.jpg)
 
 ## Where to find them
 

@@ -29,6 +29,8 @@ Your race defines how your character plays. Each one plays differently, with its
 | `/races leaderboard` | Shows the race leaderboard |
 | `/races help` | Lists the race commands |
 
+![The race tree menu](/screens/guide-race-tree.jpg)
+
 ## Growing your race
 
 Your race levels up as you play, up to level 100. At level 100 you unlock your race's **Awakened form**, with a stronger passive, special drops and an ability. See [Awakened Races](/guides/awakened-races).

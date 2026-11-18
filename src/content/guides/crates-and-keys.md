@@ -24,6 +24,14 @@ Common, Rare, Epic and Superior. Plus the **Vote Crate** (from voting) and seaso
 
 Better crates give better rewards, more money and more coins.
 
+![Common Crate rewards](/screens/guide-crate-common.jpg)
+
+![Rare Crate rewards](/screens/guide-crate-rare.jpg)
+
+![Epic Crate rewards](/screens/guide-crate-epic.jpg)
+
+![Superior Crate rewards](/screens/guide-crate-superior.jpg)
+
 ## Getting keys
 
 - **Free:** `/rewards`, character levels, referrals, dungeons and voting

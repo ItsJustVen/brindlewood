@@ -112,6 +112,8 @@ Settings for the whole claim, which apply to everyone:
 
 > **Spawners** are protected by the *Special Blocks* setting, which is off by default. If you can't break a spawner in your own claim, check it in `/claim settings`. See [Spawners](/guides/spawners).
 
+![The claim settings menu with the Fly toggle](/screens/guide-claim-settings-fly.jpg)
+
 ## Handy toggles
 
 | Command | What it does |

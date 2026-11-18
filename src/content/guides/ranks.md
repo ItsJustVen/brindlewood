@@ -17,6 +17,12 @@ Each rank has a prefix in chat and TAB, a kit, extra slots and commands. Command
 | Duke | +10 | +8 | +5 | +3 |
 | King | +12 | +10 | +6 | +3 |
 
+![Knight rank perks](/screens/guide-rank-knight.jpg)
+
+![Lord rank perks](/screens/guide-rank-lord.jpg)
+
+![King rank perks](/screens/guide-rank-king.jpg)
+
 ## Where to buy a rank
 
 The rank NPCs are in the spawn world:

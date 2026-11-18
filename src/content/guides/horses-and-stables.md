@@ -17,6 +17,8 @@ Horse Stables NPCs are in the spawn world (Aldoria):
 - Stables 4: **-641, 79, -210**
 - Stables 5: **-35, 78, 387**
 
+![The Horse Stable menu](/screens/guide-horse-stable.jpg)
+
 ## Horse prices
 
 | Tier | Prices (each horse) |

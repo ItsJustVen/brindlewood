@@ -9,7 +9,7 @@ BrindleWood has two main worlds, plus a resource world for gathering.
 
 **Aldoria** (the spawn world) is the hub. Use `/spawn` to get there. It's where the NPCs, the bank, the jobs and the dungeons are. The area around spawn is a safe zone with PvP off. Beyond it are danger zones where mobs spawn and players can attack you (see [Danger Zones and Safe Zones](/guides/danger-and-safe-zones)). Aldoria is for exploring and services, not for building.
 
-**Playworld** is where you build, claim land and make your home. Everything you place and claim lives here. To get there, walk into the **RTP pond** at spawn (around 0, 97, 42). A menu opens, and clicking the Overworld option teleports you to a random spot.
+**Playworld** is where you build, claim land and make your home. Everything you place and claim lives here. To get there, walk into the **RTP pond** at spawn (around 0, 97, 42). A menu opens, and clicking the Overworld option teleports you to a random spot. The RTP has a 5 minute cooldown.
 
 **The resource world** (`/warp rw`) is for gathering. It resets every Saturday night at 11 PM Eastern with a new seed. It has no world border, you can't claim land there, and PvP is on.
 

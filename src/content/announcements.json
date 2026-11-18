@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "date": "2026-11-16",
+    "title": "Patch Notes · November 16, 2026",
+    "body": "Added\n• New website at brindlewood.net with 58 guides, a page for each Kingdom, rules, privacy and terms, and a contact form (appeals included)\n• Live \"players adventuring\" count on the website\n• Weekly Most Active Player reward: 50 coins and a cosmetic crate key\n• /bug and /suggestion now go straight to staff\n• /newplayers report so staff can see where new players drop off\n• Big moderation actions now need a second staff approval\n• Nightly encrypted off-site backups for the bot\nChanged\n• Bedrock join steps clarified: add the friend account EuphoriaHQ7845, no IP needed\n• Vote links updated, and the minecraftservers.org listing now shows the correct IP, Kingdoms and our website\n• Automod now checks edited messages too\n• Suggestions are now reviewed by staff instead of public voting\n• Staff guides rebuilt as a few short pages\nFixed\n• Ticket confirm buttons not replying\n• Applications getting stuck\n• Wrong version and Bedrock address on our server listings\n• Playtime tracking now ignores bad data\nRemoved\n• Old New Players and Roles panels\n• Public suggestion voting\n• The first set of 18 staff guides (replaced, see Changed)\nBalance\n• No balance changes this patch"
+  }
+]

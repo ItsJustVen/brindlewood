@@ -54,11 +54,6 @@ export default function Home() {
         <p className="mt-4 text-sm">
           <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Visit the Store</a>
         </p>
-        {home.newHere && (
-          <p className="mt-5 text-muted">
-            {home.newHere.text} <Link to="/guides/your-first-hour">{home.newHere.linkText}</Link>
-          </p>
-        )}
         </div>
       </section>
 
@@ -94,24 +89,17 @@ export default function Home() {
       </Section>
 
       {latest.length > 0 && (
-        <Section title="Announcements">
-          <div className="grid gap-4">
-            {latest.map((a) => (
-              <article key={`${a.date}-${a.title}`} className="card card-teal">
-                <p className="text-sm font-bold uppercase tracking-widest text-steel">{a.date}</p>
-                <h3 className="text-xl font-bold">{a.title}</h3>
-                <p className="whitespace-pre-line">{a.body.split("\n").slice(0, 4).join("\n")}</p>
-              </article>
-            ))}
-          </div>
-          <p className="mt-4">
-            <Link to="/news">See all news and patch notes</Link>
+        <Section>
+          <p>
+            <span className="font-bold uppercase tracking-widest text-steel">Latest: </span>
+            {latest[0].title} <span className="text-muted">({latest[0].date})</span>{" "}
+            <Link to="/news">All news and patch notes</Link>
           </p>
         </Section>
       )}
 
       <Section title={home.kingdomsHeading} intro={home.kingdomsIntro}>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {kingdoms.map((k) => (
             <div key={k.id} className="card">
               <span className="text-xs font-extrabold uppercase tracking-widest text-steel">{k.corner}</span>
@@ -121,13 +109,10 @@ export default function Home() {
           ))}
         </div>
         {home.leaderCta && (
-          <div className="card card-teal mt-6">
-            <h3 className="text-xl font-bold">{home.leaderCta.title}</h3>
-            <p>{home.leaderCta.body}</p>
-            <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
-              {home.leaderCta.linkText}
-            </a>
-          </div>
+          <p className="mt-4 text-muted">
+            Rosewood and Subterra have no leader yet.{" "}
+            <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">{home.leaderCta.linkText}</a> to lead one.
+          </p>
         )}
         <div className="mt-6 text-center">
           <Link className="btn btn-primary" to="/kingdoms">
@@ -136,24 +121,8 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section title={home.featuresHeading}>
-        <div className="grid gap-x-12 gap-y-7 sm:grid-cols-2">
-          {home.features.map((f) => (
-            <div key={f.title} className="border-l-2 border-wood pl-4">
-              <h3 className="text-lg font-bold">{f.title}</h3>
-              <p className="mt-1 text-muted">{f.body}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
-
-      <Section title={home.aboutHeading}>
-        <div className="max-w-2xl space-y-3 text-muted">
-          {home.about.map((p) => (
-            <p key={p}>{p}</p>
-          ))}
-        </div>
-        <p className="mt-5 min-h-6 text-sm font-bold">
+      <Section>
+        <p className="min-h-6 text-sm font-bold">
           {home.since}
           {discord && (
             <>
@@ -169,34 +138,6 @@ export default function Home() {
           )}
         </p>
       </Section>
-
-      {home.staff.length > 0 && (
-        <Section title={home.staffHeading} intro={home.staffIntro}>
-          {home.staffImage && (
-            <figure className="mb-6 max-w-2xl">
-              <img
-                src={asset(home.staffImage)}
-                alt={home.staffImageAlt ?? ""}
-                loading="lazy"
-                width={1600}
-                height={900}
-                className="aspect-video w-full rounded-lg border border-panel2 object-cover"
-              />
-              {home.staffImageCaption && (
-                <figcaption className="mt-1.5 text-sm text-muted">{home.staffImageCaption}</figcaption>
-              )}
-            </figure>
-          )}
-          <dl className="grid gap-x-12 gap-y-5 sm:grid-cols-2">
-            {home.staff.map((group) => (
-              <div key={group.role} className="border-l-2 border-wood pl-4">
-                <dt className="text-xs font-extrabold uppercase tracking-widest text-steel">{group.role}</dt>
-                <dd className="mt-1 font-bold">{group.names.join(", ")}</dd>
-              </div>
-            ))}
-          </dl>
-        </Section>
-      )}
     </>
   );
 }

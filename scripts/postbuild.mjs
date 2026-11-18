@@ -39,6 +39,7 @@ const PAGES = {
   rules: ["Rules", "The rules of BrindleWood, and what happens when they are broken."],
   store: ["Store", "Ranks, keys, races and cosmetics. What the BrindleWood store sells and what it never will."],
   guides: ["Guides", "Everything you need to know about BrindleWood, from your first ten minutes to dungeons, guilds and the economy."],
+  staff: ["Staff", "Meet the BrindleWood staff team and find out how to get help."],
   news: ["News and Patch Notes", "What is new on BrindleWood: patch notes, new content and changes, newest first."],
   npcs: ["Find an NPC", "A map of every NPC in Aldoria, with coordinates."],
   contact: ["Contact", "How to reach the BrindleWood team."],

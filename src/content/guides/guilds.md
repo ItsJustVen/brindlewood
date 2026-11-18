@@ -11,6 +11,8 @@ Guilds run on **BetterTeams**.
 
 The Guilds NPC is in the spawn world at **-48, 99, 4**.
 
+![The Guilds menu showing your guild's level and its members](/screens/guide-guilds.jpg)
+
 ## Start a guild
 
 1. Type `/guild create <name>`. Names are 2 to 12 characters.

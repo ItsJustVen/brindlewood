@@ -10,6 +10,8 @@ updated: "2026-11-05"
 - Stock refreshes about every 11 minutes, so check back.
 - Prices follow demand, not who you are, and demand can change at any time.
 
+![The Merchant menu showing the day's deals](/screens/guide-merchant.jpg)
+
 ## Where to find them
 
 In the spawn world (Aldoria):

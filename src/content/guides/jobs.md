@@ -54,7 +54,7 @@ Pay depends on what you do. These are the base amounts at job level 1. They grow
 | Engineer | Crafting and repairing | $0.50 to $10 crafting (end crystals, ender chests and lodestones pay the most), up to $5 repairing netherite tools |
 | Explorer | Exploring new places | $0.10 to $3 |
 | Farmer | Harvesting and planting crops | $0.10 to $0.40 |
-| Fighter | Killing tough mobs | $0.50 to $8 (a warden pays the most) |
+| Fighter | Killing mobs and players | $0.50 to $10 (killing a player pays the most, then a warden at $8) |
 | Fisher | Fishing | $1 to $3.50 (pufferfish pays the most) |
 | Guard | Killing Sanctum of Skulls monsters | $1 per kill |
 | Hunter | Hunting and taming animals | $0.80 to $8 hunting (polar bears pay the most), $2.50 to $4 taming |

@@ -46,4 +46,4 @@ The rest of the map is made up of forests, farmland, beaches and landmarks, such
 - [The AFK Pond](/guides/afk-pond) for free money and coins
 - Playworld to find your spot and [claim it](/guides/claiming-land)
 
-See also: [Seasons and Resets](/guides/seasons), [NPCs: Who's Who in Aldoria](/guides/npcs), [Sailors and Navigators: Fast Travel](/guides/sailors-and-navigators), [Maps and Claim Maps](/guides/maps-and-claim-maps).
+See also: [Welcome to Aldoria: The Lore](/guides/welcome-to-aldoria), [Seasons and Resets](/guides/seasons), [NPCs: Who's Who in Aldoria](/guides/npcs), [Sailors and Navigators: Fast Travel](/guides/sailors-and-navigators), [Maps and Claim Maps](/guides/maps-and-claim-maps).

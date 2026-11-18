@@ -1,11 +1,11 @@
 ---
 title: "Link Your Discord Account"
 category: getting-started
-summary: "Connect your Minecraft and Discord accounts with /link and get a free diamond."
+summary: "Connect your Minecraft and Discord accounts with /link and get a free Superior Key."
 order: 7
 updated: "2026-11-05"
 ---
-Linking connects your Minecraft account to your Discord account. It takes about a minute, and you get a **diamond** for doing it.
+Linking connects your Minecraft account to your Discord account. It takes about a minute, and you get a **Superior Key** for doing it.
 
 ## How to link
 
@@ -13,7 +13,7 @@ Linking connects your Minecraft account to your Discord account. It takes about 
 2. The server gives you a **code** and tells you to send it to the BrindleWood bot.
 3. In Discord, open a **direct message** with the **BrindleWood bot**. Click the bot's name in our server and choose **Message**.
 4. Send the code to the bot in that direct message.
-5. The bot checks it and confirms that your accounts are linked. Your diamond arrives after the link is confirmed.
+5. The bot checks it and confirms that your accounts are linked. Your Superior Key arrives after the link is confirmed.
 
 ![The link code shown in chat](/screens/guide-link-code.webp)
 

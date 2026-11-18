@@ -116,7 +116,7 @@ Type `/help` in-game to open the server guide menu. Most things also have a menu
 
 | Command | What it does |
 | --- | --- |
-| `/link` | Links your Minecraft and Discord accounts (free diamond, see [Link Your Discord Account](/guides/link-your-account)) |
+| `/link` | Links your Minecraft and Discord accounts (free Superior Key, see [Link Your Discord Account](/guides/link-your-account)) |
 | `/discord` | Discord invite |
 | `/website` | Our website |
 | `/rules` | Server rules |

@@ -15,7 +15,7 @@ Everyone gets free rewards just for playing. Open the menu with `/rewards` and c
 | `/kit` or `/kits` | Free kits |
 | `/referral <username>` | Credit the friend who invited you |
 | `/vote` | Shows the vote links |
-| `/link` | Link your Discord account for a free diamond ([how](/guides/link-your-account)) |
+| `/link` | Link your Discord account for a free Superior Key ([how](/guides/link-your-account)) |
 | `/coinshop` | Spend your coins |
 
 The Rewards NPC is in the spawn world at **14, 99, 16**.

@@ -25,7 +25,7 @@ Type `/rewards` and claim your hourly reward. The daily and weekly rewards give 
 
 ![The Rewards menu with Hourly, Daily and Weekly rewards, plus Referrals and Voting](/screens/guide-rewards-menu.webp)
 
-More: [Free Rewards](/guides/free-rewards). Linking your Discord account with `/link` also gives you a free diamond ([how](/guides/link-your-account)).
+More: [Free Rewards](/guides/free-rewards). Linking your Discord account with `/link` also gives you a free Superior Key ([how](/guides/link-your-account)).
 
 ## 4. Get a job
 

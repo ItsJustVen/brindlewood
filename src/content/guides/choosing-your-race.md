@@ -44,6 +44,15 @@ Your race levels up as you play, up to level 100. You get a new ability at level
 | **Marisel** | Water breathing and Dolphin's Grace while swimming. Bonus health. Bonus drops: kelp, sea pickles, prismarine, guardian loot | Slowed and weakened in deserts and badlands | Longer Dolphin's Grace | Heals everyone nearby |
 | **Terrune** | Bonus health, knockback resistance and faster block breaking. Bonus ore drops: iron, copper, gold, coal, ancient debris | Slowed while swimming | A temporary damage resistance | A ground slam knocks back and damages nearby enemies |
 
+## The premium races at a glance
+
+| Race | Strengths | Weakness | Level 100 |
+| --- | --- | --- | --- |
+| **Kaldrun** | Heavy armor and heavy knockback resistance | Sinks in water and is slow on land | A netherite nova gives brief damage immunity |
+| **Vyressa** | Immune to poison and wither, bonus attack damage | Fragile health, can't drink milk | Throw a venomous flask made from a fermented spider eye |
+| **Aethran** | Virtually no fall damage, bonus luck and XP | Slowed deep underground, can't sleep | An amethyst shard gives brief levitation |
+| **Umbrath** | Faster and stronger at night | Fragile armor, weakened in direct sunlight | Consume an ender pearl to blink forward |
+
 ## Which race should I pick?
 
 - Love the Nether and fire? **Ignari**

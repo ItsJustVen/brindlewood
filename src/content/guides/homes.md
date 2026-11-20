@@ -3,7 +3,7 @@ title: "Homes"
 category: land
 summary: "Set homes and teleport back any time."
 order: 55
-updated: "2026-11-05"
+updated: "2026-11-19"
 ---
 | Command | What it does |
 | --- | --- |
@@ -26,6 +26,7 @@ Every player starts with **2 homes**. You get more from:
 
 ## Good to know
 
+- Don't set homes in the resource world, Aldoria, the Nether, the End or the CoinShop. It's not recommended.
 - Teleports have a 3-second delay. Stand still until it finishes.
 - You can't teleport while tagged in combat. See [PvP and Combat](/guides/pvp-and-combat).
 

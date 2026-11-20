@@ -3,7 +3,7 @@ title: "Classes"
 category: characters
 summary: "Six classes with stat bonuses on top of your race."
 order: 12
-updated: "2026-11-05"
+updated: "2026-11-19"
 ---
 A class adds bonuses on top of your race. Your race, class and playstyle all stack.
 
@@ -11,7 +11,7 @@ A class adds bonuses on top of your race. Your race, class and playstyle all sta
 
 Use `/races classgui`. This menu doesn't open on its own, so run it yourself to pick your class.
 
-**Switching:** you can change class, but there's a **24-hour cooldown** between picks. Choose with care. Every class has levels up to 100, and you'll get a message in chat each time you level up.
+**Switching:** you can change class, but there's a **24-hour cooldown** between picks. Choose with care. Every class has levels up to 100, and you get a message in chat each time you level up. Levelling up doesn't unlock anything, so the choice is about the bonuses in the table below.
 
 ## Class commands
 

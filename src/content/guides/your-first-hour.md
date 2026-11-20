@@ -45,7 +45,7 @@ More: [The World](/guides/the-world) and [Danger Zones and Safe Zones](/guides/d
 
 ## 6. Head to the playworld and claim your land
 
-The playworld is where you build. Walk into the **RTP pond** at spawn (around 0, 97, 42) and a menu opens. Left-click the Overworld option to teleport to a random spot in the playworld (it has a 5 minute cooldown). When you find a spot you like, stand in the chunk and type `/claim`. Claiming is free, and you start with 1 claim and 10 chunks. **Claim before you build.** Unclaimed land can't be protected.
+The playworld is where you build. Walk into the **RTP pond** at spawn (around 0, 97, 42) and a menu opens. Left-click the Overworld option to teleport to a random spot in a random Kingdom (it has a 5 minute cooldown). Want to see a particular Kingdom? Ask in that Kingdom's forum on our Discord and someone will show you around. When you find a spot you like, stand in the chunk and type `/claim`. Claiming is free, and you start with 1 claim and 10 chunks. **Claim before you build.** Unclaimed land can't be protected.
 
 ![The chat message and top bar after a chunk is added to a claim](/screens/guide-claim-chunk-added.webp)
 

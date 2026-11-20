@@ -206,8 +206,8 @@
       "body": "The Sanctum of Skulls is the easier of the two, and the Whispering Maze is a step up. You fight through stages of mobs to a boss, and the rewards get bigger the deeper you go.",
       "image": "screens/sanctum.webp",
       "imageAlt": "A stone cavern with a red-carpeted bridge and mobs fighting inside the Sanctum of Skulls",
-    "to": "/guides/dungeons",
-    "linkText": "How dungeons work"
+      "to": "/guides/dungeons",
+      "linkText": "How dungeons work"
     },
     {
       "title": "Settle a kingdom",
@@ -240,7 +240,7 @@
   "kingdomFacts": [
     {
       "title": "Your kingdom is where you live",
-      "body": "There is no sign-up list. The kingdom you belong to is the area you settle in."
+      "body": "There is no sign-up list. The kingdom you belong to is the area you settle in. When you join, the random teleport drops you in a random Kingdom, and you can ask in a Kingdom's forum on Discord for someone to show you around."
     },
     {
       "title": "Leaders set the laws",

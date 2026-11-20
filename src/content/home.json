@@ -234,5 +234,23 @@
   "finalCta": {
     "heading": "Ready to join?",
     "body": "It takes a few minutes the first time, and then you're in."
-  }
+  },
+  "kingdomFacts": [
+    {
+      "title": "Your kingdom is where you live",
+      "body": "There is no sign-up list. The kingdom you belong to is the area you settle in."
+    },
+    {
+      "title": "Leaders set the laws",
+      "body": "Each leader decides how their kingdom runs, as long as it stays in line with the server rules."
+    },
+    {
+      "title": "Shared perks",
+      "body": "Kingdoms share a guild bank and a shared ender chest."
+    },
+    {
+      "title": "You can move",
+      "body": "Switching kingdoms is allowed. Only your inventory and ender chest contents come with you, your builds stay where they are, and your land must be unclaimed in the kingdom you're leaving."
+    }
+  ]
 }

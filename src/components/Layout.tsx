@@ -129,10 +129,14 @@ function Footer() {
 }
 
 export default function Layout() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
-  // Start each page at the top when navigating.
-  useEffect(() => window.scrollTo(0, 0), [pathname]);
+  // Start each page at the top when navigating, or at the #section a link points to.
+  useEffect(() => {
+    const target = hash ? document.getElementById(decodeURIComponent(hash.slice(1))) : null;
+    if (target) target.scrollIntoView();
+    else window.scrollTo(0, 0);
+  }, [pathname, hash]);
 
   return (
     <div className="flex min-h-screen flex-col">

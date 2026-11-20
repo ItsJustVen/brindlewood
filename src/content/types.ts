@@ -40,6 +40,7 @@ export interface HomeContent {
   worldHeading: string;
   worldIntro: string;
   world: { title: string; body: string; image: string; imageAlt: string; to?: string; linkText?: string }[];
+  kingdomFacts?: { title: string; body: string }[];
   goodToKnowHeading: string;
   goodToKnow: { title: string; body: string }[];
   finalCta: { heading: string; body: string };

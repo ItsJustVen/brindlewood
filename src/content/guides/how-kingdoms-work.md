@@ -3,7 +3,7 @@ title: "How Kingdoms Work"
 category: world
 summary: "The four kingdoms, who leads them, what they offer, and how to move or lead one."
 order: 29
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 BrindleWood has four kingdoms, one in each corner of the map. See the [Kingdoms page](/kingdoms) for pictures.
 
@@ -28,6 +28,8 @@ Your kingdom is **wherever you settle**. There is no list to sign up for. Build 
 
 ## Getting there
 
+The random teleport at spawn drops new players in a random kingdom. Want to see a particular one? Every kingdom has its own forum on our Discord (Peacefield, Rosewood, Solyra and Subterra). Ask there and someone will show you around.
+
 There are no server warps for the kingdoms. Use a **player warp** (`/pw`) if a player has made one, or find the corner on the [Live Map](https://map.brindlewood.net).
 
 ## Moving to another kingdom
@@ -37,5 +39,7 @@ You can move any time, but you can only bring what fits in your **inventory and 
 ## Leading a kingdom
 
 Rosewood and Subterra have no leader yet. To take one, open a ticket in our Discord with a **name**, a **theme** and **how you plan to rule**. A new leader can rename the kingdom to fit their theme.
+
+Leaders run their kingdom with the normal [guild commands](/guides/guilds), the same ones any guild uses.
 
 See also: [NPCs: Who's Who in Aldoria](/guides/npcs).

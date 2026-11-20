@@ -3,13 +3,13 @@ title: "The World: Aldoria, Playworld and Difficulty"
 category: getting-started
 summary: "The two main worlds, server settings, and where to go first."
 order: 3
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 BrindleWood has two main worlds, plus a resource world for gathering.
 
 **Aldoria** (the spawn world) is the hub. Use `/spawn` to get there. It's where the NPCs, the bank, the jobs and the dungeons are. The area around spawn is a safe zone with PvP off. Beyond it are danger zones where mobs spawn and players can attack you (see [Danger Zones and Safe Zones](/guides/danger-and-safe-zones)). Aldoria is for exploring and services, not for building.
 
-**Playworld** is where you build, claim land and make your home. Everything you place and claim lives here. To get there, walk into the **RTP pond** at spawn (around 0, 97, 42). A menu opens, and clicking the Overworld option teleports you to a random spot. The RTP has a 5 minute cooldown.
+**Playworld** is where you build, claim land and make your home. Everything you place and claim lives here. To get there, walk into the **RTP pond** at spawn (around 0, 97, 42). A menu opens, and clicking the Overworld option teleports you to a random spot in a random Kingdom. The RTP has a 5 minute cooldown. To see a particular Kingdom, ask in that Kingdom's forum on our Discord and someone will show you around.
 
 **The resource world** (`/warp rw`) is for gathering. It resets every Saturday night at 11 PM Eastern with a new seed. It has no world border, you can't claim land there, and PvP is on.
 
@@ -36,6 +36,7 @@ The rest of the map is made up of forests, farmland, beaches and landmarks, such
 - **Difficulty:** Hard. Mobs hit harder and hunger matters, so bring real food and gear.
 - **Nether:** enabled. You can't claim land there.
 - **PvP:** on in playworld. In Aldoria it's off in the safe zone around spawn and on in the danger zones. Claim owners can turn it on or off inside their own claims.
+- **Deaths:** every death leaves a grave with your items, which lasts 7 days. See [Dying, Graves and Item Loss](/guides/dying-graves-and-item-loss).
 - **Restarts:** daily at 11 PM Eastern Time, for both Java and Bedrock. Finish dungeon runs and trades before the restart.
 
 ## Where to go first

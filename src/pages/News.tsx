@@ -9,7 +9,9 @@ export default function News() {
 
   return (
     <>
-      <PageHead title="News and Patch Notes">What's new on BrindleWood, newest first. The same posts appear in #patch-notes on our Discord.</PageHead>
+      <PageHead title="News and Patch Notes" eyebrow="What's new">
+        Newest first. The same posts appear in #patch-notes on our Discord.
+      </PageHead>
       <Section>
         {posts.length === 0 ? (
           <p className="text-muted">
@@ -17,13 +19,19 @@ export default function News() {
             <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">our Discord</a>.
           </p>
         ) : (
-          <div className="grid gap-4">
-            {posts.map((a) => (
-              <article key={`${a.date}-${a.title}`} className="card card-teal">
-                <p className="text-sm font-bold uppercase tracking-widest text-steel">{a.date}</p>
-                <h2 className="text-xl font-bold">{a.title}</h2>
-                <p className="whitespace-pre-line">{a.body}</p>
-              </article>
+          <div className="grid max-w-3xl gap-3">
+            {posts.map((a, i) => (
+              <details
+                key={`${a.date}-${a.title}`}
+                open={i === 0}
+                className="rounded-xl border border-panel2 bg-panel px-5 py-4 open:border-ember/40"
+              >
+                <summary className="cursor-pointer">
+                  <span className="eyebrow mr-3">{a.date}</span>
+                  <span className="text-lg font-extrabold">{a.title}</span>
+                </summary>
+                <p className="mt-3 whitespace-pre-line text-muted">{a.body}</p>
+              </details>
             ))}
           </div>
         )}

@@ -37,7 +37,7 @@ for (const route of ["play", "kingdoms", "rules", "store", "guides", "npcs", "co
 
 if (index) {
   // Every asset URL in the HTML must start with the base path and point at a real file.
-  const refs = [...index.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1]);
+  const refs = [...index.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1].split("#")[0]).filter(Boolean);
   const local = refs.filter((r) => r.startsWith("/") && !r.startsWith("//"));
   if (local.length === 0) fail("No local asset references found in index.html");
   for (const ref of local) {

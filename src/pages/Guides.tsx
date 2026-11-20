@@ -39,25 +39,22 @@ export default function Guides() {
   );
 
   const chip = (active: boolean) =>
-    `rounded-md border px-4 py-2.5 text-sm font-bold ${
+    `cursor-pointer rounded-full border px-4 py-1.5 text-sm font-bold ${
       active
-        ? "border-teal bg-teal text-[#08202a]"
-        : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"
+        ? "border-ember bg-ember text-[#1d1308]"
+        : "border-panel2 bg-panel text-ink hover:border-ember hover:text-ember"
     }`;
+
+  const showStart = !q && category === "all";
 
   return (
     <>
-      <PageHead title="Guides">
-        Everything you need to know about BrindleWood, from your first ten minutes to dungeons,
-        guilds and the economy.
+      <PageHead title="Guides" eyebrow={`${guides.length} guides`}>
+        Everything about BrindleWood, from your first ten minutes to dungeons, guilds and the economy.
       </PageHead>
 
       <Section>
-        <p className="mb-6 text-center">
-          Looking for someone in Aldoria? <Link to="/npcs">Find an NPC</Link>, with a map.
-        </p>
-
-        <div className="mx-auto mb-6 max-w-xl">
+        <div className="mb-4 max-w-xl">
           <label htmlFor="guide-search" className="sr-only">
             Search guides
           </label>
@@ -67,11 +64,11 @@ export default function Guides() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search guides: try “claim”, “races” or “coins”"
-            className="w-full rounded-xl border border-steel bg-panel px-4 py-3 text-ink placeholder:text-muted"
+            className="w-full rounded-xl border border-panel2 bg-panel px-4 py-3 text-ink placeholder:text-muted"
           />
         </div>
 
-        <div className="mb-8 flex flex-wrap justify-center gap-2" role="group" aria-label="Filter by topic">
+        <div className="mb-8 flex flex-wrap gap-2" role="group" aria-label="Filter by topic">
           <button type="button" className={chip(category === "all")} onClick={() => setCategory("all")}>
             All
           </button>
@@ -88,27 +85,30 @@ export default function Guides() {
         </div>
 
         {shown.length === 0 && (
-          <p className="text-center text-muted">
-            No guides match that search. Try a shorter word, or ask in our Discord.
-          </p>
+          <p className="text-muted">No guides match that search. Try a shorter word, or ask in our Discord.</p>
         )}
 
-        {!q && category === "all" && (
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold">Start here</h2>
-            <p className="mb-4 text-muted">New to BrindleWood? These cover your first night.</p>
-            <ul className="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
-              {startHere.map((s) => (
-                <li key={s.slug} className="card card-teal">
-                  <h3 className="text-lg font-bold">
-                    <Link to={`/guides/${s.slug}`} className="no-underline hover:underline">
+        {showStart && (
+          <div className="mb-12 rounded-2xl border border-ember/40 bg-panel p-5 sm:p-7">
+            <h2 className="text-2xl font-bold">New? Start here</h2>
+            <ol className="mt-4 grid gap-3 sm:grid-cols-2">
+              {startHere.map((s, i) => (
+                <li key={s.slug} className="flex gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full border border-ember/70 text-sm font-extrabold text-ember"
+                  >
+                    {i + 1}
+                  </span>
+                  <span>
+                    <Link to={`/guides/${s.slug}`} className="font-bold">
                       {s.title}
                     </Link>
-                  </h3>
-                  <p>{s.text}</p>
+                    <span className="block text-sm text-muted">{s.text}</span>
+                  </span>
                 </li>
               ))}
-            </ul>
+            </ol>
           </div>
         )}
 
@@ -118,24 +118,27 @@ export default function Guides() {
           return (
             <div key={c.id} className="mb-10">
               <h2 className="text-2xl font-bold">{c.title}</h2>
-              <p className="mb-4 text-muted">{c.blurb}</p>
-              <ul className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4">
+              <p className="mb-3 text-sm text-muted">{c.blurb}</p>
+              <ul className="grid gap-x-10 border-t border-panel2 md:grid-cols-2">
                 {items.map((g) => (
-                  <li key={g.slug} className="card card-teal">
-                    <h3 className="text-lg font-bold">
-                      <Link to={`/guides/${g.slug}`} className="no-underline hover:underline">
-                        {g.title}
-                      </Link>
-                    </h3>
-                    {g.summary && <p>{g.summary}</p>}
+                  <li key={g.slug} className="border-b border-panel2 py-2.5">
+                    <Link to={`/guides/${g.slug}`} className="font-bold">
+                      {g.title}
+                    </Link>
+                    {g.summary && <span className="block text-sm text-muted">{g.summary}</span>}
                   </li>
                 ))}
               </ul>
             </div>
           );
         })}
-        {!q && category === "all" && (
-          <details className="card mx-auto mt-4 max-w-3xl">
+
+        <p className="mt-2 text-muted">
+          Looking for someone in Aldoria? <Link to="/npcs">Find an NPC</Link>, with a map.
+        </p>
+
+        {showStart && (
+          <details className="mt-6 max-w-3xl rounded-xl border border-panel2 bg-panel px-4 py-3">
             <summary className="cursor-pointer font-bold">Key terms</summary>
             <dl className="mt-3 space-y-2 text-muted">
               {terms.map(([k, v]) => (

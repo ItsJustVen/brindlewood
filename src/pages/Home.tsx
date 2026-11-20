@@ -1,155 +1,169 @@
 import { Link } from "react-router-dom";
-import ConnectBox from "../components/ConnectBox";
+import JoinPanel from "../components/JoinPanel";
 import Section from "../components/Section";
-import ServerStatus from "../components/ServerStatus";
 import { announcements, home, kingdoms, site } from "../content";
 import { useDiscordStats } from "../hooks/useDiscordStats";
 import { usePageTitle } from "../hooks/usePageTitle";
+import { useServerStatus } from "../hooks/useServerStatus";
 import { asset } from "../lib/text";
 
 export default function Home() {
   usePageTitle();
   const discord = useDiscordStats();
-  const latest = [...announcements].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+  const status = useServerStatus();
+  const latest = [...announcements].sort((a, b) => b.date.localeCompare(a.date))[0];
+
+  // Only ever show good news: a player count once it is a healthy number, never "0 online".
+  const min = site.serverStatus.minPlayersToShow ?? 1;
+  const live = status.state === "online" && status.players >= min ? `${status.players} adventuring now` : null;
 
   return (
     <>
-      <section className="pb-10 text-center">
-        <div className="relative h-[42vh] max-h-[480px] min-h-[240px] overflow-hidden">
-          <img
-            src={asset(home.heroImage)}
-            alt={home.heroAlt}
-            width={1600}
-            height={900}
-            fetchPriority="high"
-            className="h-full w-full object-cover"
-          />
-          <div
-            aria-hidden="true"
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to bottom, rgba(20,27,43,0) 40%, rgba(20,27,43,0.85) 85%, #141b2b 100%)" }}
-          />
-          <h1 className="absolute inset-x-0 bottom-3 px-4 text-4xl font-black sm:text-6xl">
-            {site.name}
-            <span className="sr-only"> Kingdoms RPG Minecraft Server</span>
-          </h1>
-        </div>
-        <div className="px-4">
-        <p className="mx-auto mt-3 max-w-xl text-xl font-bold">{site.tagline}</p>
-        {site.subtagline && <p className="mx-auto mt-1 max-w-xl text-muted">{site.subtagline}</p>}
-        <div className="mb-5" />
-
-        <ServerStatus discordOnline={discord?.online} />
-        <ConnectBox />
-        {home.freeLine && <p className="mt-1 text-sm text-muted">{home.freeLine}</p>}
-
-        <div className="mt-5 flex flex-wrap justify-center gap-3">
-          <Link className="btn btn-primary" to="/play">
-            Get Started
-          </Link>
-          <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
-            Join our Discord
-          </a>
-        </div>
-        <p className="mt-4 text-sm">
-          <a href={site.storeUrl} target="_blank" rel="noopener noreferrer">Visit the Store</a>
-        </p>
+      {/* Hero: one headline, one thing to do (join). */}
+      <section className="relative overflow-hidden border-b border-panel2">
+        <img
+          src={asset(home.heroImage)}
+          alt={home.heroAlt}
+          width={1600}
+          height={900}
+          fetchPriority="high"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(90deg, rgba(18,22,31,0.94) 0%, rgba(18,22,31,0.78) 45%, rgba(18,22,31,0.35) 100%), linear-gradient(to bottom, rgba(18,22,31,0) 70%, #12161f 100%)",
+          }}
+        />
+        <div className="relative mx-auto grid w-[min(1100px,92%)] items-center gap-8 py-12 sm:py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 lg:py-20">
+          <div>
+            <p className="eyebrow mb-3">{home.hero.eyebrow}</p>
+            <h1 className="text-4xl font-black sm:text-5xl lg:text-6xl">
+              {home.hero.headline}
+              <span className="sr-only"> {site.name} Kingdoms RPG Minecraft Server</span>
+            </h1>
+            <p className="mt-4 max-w-lg text-lg text-ink/90">{home.hero.sub}</p>
+            <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-1 text-sm font-bold text-muted">
+              {home.trust.map((t) => (
+                <li key={t} className="flex items-center gap-2">
+                  <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-ember" />
+                  {t}
+                </li>
+              ))}
+              {live && (
+                <li role="status" className="flex items-center gap-2 text-ink">
+                  <span aria-hidden="true" className="h-2 w-2 rounded-full bg-green-400" />
+                  {live}
+                </li>
+              )}
+            </ul>
+          </div>
+          <JoinPanel />
         </div>
       </section>
 
-      {home.highlights && (
-        <Section>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {home.highlights.map((h) => (
-              <div key={h.title} className="border-l-2 border-wood pl-4">
-                <h2 className="text-lg font-bold">{h.title}</h2>
-                <p className="mt-1 text-sm text-muted">{h.body}</p>
+      {/* What you'll do: four short rows, each with a real screenshot. */}
+      <Section title={home.worldHeading} intro={home.worldIntro}>
+        <div className="grid gap-12 sm:gap-16">
+          {home.world.map((row, i) => (
+            <div key={row.title} className="grid items-center gap-6 md:grid-cols-2 md:gap-10">
+              <div className={i % 2 === 1 ? "md:order-2" : ""}>
+                <img
+                  src={asset(row.image)}
+                  alt={row.imageAlt}
+                  loading="lazy"
+                  className="mx-auto h-auto max-h-[420px] w-full rounded-lg border border-panel2 bg-deep object-contain"
+                />
               </div>
-            ))}
-          </div>
-        </Section>
-      )}
-
-      {home.happening && (
-        <Section>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {home.happening.map((x) => (
-              <div key={x.title} className="card card-teal">
-                <h2 className="text-lg font-bold">{x.title}</h2>
-                <p className="text-sm text-muted">{x.body}</p>
+              <div>
+                <h3 className="text-2xl font-bold sm:text-3xl">{row.title}</h3>
+                <p className="mt-3 text-muted">{row.body}</p>
+                {row.to && row.linkText && (
+                  <p className="mt-3 font-bold">
+                    <Link to={row.to}>{row.linkText} &rarr;</Link>
+                  </p>
+                )}
               </div>
-            ))}
-          </div>
-        </Section>
-      )}
-
-      <Section title={home.galleryHeading}>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {home.gallery.map((g) => (
-            <figure key={g.src}>
-              <img
-                src={asset(g.src)}
-                alt={g.alt}
-                loading="lazy"
-                width={1600}
-                height={900}
-                className="aspect-video w-full rounded-lg border border-panel2 object-cover"
-              />
-              <figcaption className="mt-1.5 text-sm text-muted">{g.caption}</figcaption>
-            </figure>
+            </div>
           ))}
         </div>
       </Section>
 
-      {latest.length > 0 && (
-        <Section>
-          <p>
-            <span className="font-bold uppercase tracking-widest text-steel">Latest: </span>
-            {latest[0].title} <span className="text-muted">({latest[0].date})</span>{" "}
-            <Link to="/news">All news and patch notes</Link>
-          </p>
-        </Section>
-      )}
+      {/* Small practical facts, as plain text rather than more cards. */}
+      <Section title={home.goodToKnowHeading}>
+        <div className="grid gap-x-10 gap-y-6 md:grid-cols-3">
+          {home.goodToKnow.map((g) => (
+            <div key={g.title} className="border-t border-ember/50 pt-3">
+              <h3 className="text-lg font-bold">{g.title}</h3>
+              <p className="mt-1 text-sm text-muted">{g.body}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
 
       <Section title={home.kingdomsHeading} intro={home.kingdomsIntro}>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4">
           {kingdoms.map((k) => (
-            <div key={k.id} className="card">
-              <span className="text-xs font-extrabold uppercase tracking-widest text-steel">{k.corner}</span>
-              <h3 className="text-xl font-bold">{k.name}</h3>
-              <p>{k.summary}</p>
-            </div>
+            <Link
+              key={k.id}
+              to={`/kingdoms#${k.id}`}
+              className="group relative block aspect-[4/3] overflow-hidden rounded-lg border border-panel2 no-underline"
+            >
+              {k.image && (
+                <img
+                  src={asset(k.image)}
+                  alt=""
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              )}
+              <div
+                aria-hidden="true"
+                className="absolute inset-0"
+                style={{ background: "linear-gradient(to top, rgba(11,14,21,0.92) 0%, rgba(11,14,21,0) 60%)" }}
+              />
+              <div className="absolute inset-x-0 bottom-0 p-3">
+                <span className="eyebrow block">{k.corner}</span>
+                <span className="font-display text-lg font-bold text-ink sm:text-xl">{k.name}</span>
+              </div>
+            </Link>
           ))}
         </div>
         {home.leaderCta && (
           <p className="mt-4 text-muted">
             Rosewood and Subterra have no leader yet.{" "}
-            <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">{home.leaderCta.linkText}</a> to lead one.
+            <a href={site.discordUrl} target="_blank" rel="noopener noreferrer">
+              {home.leaderCta.linkText}
+            </a>{" "}
+            to lead one.
           </p>
         )}
-        <div className="mt-6 text-center">
-          <Link className="btn btn-primary" to="/kingdoms">
-            Explore the Kingdoms
-          </Link>
-        </div>
       </Section>
 
       <Section>
-        <p className="min-h-6 text-sm font-bold">
-          {home.since}
-          {discord && (
-            <>
-              <span className="text-muted"> · </span>
-              {discord.members} Discord members
-              {discord.online > 0 && (
-                <>
-                  <span className="text-muted"> · </span>
-                  {discord.online} online now
-                </>
-              )}
-            </>
-          )}
-        </p>
+        <div className="rounded-2xl border border-panel2 bg-panel px-6 py-10 text-center sm:px-10">
+          <h2 className="text-3xl font-bold">{home.finalCta.heading}</h2>
+          <p className="mx-auto mt-2 max-w-md text-muted">{home.finalCta.body}</p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link className="btn btn-primary" to="/play">
+              Step-by-step guide
+            </Link>
+            <a className="btn btn-discord" href={site.discordUrl} target="_blank" rel="noopener noreferrer">
+              Join the Discord
+            </a>
+          </div>
+          <p className="mt-5 text-sm text-muted">
+            {discord && <>{discord.members} members in our Discord</>}
+            {discord && latest && <span> · </span>}
+            {latest && (
+              <>
+                Latest: {latest.title} ({latest.date}) · <Link to="/news">News and patch notes</Link>
+              </>
+            )}
+          </p>
+        </div>
       </Section>
     </>
   );

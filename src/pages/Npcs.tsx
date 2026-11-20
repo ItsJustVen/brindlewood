@@ -40,8 +40,8 @@ export default function Npcs() {
   const chip = (active: boolean) =>
     `rounded-md border px-3 py-1 text-sm font-bold ${
       active
-        ? "border-teal bg-teal text-[#08202a]"
-        : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"
+        ? "border-ember bg-ember text-[#1d1308]"
+        : "border-steel bg-panel2 text-ink hover:border-ember hover:text-ember"
     }`;
 
   function select(n: Npc) {
@@ -115,7 +115,7 @@ export default function Npcs() {
             <p className="mt-2 flex flex-wrap items-center gap-3">
               <button
                 type="button"
-                className="rounded-lg border border-steel bg-panel2 px-3 py-1 text-sm font-bold text-ink hover:border-teal hover:text-teal"
+                className="rounded-lg border border-steel bg-panel2 px-3 py-1 text-sm font-bold text-ink hover:border-ember hover:text-ember"
                 onClick={() => copy(selected)}
               >
                 {copied ? "Copied!" : "Copy coordinates"}
@@ -205,8 +205,8 @@ export default function Npcs() {
                     aria-pressed={n.id === selectedId}
                     className={`flex w-full items-center gap-3 rounded-lg border px-3 py-2 text-left ${
                       n.id === selectedId
-                        ? "border-teal bg-panel2"
-                        : "border-panel2 bg-panel hover:border-teal"
+                        ? "border-ember bg-panel2"
+                        : "border-panel2 bg-panel hover:border-ember"
                     }`}
                   >
                     <span

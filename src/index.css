@@ -1,17 +1,25 @@
 @import "tailwindcss";
 
+/*
+  BrindleWood look: a dark storybook night with warm parchment text and a single
+  amber accent for the one thing we want people to do on each page. Teal stays
+  as the link colour, taken from the castle logo. Token names are kept from the
+  old theme so older pages keep working while they are rebuilt.
+*/
 @theme {
-  --color-night: #141b2b;
-  --color-deep: #0e1420;
-  --color-panel: #1f2a42;
-  --color-panel2: #2a3550;
-  --color-ink: #e6e8ee;
-  --color-muted: #a8b2c7;
-  --color-teal: #2fd6d0;
+  --color-night: #12161f;
+  --color-deep: #0b0e15;
+  --color-panel: #1a202c;
+  --color-panel2: #283040;
+  --color-ink: #f0e9db;
+  --color-muted: #aeb3bf;
+  --color-teal: #3fd9d2;
   --color-tealdark: #1a9d98;
-  --color-steel: #5b86b5;
+  --color-steel: #6f93bd;
   --color-wood: #8a5a3b;
   --color-woodlight: #b57a52;
+  --color-ember: #e3a652;
+  --color-emberdark: #b67a2c;
   --color-discord: #5865f2;
   --font-display: "Cinzel", Georgia, serif;
   --font-body: "Nunito", system-ui, sans-serif;
@@ -19,16 +27,18 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
+  /* Keep jump-link targets clear of the sticky header. */
+  [id] { scroll-margin-top: 5rem; }
   body {
     font-family: var(--font-body);
     color: var(--color-ink);
     background: var(--color-night);
     line-height: 1.65;
   }
-  h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; letter-spacing: 0.02em; }
+  h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; letter-spacing: 0.01em; }
   a { color: var(--color-teal); }
-  a:hover { color: #7ff0eb; }
-  :focus-visible { outline: 3px solid var(--color-teal); outline-offset: 3px; border-radius: 6px; }
+  a:hover { color: #8ff3ee; }
+  :focus-visible { outline: 3px solid var(--color-ember); outline-offset: 3px; border-radius: 6px; }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     * { animation: none !important; transition: none !important; }
@@ -38,20 +48,24 @@
 @layer components {
   .btn {
     display: inline-block; cursor: pointer; text-decoration: none;
-    font-weight: 800; padding: 0.8rem 1.4rem; border-radius: 6px;
-    transition: background 0.12s;
+    font-weight: 800; padding: 0.75rem 1.4rem; border-radius: 8px;
+    transition: background 0.12s, transform 0.12s;
   }
-  .btn-primary { background: var(--color-teal); color: #08202a; box-shadow: 0 4px 0 var(--color-tealdark); }
-  .btn-primary:hover { background: #7ff0eb; color: #08202a; }
-  .btn-wood { background: var(--color-wood); color: #fff; box-shadow: 0 4px 0 #5e3b25; }
+  .btn:active { transform: translateY(1px); }
+  /* Amber is the one main action on a page. */
+  .btn-primary { background: var(--color-ember); color: #1d1308; }
+  .btn-primary:hover { background: #f0bb70; color: #1d1308; }
+  .btn-wood { background: var(--color-wood); color: #fff; }
   .btn-wood:hover { background: var(--color-woodlight); color: #fff; }
-  .btn-discord { background: var(--color-discord); color: #fff; box-shadow: 0 4px 0 #3c46b5; }
+  .btn-discord { background: var(--color-discord); color: #fff; }
   .btn-discord:hover { background: #7a86ff; color: #fff; }
+  .btn-ghost { border: 1px solid rgba(240, 233, 219, 0.35); color: var(--color-ink); }
+  .btn-ghost:hover { background: rgba(240, 233, 219, 0.1); color: var(--color-ink); }
 
   .card {
     background: var(--color-panel);
     border: 1px solid var(--color-panel2);
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 1.25rem 1.4rem;
   }
   .card p { color: var(--color-muted); margin-top: 0.3rem; }
@@ -63,5 +77,11 @@
     border-radius: 10px;
     padding: 0.8rem 1rem;
     font-size: 0.95rem;
+  }
+
+  /* Small label above a heading. */
+  .eyebrow {
+    font-weight: 800; font-size: 0.78rem; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--color-ember);
   }
 }

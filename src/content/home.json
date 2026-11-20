@@ -205,7 +205,9 @@
       "title": "Fight through the dungeons",
       "body": "The Sanctum of Skulls is the easier of the two, and the Whispering Maze is a step up. You fight through stages of mobs to a boss, and the rewards get bigger the deeper you go.",
       "image": "screens/sanctum.webp",
-      "imageAlt": "A stone cavern with a red-carpeted bridge and mobs fighting inside the Sanctum of Skulls"
+      "imageAlt": "A stone cavern with a red-carpeted bridge and mobs fighting inside the Sanctum of Skulls",
+    "to": "/guides/dungeons",
+    "linkText": "How dungeons work"
     },
     {
       "title": "Settle a kingdom",

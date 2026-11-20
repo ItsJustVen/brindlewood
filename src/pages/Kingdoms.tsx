@@ -53,7 +53,14 @@ export default function Kingdoms() {
       </Section>
 
       {home.kingdomFacts && (
-        <Section title="How kingdoms work">
+        <Section
+          title="How kingdoms work"
+          intro={
+            <>
+              The short version. The <Link to="/guides/how-kingdoms-work">full guide</Link> has the details.
+            </>
+          }
+        >
           <div className="grid gap-x-10 gap-y-6 md:grid-cols-2">
             {home.kingdomFacts.map((f) => (
               <div key={f.title} className="border-t border-ember/50 pt-3">

@@ -27,6 +27,8 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
+  /* Keep jump-link targets clear of the sticky header. */
+  [id] { scroll-margin-top: 5rem; }
   body {
     font-family: var(--font-body);
     color: var(--color-ink);

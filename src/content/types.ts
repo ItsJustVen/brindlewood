@@ -27,6 +27,22 @@ export interface IconCard {
 }
 
 export interface HomeContent {
+  hero: { eyebrow: string; headline: string; sub: string };
+  join: {
+    heading: string;
+    java: string[];
+    bedrock: string[];
+    javaNote: string;
+    bedrockNote: string;
+    helpText: string;
+  };
+  trust: string[];
+  worldHeading: string;
+  worldIntro: string;
+  world: { title: string; body: string; image: string; imageAlt: string; to?: string; linkText?: string }[];
+  goodToKnowHeading: string;
+  goodToKnow: { title: string; body: string }[];
+  finalCta: { heading: string; body: string };
   heroImage: string;
   heroAlt: string;
   galleryHeading: string;

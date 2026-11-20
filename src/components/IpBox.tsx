@@ -1,6 +1,15 @@
 import { useState } from "react";
 
-export default function IpBox({ ip, button = "Copy IP" }: { ip: string; button?: string }) {
+export default function IpBox({
+  ip,
+  button = "Copy IP",
+  wide = false,
+}: {
+  ip: string;
+  button?: string;
+  /** Stretch to fill the width of its container. */
+  wide?: boolean;
+}) {
   const [message, setMessage] = useState("");
 
   async function copy() {
@@ -14,18 +23,18 @@ export default function IpBox({ ip, button = "Copy IP" }: { ip: string; button?:
   }
 
   return (
-    <div className="inline-block">
-      <div className="inline-flex overflow-hidden rounded-xl border-2 border-steel bg-deep">
-        <code className="px-4 py-3 text-lg font-extrabold tracking-wide text-teal sm:text-xl">{ip}</code>
+    <div className={wide ? "block" : "inline-block"}>
+      <div className={`${wide ? "flex" : "inline-flex"} overflow-hidden rounded-xl border border-ember/60 bg-deep`}>
+        <code className="flex-1 px-4 py-3 text-lg font-extrabold tracking-wide text-ember sm:text-xl">{ip}</code>
         <button
           type="button"
           onClick={copy}
-          className="cursor-pointer border-l-2 border-steel bg-panel2 px-4 font-extrabold text-ink hover:bg-steel"
+          className="cursor-pointer bg-ember px-5 font-extrabold text-[#1d1308] hover:bg-[#f0bb70]"
         >
           {button}
         </button>
       </div>
-      <p role="status" aria-live="polite" className="mt-1 h-5 text-sm text-teal">
+      <p role="status" aria-live="polite" className="mt-1 h-5 text-sm text-ember">
         {message}
       </p>
     </div>

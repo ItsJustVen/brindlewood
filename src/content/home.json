@@ -154,5 +154,85 @@
       "title": "Most Active Player",
       "body": "Each week's top player wins 50 coins and a cosmetic crate key, given the next time they join after the week ends."
     }
-  ]
+  ],
+  "hero": {
+    "eyebrow": "Kingdoms RPG · Java and Bedrock",
+    "headline": "Four kingdoms. One world. Your story.",
+    "sub": "Pick a race, earn a living, and settle a kingdom. Free to play, with no whitelist and no application."
+  },
+  "join": {
+    "heading": "Join in three steps",
+    "java": [
+      "Open Minecraft Java and go to **Multiplayer**, then **Add Server**.",
+      "Paste **{javaIp}** as the address.",
+      "Join and accept the resource pack."
+    ],
+    "bedrock": [
+      "Open Minecraft, press **Play**, then **Social** (top right).",
+      "Search for and add **{bedrockFriend}** as a friend.",
+      "Join through their game and accept the resource pack."
+    ],
+    "javaNote": "The first resource pack download can take up to about 5 minutes. It only happens once, so don't cancel it.",
+    "bedrockNote": "Bedrock joins through a friend account, so there is no address to type. The first resource pack download can take about 3 minutes, once.",
+    "helpText": "Stuck? Ask in our Discord and someone will help."
+  },
+  "trust": [
+    "Free to play",
+    "No whitelist",
+    "Java and Bedrock",
+    "Running since April 2021"
+  ],
+  "worldHeading": "What you'll do here",
+  "worldIntro": "BrindleWood is a survival world with an RPG on top. Here is what that means in practice.",
+  "world": [
+    {
+      "title": "Make a character that's yours",
+      "body": "Pick from eight races (four are free), six classes and eight playstyles. They all stack, and each free race has an Awakened form at level 100. Your race is permanent, so choose with care.",
+      "image": "screens/guide-race-menu.webp",
+      "imageAlt": "The race selection menu",
+      "to": "/guides/choosing-your-race",
+      "linkText": "How races work"
+    },
+    {
+      "title": "Get paid for playing",
+      "body": "Twelve jobs, from Miner and Fisher to Alchemist and Guard. You join each one at its own NPC at spawn. There are free hourly, daily and weekly rewards too, and a key drop every night at 10:30 PM Eastern.",
+      "image": "screens/guide-jobs-menu.webp",
+      "imageAlt": "The jobs menu",
+      "to": "/guides/jobs",
+      "linkText": "Where the job NPCs are"
+    },
+    {
+      "title": "Fight through the dungeons",
+      "body": "The Sanctum of Skulls is the easier of the two, and the Whispering Maze is a step up. You fight through stages of mobs to a boss, and the rewards get bigger the deeper you go.",
+      "image": "screens/sanctum.webp",
+      "imageAlt": "A stone cavern with a red-carpeted bridge and mobs fighting inside the Sanctum of Skulls"
+    },
+    {
+      "title": "Settle a kingdom",
+      "body": "There is one kingdom in each corner of the map. Claim land, build a home and share a guild bank. Two kingdoms still need a leader, and you could be it.",
+      "image": "screens/solyra.webp",
+      "imageAlt": "A village of sandstone and terracotta buildings in Solyra",
+      "to": "/kingdoms",
+      "linkText": "Meet the kingdoms"
+    }
+  ],
+  "goodToKnowHeading": "Good to know",
+  "goodToKnow": [
+    {
+      "title": "Dying isn't the end",
+      "body": "Every death leaves a grave with your items where you fell. Get back within 7 days, because other players can break it and after 7 days it's gone."
+    },
+    {
+      "title": "Fresh resources every week",
+      "body": "The resource world resets every Saturday at 11 PM Eastern with a new seed, so there is always untouched land to mine."
+    },
+    {
+      "title": "Play on anything",
+      "body": "Java players join by address. Console, mobile and Windows Bedrock players join through a friend account."
+    }
+  ],
+  "finalCta": {
+    "heading": "Ready to join?",
+    "body": "It takes a few minutes the first time, and then you're in."
+  }
 }

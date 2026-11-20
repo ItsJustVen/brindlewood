@@ -1,9 +1,9 @@
 ---
 title: "Free Rewards: /rewards, Kits and Referrals"
 category: getting-started
-summary: "Hourly, daily and weekly rewards, free kits, and the referral bonus."
+summary: "Hourly, daily and weekly rewards, the nightly key drop, free kits, and the referral bonus."
 order: 5
-updated: "2026-11-05"
+updated: "2026-11-19"
 ---
 Everyone gets free rewards just for playing. Open the menu with `/rewards` and click to claim.
 
@@ -27,6 +27,11 @@ The Rewards NPC is in the spawn world at **14, 99, 16**.
 | Weekly | $2,000 + 25 coins + 1 Rare Key |
 
 The menu shows how long until each one is ready again. You have to come back and click to claim.
+
+## Every night and every week
+
+- **Nightly key drop:** a key drop happens every night at **10:30 PM Eastern**.
+- **Most Active Player:** each week's top player wins **50 coins and a cosmetic crate key**, given the next time they join after the week ends.
 
 ## Free kits
 

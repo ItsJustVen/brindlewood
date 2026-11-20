@@ -3,7 +3,7 @@ title: "The World: Aldoria, Playworld and Difficulty"
 category: getting-started
 summary: "The two main worlds, server settings, and where to go first."
 order: 3
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 BrindleWood has two main worlds, plus a resource world for gathering.
 
@@ -36,6 +36,7 @@ The rest of the map is made up of forests, farmland, beaches and landmarks, such
 - **Difficulty:** Hard. Mobs hit harder and hunger matters, so bring real food and gear.
 - **Nether:** enabled. You can't claim land there.
 - **PvP:** on in playworld. In Aldoria it's off in the safe zone around spawn and on in the danger zones. Claim owners can turn it on or off inside their own claims.
+- **Deaths:** every death leaves a grave with your items, which lasts 7 days. See [Dying, Graves and Item Loss](/guides/dying-graves-and-item-loss).
 - **Restarts:** daily at 11 PM Eastern Time, for both Java and Bedrock. Finish dungeon runs and trades before the restart.
 
 ## Where to go first

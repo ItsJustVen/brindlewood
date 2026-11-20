@@ -3,9 +3,11 @@ title: "Your First Hour"
 category: getting-started
 summary: "From joining to your first claim, step by step."
 order: 0.5
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 Here is a simple order for your first hour. Each step links to the full guide if you want more.
+
+> **The short version:** join, pick a race, claim your rewards, get a job, then claim land before you build. Everything else can wait.
 
 ## 1. Join and accept the resource pack
 
@@ -54,6 +56,12 @@ More: [Claiming Land](/guides/claiming-land).
 Type `/sethome <name>` before you explore, so `/home <name>` can always bring you back.
 
 More: [Homes](/guides/homes).
+
+## If you die
+
+Don't panic. Every death leaves a grave with your items where you fell. Get back to it quickly: other players can break it, and after **7 days** it's deleted, items included.
+
+More: [Dying, Graves and Item Loss](/guides/dying-graves-and-item-loss).
 
 ## Then what?
 

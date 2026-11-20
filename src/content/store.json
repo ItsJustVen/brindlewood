@@ -26,13 +26,13 @@
     { "title": "Custom Armors", "body": "Stand out with unique armor looks." },
     { "title": "Bundles", "body": "Great-value packs to get you going." },
     { "title": "Coins", "body": "Top up your in-game coins." },
-    { "title": "Extras", "body": "Special add-ons, including extra spawner permissions." }
+    { "title": "Extras", "body": "Special add-ons, including spawner permissions (premium only)." }
   ],
   "support": {
     "title": "Support Without Buying the Win",
     "paragraphs": [
       "Almost everything on BrindleWood can be earned by playing, including ranks, claims, crates and cosmetics. You can even earn flight inside your own claims. Buying is a shortcut that helps pay for hosting, development, new content and events.",
-      "A few things are store-only: the Fly Command (flying anywhere on the server, not just in your claims), Spawner Core (extra spawner permissions, limited because too many spawners cause lag) and premium races (extra variety and identity for your character).",
+      "A few things are store-only: the Fly Command (flying anywhere on the server, not just in your claims), Spawner Core (spawner permissions, premium only because too many spawners cause lag) and premium races (extra variety and identity for your character).",
       "Buying is never required. Inviting a friend, voting, sharing feedback, or just playing all help BrindleWood grow."
     ]
   },

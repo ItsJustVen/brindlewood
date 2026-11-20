@@ -107,7 +107,7 @@ export default function Npcs() {
         </div>
 
         {selected && (
-          <div className="card card-teal mb-6" aria-live="polite">
+          <div className="card mb-6" aria-live="polite">
             <h2 className="text-xl font-bold">{selected.name}</h2>
             <p>
               Coordinates (x, y, z): <strong>{coords(selected)}</strong>

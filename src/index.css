@@ -2,8 +2,8 @@
 
 /*
   BrindleWood look: a dark storybook night with warm parchment text and a single
-  amber accent for the one thing we want people to do on each page. Teal stays
-  as the link colour, taken from the castle logo. Token names are kept from the
+  amber accent for the one thing we want people to do on each page. Links and
+  code use a soft amber so nothing on the site is aqua. Token names are kept from the
   old theme so older pages keep working while they are rebuilt.
 */
 @theme {
@@ -13,8 +13,8 @@
   --color-panel2: #283040;
   --color-ink: #f0e9db;
   --color-muted: #aeb3bf;
-  --color-teal: #3fd9d2;
-  --color-tealdark: #1a9d98;
+  --color-teal: #f0bb70;
+  --color-tealdark: #b67a2c;
   --color-steel: #6f93bd;
   --color-wood: #8a5a3b;
   --color-woodlight: #b57a52;
@@ -37,7 +37,7 @@
   }
   h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; letter-spacing: 0.01em; }
   a { color: var(--color-teal); }
-  a:hover { color: #8ff3ee; }
+  a:hover { color: #ffd9a0; }
   :focus-visible { outline: 3px solid var(--color-ember); outline-offset: 3px; border-radius: 6px; }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }

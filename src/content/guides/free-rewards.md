@@ -30,7 +30,7 @@ The menu shows how long until each one is ready again. You have to come back and
 
 ## Every night and every week
 
-- **Nightly key drop:** every night at **10:30 PM Eastern**, a single Common Key drops at spawn. Only one player gets it.
+- **Nightly key drop:** every night at **10:30 PM Eastern**, a single Common Key drops at spawn. The **first player to pick it up** gets it, so be near spawn and quick.
 - **Most Active Player:** each week's top player wins **50 coins and a cosmetic crate key**, given the next time they join after the week ends.
 
 ## Free kits

@@ -119,7 +119,7 @@ export default function Contact() {
 
       <Section>
         {!enabled ? (
-          <div className="card card-teal mx-auto max-w-xl text-center">
+          <div className="card mx-auto max-w-xl text-center">
             <h2 className="text-xl font-bold">Forms are coming soon</h2>
             <p>
               For now, please open a ticket in our{" "}
@@ -140,7 +140,7 @@ export default function Contact() {
             </div>
 
             {status.kind === "done" ? (
-              <div className="card card-teal text-center" role="status">
+              <div className="card text-center" role="status">
                 <h2 className="text-xl font-bold">Thank you, we got it</h2>
                 <p>
                   Your reference is <strong>{status.ref}</strong>. Staff will reply on Discord, so make sure
@@ -153,7 +153,7 @@ export default function Contact() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={submit} className="card card-teal" noValidate={false}>
+              <form onSubmit={submit} className="card" noValidate={false}>
                 <h2 className="text-2xl font-bold">{form.title}</h2>
                 <p className="mb-4">{form.intro}</p>
 

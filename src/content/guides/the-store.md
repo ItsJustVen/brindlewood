@@ -26,7 +26,7 @@ Three things can't be earned in-game:
 
 - Premium races
 - Fly Command (flying anywhere on the server). Flying inside your own claims can be earned in-game.
-- Spawner Core (extra spawner permissions, since too many spawners cause lag)
+- Spawner Core (spawner permissions, premium only since too many spawners cause lag)
 
 Everything else, including ranks, claims, crates and cosmetics, can be earned in-game if you'd rather play for it.
 

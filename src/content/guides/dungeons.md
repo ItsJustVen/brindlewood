@@ -58,6 +58,8 @@ Each stage you complete drops:
 
 And a chance at a bonus: a Common Key or a Rare Key. Rewards are dropped in the main area of the dungeon, so grab them before you leave.
 
+The bosses can also drop **Moon Dust** and **Aldorite Crystals**, which go into Aldorite gear. See [Aldorite and Infernium](/guides/aldorite-and-infernium).
+
 **Good for:** early gold, emeralds and enchanted books, and a free shot at crate keys.
 
 ## Whispering Maze (Difficulty II, Medium)
@@ -80,5 +82,7 @@ Each stage you complete drops:
 - An enchanted book
 
 And a chance at a bonus: a Common Key or a Superior Key. Each mob has its own drops, which you can browse in the guard's menu.
+
+The bosses can also drop **Fire Dust** and **Infernium Crystals**, which go into Infernium gear. See [Aldorite and Infernium](/guides/aldorite-and-infernium).
 
 **Good for:** diamonds, iron and a shot at a Superior Key.

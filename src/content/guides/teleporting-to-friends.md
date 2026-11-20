@@ -11,7 +11,7 @@ updated: "2026-11-05"
 - `/tptoggle` turns teleport requests on or off
 - `/near` shows players close to you
 
-Requests expire after 2 minutes.
+Requests expire after 2 minutes. You can have up to 5 requests waiting at once.
 
 ## Good to know
 

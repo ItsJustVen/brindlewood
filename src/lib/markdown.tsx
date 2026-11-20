@@ -33,7 +33,7 @@ export function Inline({ text }: { text: string }) {
           return <strong key={i}>{p.slice(2, -2)}</strong>;
         if (p.startsWith("`") && p.endsWith("`") && p.length > 2)
           return (
-            <code key={i} className="rounded bg-panel2 px-1.5 py-0.5 text-[0.92em] text-teal">
+            <code key={i} className="rounded bg-panel2 px-1.5 py-0.5 text-[0.92em] text-ember">
               {p.slice(1, -1)}
             </code>
           );

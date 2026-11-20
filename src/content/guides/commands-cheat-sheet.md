@@ -66,7 +66,7 @@ Type `/help` in-game to open the server guide menu. Most things also have a menu
 | `/pay <player> <amount>` | Sends money |
 | `/trade <player>` | Starts a trade |
 | `/ah` | Auction House (also `/auction`) |
-| `/spawnershop` | Buy spawners |
+| `/spawnershop` | Buy spawners (premium only, needs Spawner Core) |
 | `/coinshop` | Spend coins |
 | `/rewards` | Free hourly, daily and weekly rewards |
 | `/kit` or `/kits` | Kits |

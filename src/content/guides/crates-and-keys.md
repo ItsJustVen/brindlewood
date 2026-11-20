@@ -66,3 +66,5 @@ The cosmetic crates are in a separate spot at spawn and all use cosmetics keys:
 Bring a key to the crate to open it. The preview shows what is inside and the odds.
 
 See also: [Custom Enchantments](/guides/custom-enchantments).
+
+See also: [Aldorite and Infernium](/guides/aldorite-and-infernium), the custom ingots found in Rare, Epic and Superior crates.

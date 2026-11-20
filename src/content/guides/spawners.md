@@ -1,13 +1,15 @@
 ---
 title: "Spawners"
 category: world
-summary: "Mining, stacking and managing spawners."
+summary: "Premium only: how spawner permissions work, and how to stack and manage spawners."
 order: 28
 updated: "2026-11-05"
 ---
-Spawners are a big part of BrindleWood, and they run on **SpawnerMeta**. Every player can mine spawners with **Silk Touch**. There's no rank or purchase required.
+> **Premium only.** Spawner permissions come with **Spawner Core** from the [store](/guides/the-store). A default player can't use spawners, and that is on purpose: too many spawners cause lag for everyone. If a spawner command or menu says you don't have permission, this is why.
 
-## Spawner commands
+Spawners run on **SpawnerMeta**. Once you have Spawner Core, everything below is available to you.
+
+## Spawner commands (premium only)
 
 | Command | What it does |
 | --- | --- |
@@ -32,10 +34,10 @@ This is why spawners are limited. Too many mobs at once cause lag for everyone.
 
 ## Tips
 
-- Mine spawners with **Silk Touch** or you'll lose them.
+- Mine spawners with **Silk Touch** or you'll lose them. This needs Spawner Core too.
 - Place spawners inside your [claim](/guides/claiming-land). Also check that the claim's *Special Blocks* setting lets you break them.
 - Run `/spawnerdrops` if you came back to a full inventory.
 
 ## Spawner Core
 
-Spawner Core is a store item that gives extra spawner permissions. Too many spawners cause lag, so the extra tier is paid. It's one of the few things that can't be earned in-game. See [The Store](/guides/the-store).
+Spawner Core is a store item that unlocks spawner permissions. Too many spawners cause lag, so this is a premium feature and can't be earned in-game. It's one of the few store-only things. See [The Store](/guides/the-store).

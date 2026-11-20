@@ -96,7 +96,7 @@ function Footer() {
             </div>
             <p className="max-w-xs">A Kingdoms RPG for Java and Bedrock. Free to play, running since April 27, 2021.</p>
             <p className="mt-2">
-              <code className="text-teal">{site.javaIp}</code>
+              <code className="text-ember">{site.javaIp}</code>
             </p>
           </div>
           <FooterColumn title="Play">

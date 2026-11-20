@@ -21,7 +21,7 @@ export default function ConnectBox() {
       aria-selected={edition === id}
       onClick={() => setEdition(id)}
       className={`cursor-pointer rounded-lg px-5 py-2 font-extrabold ${
-        edition === id ? "bg-teal text-[#08202a]" : "bg-panel text-ink hover:bg-panel2"
+        edition === id ? "bg-ember text-[#1d1308]" : "bg-panel text-ink hover:bg-panel2"
       }`}
     >
       {label}

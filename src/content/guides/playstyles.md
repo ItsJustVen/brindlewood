@@ -32,13 +32,13 @@ A dash means no boost for that stat.
 
 ## Traits
 
-Each playstyle also gives you three traits. Traits get stronger as your tier goes up, from Bronze to Master. See [Your Player Profile and Traits](/guides/player-profile-and-traits).
+Each playstyle also gives you three traits. Traits get stronger as your tier goes up, from Bronze to Master. The playstyle level of these traits is lost if you switch playstyle. See [Your Player Profile and Traits](/guides/player-profile-and-traits).
 
 | Playstyle | Style | Traits you get |
 | --- | --- | --- |
 | **Warrior** | A fearless close-combat fighter | Gladiator: more damage against players. Leader: more members allowed in your guild. Iron Fist: more damage barehanded. |
 | **Wizard** | Magic, enchanting and potions | Wizard Enchanting: a chance to spend 1 less XP point when enchanting. Enderman Attack: hit a player with an ender pearl to damage them. Vampire Healing: heal when you kill players. |
-| **Cleric** | A healer who supports others | Divine Recovery: Regeneration II when your health gets low. Healing Touch: right-click a player to give them Regeneration I. Featherweight: bonus damage (open `/traits` to see when). |
+| **Cleric** | A healer who supports others | Divine Recovery: Regeneration II when your health gets low. Healing Touch: right-click a player to give them Regeneration I. Featherweight: more damage dealt when you have no armor equipped. |
 | **Survivor** | Endurance, resources and staying alive | Olympic Swimmer: faster swimming. Berserker: more damage when you're below 2 hearts. Netherborn: a boost to all 10 stats while in the Nether. |
 | **Adventurer** | An explorer who loves new land and treasure | Wayfarer: more homes with `/sethome`. Pathfinder: more deliveries shown at the couriers. Equestrian: faster horse riding. |
 | **Scholar** | Deep knowledge of crafting and mechanics | Archeologist: a better chance of finding historical artifacts. Cartographer: a shorter random teleport cooldown. Endborn: a boost to all 10 stats while in the End. |

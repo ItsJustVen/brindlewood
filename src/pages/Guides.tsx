@@ -41,8 +41,8 @@ export default function Guides() {
   const chip = (active: boolean) =>
     `rounded-md border px-4 py-2.5 text-sm font-bold ${
       active
-        ? "border-teal bg-teal text-[#08202a]"
-        : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"
+        ? "border-ember bg-ember text-[#1d1308]"
+        : "border-steel bg-panel2 text-ink hover:border-ember hover:text-ember"
     }`;
 
   return (

@@ -106,8 +106,8 @@ export default function Contact() {
   const chip = (active: boolean) =>
     `rounded-md border px-4 py-1.5 text-sm font-bold ${
       active
-        ? "border-teal bg-teal text-[#08202a]"
-        : "border-steel bg-panel2 text-ink hover:border-teal hover:text-teal"
+        ? "border-ember bg-ember text-[#1d1308]"
+        : "border-steel bg-panel2 text-ink hover:border-ember hover:text-ember"
     }`;
 
   return (
@@ -234,7 +234,7 @@ export default function Contact() {
                     <button
                       type="submit"
                       disabled={status.kind === "sending"}
-                      className="rounded-xl bg-teal px-6 py-2.5 font-extrabold text-[#08202a] hover:bg-[#7ff0eb] disabled:opacity-60"
+                      className="rounded-xl bg-ember px-6 py-2.5 font-extrabold text-[#1d1308] hover:bg-[#f0bb70] disabled:opacity-60"
                     >
                       {status.kind === "sending" ? "Sending..." : "Send"}
                     </button>

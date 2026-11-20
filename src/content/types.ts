@@ -86,6 +86,7 @@ export interface RulesContent {
   intro: string;
   items: RuleItem[];
   enforcement: { title: string; body: string };
+  ladder?: string[];
   ages?: string;
   closing: string;
 }

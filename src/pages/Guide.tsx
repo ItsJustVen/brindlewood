@@ -40,7 +40,7 @@ export default function Guide() {
               {prev ? (
                 <Link
                   to={`/guides/${prev.slug}`}
-                  className="card card-teal no-underline hover:border-teal"
+                  className="card card-teal no-underline hover:border-ember"
                 >
                   <span className="block text-sm text-muted">&larr; Previous</span>
                   <span className="font-bold text-ink">{prev.title}</span>
@@ -51,7 +51,7 @@ export default function Guide() {
               {next && (
                 <Link
                   to={`/guides/${next.slug}`}
-                  className="card card-teal text-right no-underline hover:border-teal sm:col-start-2"
+                  className="card card-teal text-right no-underline hover:border-ember sm:col-start-2"
                 >
                   <span className="block text-sm text-muted">Next &rarr;</span>
                   <span className="font-bold text-ink">{next.title}</span>

@@ -3,13 +3,15 @@ title: "PvP and Combat"
 category: land
 summary: "Where PvP is on, combat tagging, and staying safe."
 order: 58
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 
 ## PvP
 
 - The safe zone around spawn in Aldoria has PvP off.
 - Everywhere else, PvP is on, including the danger zones in Aldoria, the playworld and the resource world. Other players can fight you. Inside a claim, PvP depends on whether the claim owner turned it on.
+
+PvP is part of the game, and the **Fighter** job pays you for player kills.
 
 Difficulty is Hard, so be ready for mobs too.
 
@@ -23,6 +25,10 @@ While tagged:
 - No teleporting, flying or commands until the timer ends.
 
 Dying or killing your opponent ends combat right away.
+
+## If you die in a fight
+
+Your items go into a grave where you fell. Other players can break it and take what's inside, and that is allowed. Get back quickly. See [Dying, Graves and Item Loss](/guides/dying-graves-and-item-loss).
 
 ## Tips
 

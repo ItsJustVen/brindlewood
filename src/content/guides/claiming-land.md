@@ -3,7 +3,7 @@ title: "Claiming Land"
 category: land
 summary: "Protect your builds: how to claim, every claim command, settings, members, selling and more."
 order: 50
-updated: "2026-11-17"
+updated: "2026-11-19"
 ---
 BrindleWood uses the **SimpleClaimSystem** plugin. Claim your land in **playworld**, and only you and the people you add can build there. Claiming is **free**.
 
@@ -28,7 +28,6 @@ You can see the borders with `/claim see`, and a chat map of nearby claims with 
 | Claims (separate plots) | 1 |
 | Chunks you can claim | 10 |
 | Members you can add per claim | 10 |
-| Claim radius with `/claim <radius>` | up to 2 |
 | Teleport delay to a claim | 3 seconds |
 | Claim name length | 16 characters |
 | Claim description length | 50 characters |
@@ -39,21 +38,21 @@ More claims come from [ranks](/guides/ranks) (Knight +2, Lord +4, Paladin +6, Du
 
 ## Basic commands
 
+Every claim is named with a number. Your first claim is `claim-0`, and later ones follow on from it. Use that name wherever a command asks for a claim name.
+
+To add a chunk to a claim, it has to touch a chunk you already have in that claim, or the claim's main chunk.
+
 | Command | What it does |
 | --- | --- |
 | `/claim` | Claims the chunk you're standing in and opens the claim menu |
-| `/claim <radius>` | Claims the chunk and the ones around it, up to your radius limit |
 | `/claim list` | Opens a menu of your claims |
-| `/claims` | Opens a menu of all claims on the server |
 | `/claim tp <claim name>` | Teleports you to one of your claims |
+| `/claim addchunk <claim name>` | Adds the chunk you're standing in to that claim |
 | `/claim setspawn` | Sets the teleport spot of the claim you're standing in |
 | `/claim setname <old name> <new name>` | Renames a claim |
 | `/claim setdesc <claim name> <description>` | Sets a claim's description |
 | `/unclaim` | Gives up the claim you're standing in |
 | `/unclaim <claim name>` | Gives up a claim by name |
-| `/unclaim *` | Gives up **all** of your claims. Be careful. |
-
-`/territory`, `/unterritory` and `/territories` work the same as `/claim`, `/unclaim` and `/claims`.
 
 ## Menus
 

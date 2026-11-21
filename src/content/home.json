@@ -112,6 +112,7 @@
   "staffImageCaption": "A few of us in game",
   "aboutHeading": "How BrindleWood started",
   "about": [
+    "BrindleWood was built as a safe place for the LGBTQ+ community.",
     "BrindleWood started as a family realm. We grew way too big for the 10 people a realm allows, so we became a server.",
     "From there we slowly started roleplaying, which is when we decided on Kingdoms and built the spawn we have now.",
     "We wanted somewhere we could have fun, use a ton of different things, and welcome people who were strangers into the fold as family."
@@ -182,6 +183,8 @@
     "Java and Bedrock",
     "Running since April 2021"
   ],
+  "whyHeading": "Why BrindleWood exists",
+  "why": "BrindleWood was built as a safe place for the LGBTQ+ community. It started as family with a few new friends, and grew into a community with some of the best support you will find anywhere.",
   "worldHeading": "What you'll do here",
   "worldIntro": "BrindleWood is a survival world with an RPG on top. Here is what that means in practice.",
   "world": [

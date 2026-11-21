@@ -57,6 +57,8 @@ export interface HomeContent {
   kingdomsIntro: string;
   featuresHeading: string;
   features: { title: string; body: string }[];
+  whyHeading: string;
+  why: string;
   aboutHeading: string;
   about: string[];
   since: string;

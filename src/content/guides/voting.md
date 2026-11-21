@@ -10,7 +10,7 @@ Every vote helps new players find BrindleWood, and it pays you back. Each vote g
 - **1 Vote Crate key**
 - **10 Level XP**
 
-Type `/vote` in-game to see the vote links any time.
+Type `/vote` in-game to see the vote links and how many votes you have. Each vote is also announced in chat, and the reward arrives even if you vote while offline.
 
 ## Vote on all three sites
 

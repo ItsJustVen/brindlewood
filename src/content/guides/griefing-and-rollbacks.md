@@ -5,7 +5,7 @@ summary: "What counts as grief, what we can roll back, and how to report."
 order: 52
 updated: "2026-11-17"
 ---
-Griefing means destroying, stealing from or damaging another player's builds or chests without permission. We can roll back real grief. Block changes and container use are logged with CoreProtect, which started on 17 November 2026.
+Griefing means destroying, stealing from or damaging another player's builds or chests without permission. We can roll back real grief. Block changes and container use are logged with CoreProtect, which started on 17 November 2026. It records blocks placed and broken and items taken from or put into chests, and old logs aren't deleted automatically.
 
 - **Land not claimed?** Claim it. Unclaimed builds aren't protected, and we can't roll them back.
 - **Claimed, and someone you invited destroyed it?** We can attempt a rollback using our logs. It isn't guaranteed.

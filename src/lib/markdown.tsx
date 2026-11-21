@@ -99,6 +99,39 @@ export function Markdown({ source }: { source: string }) {
       continue;
     }
 
+    // A run of picture lines from /screens/skins/ or /screens/items/ becomes a small
+    // labelled gallery (the alt text is the label under each picture).
+    const icon = /^!\[([^\]]*)\]\((\/screens\/(?:skins|items)\/[\w.-]+)\)\s*$/;
+    if (icon.test(line)) {
+      const items: { alt: string; src: string }[] = [];
+      while (i < lines.length) {
+        const m = icon.exec(lines[i]);
+        if (!m) break;
+        items.push({ alt: m[1], src: m[2] });
+        i++;
+      }
+      out.push(
+        <ul key={key++} className="my-5 grid list-none grid-cols-3 gap-3 p-0 sm:grid-cols-4 md:grid-cols-6">
+          {items.map((it) => (
+            <li key={it.src} className="rounded-lg border border-panel2 bg-panel p-2 text-center">
+              <img
+                src={asset(it.src)}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                width={64}
+                height={64}
+                className="mx-auto h-16 w-16"
+                style={{ imageRendering: "pixelated" }}
+              />
+              <span className="mt-1 block text-sm font-bold text-ink">{it.alt}</span>
+            </li>
+          ))}
+        </ul>,
+      );
+      continue;
+    }
+
     const image = /^!\[([^\]]*)\]\((\/screens\/[\w.-]+)\)\s*$/.exec(line);
     if (image) {
       out.push(

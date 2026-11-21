@@ -13,6 +13,10 @@ Boosters come as **vouchers**. Claim a voucher to start its boost, which lasts *
 
 Boosters can drop from crates. See [Crates and Keys](/guides/crates-and-keys). You can also buy them in the [CoinShop](/guides/coinshop).
 
+![Experience booster](/screens/items/boosters_experience.png)
+![Level XP booster](/screens/items/boosters_levelxp.png)
+![Discount booster](/screens/items/boosters_discount.png)
+
 ## Tips
 
 - Use an XP booster before a long dungeon or grind session.

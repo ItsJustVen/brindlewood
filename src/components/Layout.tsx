@@ -7,6 +7,7 @@ const links = [
   { to: "/play", label: "Play" },
   { to: "/kingdoms", label: "Kingdoms" },
   { to: "/guides", label: "Guides" },
+  { to: "/gallery", label: "Gallery" },
   { to: "/rules", label: "Rules" },
   { to: "/store", label: "Store" },
 ];
@@ -102,6 +103,7 @@ function Footer() {
           <FooterColumn title="Play">
             <li><Link to="/play">Getting started</Link></li>
             <li><Link to="/guides">Guides</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/npcs">Find an NPC</Link></li>
             <li><Link to="/kingdoms">Kingdoms</Link></li>
           </FooterColumn>

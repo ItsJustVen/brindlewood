@@ -35,7 +35,6 @@ They show up on books and gear like any enchant. The tables below give the highe
 | Glass Breaker | 1 | Breaks glass instantly |
 | Lucky Miner | 3 | Chance for extra XP from ores (pickaxes) |
 | Silk Chest | 1 | A broken chest drops as an item with its contents kept |
-| Silk Spawner | 1 | Chance to mine a spawner |
 | Replanter | 1 | Replants crops when you harvest or right-click (hoes) |
 
 ## Swords and axes

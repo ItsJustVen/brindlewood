@@ -20,19 +20,29 @@ export default function Galleries() {
                 to={`/gallery/${g.slug}`}
                 className="card block h-full no-underline hover:border-ember"
               >
-                {g.cover && (
+                {g.style === "photos" && g.cover && (
                   <img
                     src={asset(g.cover)}
                     alt=""
                     loading="lazy"
                     decoding="async"
-                    className={
-                      g.style === "photos"
-                        ? "mb-3 aspect-video w-full rounded-lg object-cover"
-                        : "mb-3 h-24 w-24 rounded-lg bg-deep p-2"
-                    }
-                    style={g.style === "icons" ? { imageRendering: "pixelated" } : undefined}
+                    className="mb-3 aspect-video w-full rounded-lg object-cover"
                   />
+                )}
+                {g.style === "icons" && g.preview.length > 0 && (
+                  <span className="mb-3 grid grid-cols-4 gap-2 rounded-lg bg-deep p-3" aria-hidden="true">
+                    {g.preview.slice(0, 8).map((src) => (
+                      <img
+                        key={src}
+                        src={asset(src)}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        className="h-12 w-12"
+                        style={{ imageRendering: "pixelated" }}
+                      />
+                    ))}
+                  </span>
                 )}
                 <span className="block text-xl font-bold text-ink">{g.title}</span>
                 <span className="mt-1 block text-sm text-muted">{g.summary}</span>

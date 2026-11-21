@@ -2,7 +2,7 @@
 title: "Tool Skins"
 summary: "All 17 tool skins, shown on every tool and weapon."
 order: 1
-cover: "/screens/skins/celestial-sword.png"
+preview: "/screens/skins/atlantis-sword.png, /screens/skins/celestial-pickaxe.png, /screens/skins/crimson-axe.png, /screens/skins/emerald-shovel.png, /screens/skins/panther-bow.png, /screens/skins/thunder-crossbow.png, /screens/skins/devil-hoe.png, /screens/skins/warrior-fishing_rod.png"
 guide: "tool-skins"
 style: icons
 ---

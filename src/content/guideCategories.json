@@ -1,9 +1,9 @@
 [
-  { "id": "getting-started", "title": "New Players", "blurb": "Join, set up, and take your first steps." },
-  { "id": "characters", "title": "Characters & Progression", "blurb": "Races, classes, skills, levels and quests." },
-  { "id": "world", "title": "The World", "blurb": "NPCs, dungeons, travel and staying alive." },
-  { "id": "economy", "title": "Money & Trading", "blurb": "Coins, banks, shops, the auction house and ranks." },
-  { "id": "land", "title": "Land & Community", "blurb": "Claims, guilds, homes, warps and PvP." },
-  { "id": "extras", "title": "Extras & Companions", "blurb": "Minions, pets, cosmetics, crates and events." },
-  { "id": "store", "title": "Store & Support", "blurb": "The store, refunds and getting help." }
+  {"id": "getting-started", "title": "New Players", "blurb": "Join, set up, and take your first steps.", "image": "screens/castle-entrance.webp"},
+  {"id": "characters", "title": "Characters & Progression", "blurb": "Races, classes, skills, levels and quests.", "image": "screens/players-group.webp"},
+  {"id": "world", "title": "The World", "blurb": "NPCs, dungeons, travel and staying alive.", "image": "screens/sanctum.webp"},
+  {"id": "economy", "title": "Money & Trading", "blurb": "Coins, banks, shops, the auction house and ranks.", "image": "screens/gate.webp"},
+  {"id": "land", "title": "Land & Community", "blurb": "Claims, guilds, homes, warps and PvP.", "image": "screens/rosewood.webp"},
+  {"id": "extras", "title": "Extras & Companions", "blurb": "Minions, pets, cosmetics, crates and events.", "image": "screens/great-tree-day.webp"},
+  {"id": "store", "title": "Store & Support", "blurb": "The store, refunds and getting help.", "image": "screens/aurora.webp"}
 ]

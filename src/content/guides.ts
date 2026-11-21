@@ -18,6 +18,7 @@ export interface GuideCategory {
   id: string;
   title: string;
   blurb: string;
+  image?: string;
 }
 
 export interface Guide {

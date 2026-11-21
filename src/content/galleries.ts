@@ -4,7 +4,8 @@
 //   title: Tool Skins
 //   summary: One line shown on the Gallery page.
 //   order: 1
-//   cover: "/screens/skins/celestial-sword.png"   (picture on the Gallery page card)
+//   cover: "/screens/castle-entrance.webp"       (photo galleries: picture on the Gallery page card)
+//   preview: "/screens/a.png, /screens/b.png"    (icon galleries: small pictures shown on the card)
 //   guide: tool-skins                             (optional: the matching guide)
 //   style: icons                                  (icons = small item pictures, photos = screenshots)
 //   ---
@@ -19,6 +20,7 @@ export interface Gallery {
   summary: string;
   order: number;
   cover: string;
+  preview: string[];
   guide: string;
   style: "icons" | "photos";
   count: number;
@@ -50,6 +52,7 @@ function parse(path: string, raw: string): Gallery {
     summary: meta.summary || "",
     order: Number(meta.order) || 999,
     cover: meta.cover || "",
+    preview: (meta.preview || "").split(",").map((x) => x.trim()).filter(Boolean),
     guide: meta.guide || "",
     style: meta.style === "photos" ? "photos" : "icons",
     count: (body.match(/^!\[/gm) || []).length,

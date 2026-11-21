@@ -26,7 +26,7 @@ export default function Guide() {
 
   return (
     <>
-      <PageHead title={guide.title} eyebrow={category?.title}>
+      <PageHead title={guide.title} eyebrow={category?.title} image={category?.image}>
         {guide.summary}
       </PageHead>
 

@@ -67,7 +67,27 @@ export default function Home() {
       {/* What you'll do: four short rows, each with a real screenshot. */}
       <Section title={home.worldHeading} intro={home.worldIntro}>
         <div className="grid gap-12 sm:gap-16">
-          {home.world.map((row, i) => (
+          {home.world.map((row, i) =>
+            "layout" in row && row.layout === "banner" ? (
+              <div key={row.title} className="relative overflow-hidden rounded-xl border border-panel2">
+                <img
+                  src={asset(row.image)}
+                  alt={row.imageAlt}
+                  loading="lazy"
+                  className="h-[360px] w-full object-cover sm:h-[420px]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-deep via-deep/70 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8 md:max-w-2xl">
+                  <h3 className="text-2xl font-bold sm:text-3xl">{row.title}</h3>
+                  <p className="mt-2 text-ink/90">{row.body}</p>
+                  {row.to && row.linkText && (
+                    <p className="mt-3 font-bold">
+                      <Link to={row.to}>{row.linkText} &rarr;</Link>
+                    </p>
+                  )}
+                </div>
+              </div>
+            ) : (
             <div key={row.title} className="grid items-center gap-6 md:grid-cols-2 md:gap-10">
               <div className={i % 2 === 1 ? "md:order-2" : ""}>
                 <img
@@ -87,7 +107,8 @@ export default function Home() {
                 )}
               </div>
             </div>
-          ))}
+            ),
+          )}
         </div>
       </Section>
 

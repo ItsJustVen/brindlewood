@@ -28,6 +28,8 @@ They're one prize among many in each crate, so a drop is never guaranteed.
 
 So Infernium is built on top of Aldorite. You need an Aldorite Ingot first.
 
+> **Recipes are locked.** You have to unlock each recipe before you can craft it. Ask in **#help-us** on Discord if you're not sure how to unlock yours.
+
 ## What the bosses drop
 
 Boss drops go to the player who kills the boss.

@@ -12,7 +12,7 @@ Coins are BrindleWood's premium currency. They buy ranks, crate keys, cosmetics,
 - **Free rewards** (`/rewards`): 1 coin hourly, 5 daily, 25 weekly
 - **Character levels:** 4,300 coins in total across 19 levels
 - **The AFK Pond:** 1 coin every 2 hours
-- **Voting:** vote crates can drop coins
+- **Voting:** vote crates can drop coins sometimes. It depends on the crate, so it's never guaranteed
 - **Crates:** every crate can drop coins
 
 ## Buy coins

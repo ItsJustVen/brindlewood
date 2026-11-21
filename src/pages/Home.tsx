@@ -64,6 +64,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Why the server exists, in the owner's own words. */}
+      <section className="border-y border-panel2 bg-deep/60 py-10">
+        <div className="mx-auto w-[min(1100px,92%)]">
+          <div className="max-w-3xl border-l-4 border-ember pl-5 sm:pl-6">
+            <p className="eyebrow mb-2">{home.whyHeading}</p>
+            <p className="text-xl font-semibold leading-relaxed text-ink sm:text-2xl">{home.why}</p>
+          </div>
+        </div>
+      </section>
+
       {/* What you'll do: four short rows, each with a real screenshot. */}
       <Section title={home.worldHeading} intro={home.worldIntro}>
         <div className="grid gap-12 sm:gap-16">

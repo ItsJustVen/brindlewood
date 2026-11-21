@@ -31,6 +31,15 @@ const guideSlugs = readdirSync(new URL("../src/content/guides/", import.meta.url
   .map((f) => f.replace(/\.md$/, ""));
 const guideList = guideSlugs.map(guideMeta);
 
+// Every gallery in src/content/galleries/ gets its own page automatically.
+const galleryFiles = readdirSync(new URL("../src/content/galleries/", import.meta.url)).filter((f) => f.endsWith(".md"));
+const galleryList = galleryFiles.map((f) => {
+  const slug = f.replace(/\.md$/, "");
+  const raw = readFileSync(new URL(`../src/content/galleries/${f}`, import.meta.url), "utf8").replace(/\r\n?/g, "\n");
+  const get = (k) => new RegExp(`^${k}:\\s*(.*)$`, "m").exec(/^---\n([\s\S]*?)\n---/.exec(raw)?.[1] ?? "")?.[1]?.trim().replace(/^["']|["']$/g, "") ?? "";
+  return { slug, title: get("title") || slug, summary: get("summary") };
+});
+
 // Page title and description for link previews and search results.
 // When you add a page, add a line here as well as in ROUTES.
 const PAGES = {
@@ -39,6 +48,7 @@ const PAGES = {
   rules: ["Rules", "The rules of BrindleWood, and what happens when they are broken."],
   store: ["Store", "Ranks, keys, races and cosmetics. What the BrindleWood store sells and what it never will."],
   guides: ["Guides", "Everything you need to know about BrindleWood, from your first ten minutes to dungeons, guilds and the economy."],
+  gallery: ["Gallery", "Pictures of BrindleWood: custom items, tool skins and screenshots."],
   staff: ["Staff", "Meet the BrindleWood staff team and find out how to get help."],
   news: ["News and Patch Notes", "What is new on BrindleWood: patch notes, new content and changes, newest first."],
   npcs: ["Find an NPC", "A map of every NPC in Aldoria, with coordinates."],
@@ -47,7 +57,7 @@ const PAGES = {
   terms: ["Terms of Service", "The terms for playing on BrindleWood and buying from its store."],
 };
 
-const ROUTES = [...Object.keys(PAGES), ...guideSlugs.map((slug) => `guides/${slug}`)];
+const ROUTES = [...Object.keys(PAGES), ...guideSlugs.map((slug) => `guides/${slug}`), ...galleryList.map((g) => `gallery/${g.slug}`)];
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 
@@ -60,6 +70,11 @@ function pageHtml(html, route) {
     if (g) {
       title = g.title;
       desc = g.summary;
+    }
+    const gal = galleryList.find((x) => `gallery/${x.slug}` === route);
+    if (gal) {
+      title = `${gal.title} Gallery`;
+      desc = gal.summary;
     }
   }
   if (!title) return html;

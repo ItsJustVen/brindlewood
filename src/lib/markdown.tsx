@@ -65,7 +65,7 @@ function cells(line: string): string[] {
   return line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
 }
 
-export function Markdown({ source }: { source: string }) {
+export function Markdown({ source, photos = false }: { source: string; photos?: boolean }) {
   const lines = source.replace(/\r\n?/g, "\n").split("\n");
   const out: ReactNode[] = [];
   let i = 0;
@@ -125,6 +125,38 @@ export function Markdown({ source }: { source: string }) {
                 style={{ imageRendering: "pixelated" }}
               />
               <span className="mt-1 block text-sm font-bold text-ink">{it.alt}</span>
+            </li>
+          ))}
+        </ul>,
+      );
+      continue;
+    }
+
+    // On gallery pages with style "photos", a run of picture lines becomes a grid of
+    // captioned photos (the alt text is the caption).
+    const photo = /^!\[([^\]]*)\]\((\/screens\/[\w.-]+)\)\s*$/;
+    if (photos && photo.test(line)) {
+      const items: { alt: string; src: string }[] = [];
+      while (i < lines.length) {
+        const m = photo.exec(lines[i]);
+        if (!m) break;
+        items.push({ alt: m[1], src: m[2] });
+        i++;
+      }
+      out.push(
+        <ul key={key++} className="my-5 grid list-none gap-4 p-0 sm:grid-cols-2">
+          {items.map((it) => (
+            <li key={it.src}>
+              <figure className="overflow-hidden rounded-lg border border-panel2 bg-panel">
+                <img
+                  src={asset(it.src)}
+                  alt={it.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-video h-auto w-full object-cover"
+                />
+                <figcaption className="px-3 py-2 text-sm font-bold text-ink">{it.alt}</figcaption>
+              </figure>
             </li>
           ))}
         </ul>,

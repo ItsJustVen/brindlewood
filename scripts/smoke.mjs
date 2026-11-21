@@ -28,7 +28,11 @@ const guideDir = new URL("../src/content/guides/", import.meta.url).pathname;
 const guideRoutes = existsSync(guideDir)
   ? readdirSync(guideDir).filter((f) => f.endsWith(".md")).map((f) => `guides/${f.replace(/\.md$/, "")}`)
   : [];
-for (const route of ["play", "kingdoms", "rules", "store", "guides", "npcs", "contact", "privacy", "terms", ...guideRoutes]) {
+const galleryDir = new URL("../src/content/galleries/", import.meta.url).pathname;
+const galleryRoutes = existsSync(galleryDir)
+  ? readdirSync(galleryDir).filter((f) => f.endsWith(".md")).map((f) => `gallery/${f.replace(/\.md$/, "")}`)
+  : [];
+for (const route of ["play", "gallery", ...galleryRoutes, "kingdoms", "rules", "store", "guides", "npcs", "contact", "privacy", "terms", ...guideRoutes]) {
   const page = read(`${route}/index.html`);
   if (!page) fail(`dist/${route}/index.html is missing (direct link to /${route} would not load)`);
   else if (index && !sameApp(page, index)) fail(`dist/${route}/index.html differs from index.html`);

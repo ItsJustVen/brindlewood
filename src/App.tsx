@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Guide from "./pages/Guide";
+import Galleries from "./pages/Galleries";
+import Gallery from "./pages/Gallery";
 import Guides from "./pages/Guides";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -23,6 +25,8 @@ export default function App() {
         <Route path="kingdoms" element={<Kingdoms />} />
         <Route path="guides" element={<Guides />} />
         <Route path="guides/:slug" element={<Guide />} />
+        <Route path="gallery" element={<Galleries />} />
+        <Route path="gallery/:slug" element={<Gallery />} />
         <Route path="news" element={<News />} />
         <Route path="staff" element={<Staff />} />
         <Route path="npcs" element={<Npcs />} />

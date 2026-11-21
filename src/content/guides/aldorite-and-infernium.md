@@ -7,6 +7,13 @@ updated: "2026-11-19"
 ---
 Aldorite and Infernium are BrindleWood's own metals. They sit above netherite, and they're used to craft the strongest tools and weapons on the server.
 
+![Aldorite Ingot](/screens/items/aldorite_ingot.png)
+![Infernium Ingot](/screens/items/infernium_ingot.png)
+![Aldorite Crystal](/screens/items/aldorite_crystal.png)
+![Infernium Crystal](/screens/items/infernium_crystal.png)
+![Moon Dust](/screens/items/moon_dust.png)
+![Fire Dust](/screens/items/fire_dust.png)
+
 ## Two ways to get an ingot
 
 **1. From crates.** Ingots drop ready-made from these [crates](/guides/crates-and-keys):
@@ -27,6 +34,8 @@ They're one prize among many in each crate, so a drop is never guaranteed.
 | Infernium Ingot | 4 Fire Dust, 4 Netherite Ingots and 1 Aldorite Ingot |
 
 So Infernium is built on top of Aldorite. You need an Aldorite Ingot first.
+
+> **Recipes are locked.** You have to unlock each recipe before you can craft it. Ask in **#help-us** on Discord if you're not sure how to unlock yours.
 
 ## What the bosses drop
 
